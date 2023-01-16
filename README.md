@@ -14,7 +14,7 @@ The way it's developed, and the easiest way to render it is by using [Sphinx](ht
 For support, questions or suggestions, contact us on #maemo-leste on [irc.libera.chat](ircs://irc.libera.chat/#maemo-leste).
 
 ## License
-For open source projects, say how it is licensed.
+The Maemo Leste User Handbook is published under the [GNU FDL 1.3](https://www.gnu.org/licenses/fdl-1.3.en.html) license.
 
 ## Project status
 The project is in an early development stage. Expect to see frequent and perhaps radical changes.
