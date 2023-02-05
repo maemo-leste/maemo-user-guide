@@ -5,35 +5,81 @@ Clock & Alarms
 
 Open the app list
 
-.. image:: screenshots/ui-main/app-list.jpg
+.. image:: /screenshots/ui-main/app-list.png
   :width: 50
   :alt: App list icon
 
 Open the Clock app
 
-.. image:: screenshots/clock-n-alarms/clock-n-alarms-icon.jpg
+.. image:: /screenshots/clock-n-alarms/clock-n-alarms-icon.png
   :width: 80
   :alt: Clock app icon
 
-You will be presented with the following interface
+You will be presented with the following interface:
 
-.. image:: screenshots/clock-n-alarms/clock-n-alarms-main.jpg
+.. image:: /screenshots/clock-n-alarms/clock-n-alarms-main.png
   :width: 400
   :alt: Clock app main screen
 
+.. |date-time-button| image:: /screenshots/clock-n-alarms/date-time-button.png
+   :scale: 100%
+   :align: bottom
+   :alt: Date and Time button
+.. |new-alarm-button| image:: /screenshots/clock-n-alarms/new-alarm-button.png
+   :scale: 50%
+   :align: bottom
+   :alt: New alarm button
+.. |alarms-button| image:: /screenshots/clock-n-alarms/alarms-button.png
+   :scale: 50%
+   :align: bottom
+   :alt: Alarms button
+.. |world-clocks-button| image:: /screenshots/clock-n-alarms/world-clocks-button.png
+   :scale: 50%
+   :align: bottom
+   :alt: World clocks button
 
-The following options will be available:
+.. list-table:: The following options will be available:
+   :widths: 50 50
 
-#. Date and Time (Adjust the local date and hour)
-#. New alarm (Set a new alarm)
-#. Alarms (See and edit existing alarms)
-#. World clocks (See and edit World clocks)
-#. Seconds (In the app menu)
-#. Regional settings (In the app menu)
-#. Adjust date and time (In the app menu)
-#. Alarm settings (In the app menu)
+   * - 1. Date and time (Adjust the local date and hour)
+     - |date-time-button|
+   * - 2. New alarm (Set a new alarm)
+     - |new-alarm-button|
+   * -  3. Alarms (See and edit existing alarms)
+     - |alarms-button|
+   * -  4. World clocks (See and edit World clocks)
+     - |world-clocks-button|
 
-Date and Time
+.. |seconds-button| image:: /screenshots/clock-n-alarms/seconds-button.png
+   :scale: 60%
+   :align: bottom
+   :alt: Seconds button
+.. |regional-settings-button| image:: /screenshots/clock-n-alarms/regional-settings-button.png
+   :scale: 60%
+   :align: bottom
+   :alt: Seconds button
+.. |adjust-date-time-button| image:: /screenshots/clock-n-alarms/adjust-date-time-button.png
+   :scale: 60%
+   :align: bottom
+   :alt: Seconds button
+.. |alarm-settings-button| image:: /screenshots/clock-n-alarms/alarm-settings-button.png
+   :scale: 60%
+   :align: bottom
+   :alt: Seconds button
+
+.. list-table:: Options in the app menu
+   :widths: 30 70
+
+   * - 1. Seconds
+     - |seconds-button|
+   * - 2. Regional settings
+     - |regional-settings-button|
+   * - 3. Adjust date and time
+     - |adjust-date-time-button|
+   * - 4. Alarm settings
+     - |alarm-settings-button|
+
+Time and date
 """""""""""""
 
 Tap on the current hour & date display
@@ -42,7 +88,7 @@ The following options will be available:
 
 #. 24-hr clock
 #. Time zone
-#. Adjust date and time
+#. Adjust time and date
 
 New alarm
 """""""""

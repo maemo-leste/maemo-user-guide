@@ -56,8 +56,10 @@ Office tools:
 Multimedia & Entertainment:
 ---------------------------
 * Photos: camera application, how to make photos
+* Images: how to view images
 * Music / media player: Default application, how to use it [wip]
 * eBook reader (Dorian)
+* Games, game emulators
 
 Navigation & location:
 ----------------------
@@ -83,6 +85,7 @@ Troubleshooting:
   - USB connection - gadget -> network; OTG -> mouse should work (not storage, etc.)
   - Virtual keyboard terminal workarounds
   - Scrolling inconsistencies (scrolling should work in QT apps)
+  - enabling mobile network roaming only works through cli
 
 * Known bugs
 
@@ -106,3 +109,4 @@ Advanced:
   - connect via SSH
   - bluetooth (for now it works only from cli)
   - mirror screen to HDMI
+  - enable mobile network roaming
