@@ -10,8 +10,8 @@ Welcome to Maemo Leste User Handbook!
    :maxdepth: 2
    :caption: Contents:
 
-   intro
-   reference
+   summary
+   /chapters/clock-n-alarms
 
 .. only:: html
 
