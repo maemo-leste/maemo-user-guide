@@ -1,3 +1,9 @@
+.. index:: Clock
+.. index:: Alarm
+.. index:: Zone
+.. index:: Time
+.. index:: Date
+
 Clock & Alarms
 ==============
 
@@ -145,6 +151,30 @@ Date and time display
    :align: bottom
    :alt: Adjust time
 
+.. |new-alarm| image:: /screenshots/clock-n-alarms/new-alarm.png
+   :scale: 60%
+   :align: bottom
+   :alt: New alarm
+
+.. |alarm-repeat-never| image:: /screenshots/clock-n-alarms/alarm-repeat-never.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alarm repeat never
+
+.. |alarm-repeat-some-days| image:: /screenshots/clock-n-alarms/alarm-repeat-some-days.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alarm repeat some days
+
+.. |alarm-repeat-every-day| image:: /screenshots/clock-n-alarms/alarm-repeat-every-day.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alarm repeat every-day
+
+.. |alarms-list| image:: /screenshots/clock-n-alarms/alarms-list.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alarms list
 
 Tap on the current hour & date display.
      |date-time-button-highlighted|
@@ -205,22 +235,109 @@ New alarm
 
 Tap on New alarm
 
-A menu with the following options will be available:
+   |new-alarm-button|
+
+A menu will appear, from which you can set a new alarm:
+
+   |new-alarm|
+
+The following options will be available:
 
 #. Title
 #. Time
 #. Date
 #. Repeat
+#. Alarm tone (read-only)
+
+Title
+"""""
+
+Type in a title (descriptive name) for your new alarm.
+
+.. note:: Check out :ref:`Interface and user interaction` about ways to do this.
+
+Alarm time
+""""""""""
+
+A menu will appear, from which you can select the desired time when the alarm should run.
+
+    |adjust-time|
+
+Alarm date
+""""""""""
+
+If you want the alarm to run only once, on a specific date, you can select it here.
+
+If you want it to be recurring, check out the :ref:`Repeat` option below.
+
+    |adjust-date|
+
+Repeat
+""""""
+If you want the alarm to be recurring, you can select here which days the alarm should be repeated.
+
+The default option, Never, means that the alarm will run only once.
+
+    |alarm-repeat-never|
+
+If you need it to run on a specific date, and not the first occurring time, check out the :ref:`Alarm date` option above.
+
+.. note:: Styling bug. Black text on black background. See :ref:`Known bugs`.
+
+You can select one or more weekdays, when the alarm should recur.
+
+    |alarm-repeat-some-days|
+
+To repeat the alarm every day, select the option Every day, which is the last one in the list, after all weekdays.
+
+All weekdays will be then selected.
+
+    |alarm-repeat-every-day|
+
+Tap on OK to confirm the selection, otherwise tap on Cancel.
+
+Alarm tone (read-only)
+""""""""""""""""""""""
+
+The alarm tone option is read-only here, so it cannot be modified.
+
+To change the alarm tone, go to :ref:`Alarm settings` in the app menu.
+
+Tap on Save to save the alarm.
+
+.. note::  Check out :ref:`Interface and user interaction` on how to exit a menu without a cancel button.
 
 Alarms
 ------
 
 Tap on New alarm
 
+    |alarms-list|
+
 The following options will be available:
 
-#. New alarm (the same as the option New alarm)
+#. New alarm (the same as the option :ref:`New alarm`)
 #. List of existing alarms (or no alarms)
+
+New alarm (the same as the option in the main screen)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+This is the same as :ref:`New alarm`, so check there on how to use the options here.
+
+List of existing alarms (or no alarms)
+""""""""""""""""""""""""""""""""""""""
+
+If you already have alarms set up, they will appear here.
+
+Otherwise, the list here will be empty.
+
+.. note:: Styling bug. Black text on black background. See :ref:`Known bugs`.
+
+The alarms which are checked are enabled. Uncheck an alarm to disable it.
+
+To change an alarm, tap on it.
+
+You will have the same options as when setting up a :ref:`New alarm`.
 
 World clocks
 ------------
