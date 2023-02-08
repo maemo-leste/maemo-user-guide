@@ -40,13 +40,28 @@ Reference
 
 Interface and user interaction
 -------------------------------
-* App status bar -> modify basic options from there (wifi, screen brightness..)
-* App list
+
+App status bar
+""""""""""""""
+  - modify basic options from there (wifi, screen brightness..)
+
+App list
+""""""""
 * Switch between apps
 * Stacked windows (x switches to a back arrow, as you navigate down)
-* In-app menu - touch the title (some apps have a small down arrow - not the QT ones)
-* Notifications in lock screen
-* Input and (virtual) keyboard section. Some devices have keyboards, others don't. There's also keyboard layout, etc.
+
+In-app menu
+"""""""""""
+   - touch the title (some apps have a small down arrow - not the QT ones)
+
+Notifications in lock screen
+""""""""""""""""""""""""""""
+
+Input and keyboard
+""""""""""""""""""
+
+   - Some devices have keyboards, others don't. There's also keyboard layout, etc.
+   - Hardware vs. virtual keyboard
 
 Customization
 -------------
@@ -106,9 +121,17 @@ Navigation & location
 
 System administration
 ---------------------
-* Application Manager: How to install applications
-* File management, standard file locations
-* File synchronisation
+
+Application Manager
+"""""""""""""""""""
+   - How to install applications
+
+File management
+"""""""""""""""
+   - Standard file locations
+
+File synchronisation
+""""""""""""""""""""
 
 Device specific info [wip]
 --------------------------

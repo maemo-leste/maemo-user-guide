@@ -176,6 +176,66 @@ Date and time display
    :align: bottom
    :alt: Alarms list
 
+.. |alarm-running| image:: /screenshots/clock-n-alarms/alarm-running.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alarm running
+
+.. |world-clocks| image:: /screenshots/clock-n-alarms/world-clocks.png
+   :scale: 60%
+   :align: bottom
+   :alt: World clocks
+
+.. |world-clocks-search-city-Nairobi| image:: /screenshots/clock-n-alarms/world-clocks-search-city-Nairobi.png
+   :scale: 60%
+   :align: bottom
+   :alt: World clocks Search city Nairobi
+
+.. |world-clocks-multiple| image:: /screenshots/clock-n-alarms/world-clocks-multiple.png
+   :scale: 60%
+   :align: bottom
+   :alt: World clocks multiple
+
+.. |date-time-seconds| image:: /screenshots/clock-n-alarms/date-time-seconds.png
+   :scale: 60%
+   :align: bottom
+   :alt: Date Time Seconds
+
+.. |language-n-region| image:: /screenshots/clock-n-alarms/language-n-region.png
+   :scale: 60%
+   :align: bottom
+   :alt: Language & region
+
+.. |device-language| image:: /screenshots/clock-n-alarms/device-language.png
+   :scale: 60%
+   :align: bottom
+   :alt: Device language
+
+.. |date-format| image:: /screenshots/clock-n-alarms/date-format.png
+   :scale: 60%
+   :align: bottom
+   :alt: Date format
+
+.. |alarm-settings| image:: /screenshots/clock-n-alarms/alarm-settings.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alarm settings
+
+.. |choose-alarm-tone| image:: /screenshots/clock-n-alarms/choose-alarm-tone.png
+   :scale: 60%
+   :align: bottom
+   :alt: Choose alarm tone
+
+.. |snooze-time| image:: /screenshots/clock-n-alarms/snooze-time.png
+   :scale: 60%
+   :align: bottom
+   :alt: Snooze time
+
+.. |add-alarm-tone| image:: /screenshots/clock-n-alarms/add-alarm-tone.png
+   :scale: 60%
+   :align: bottom
+   :alt: Add alarm tone
+
 Tap on the current hour & date display.
      |date-time-button-highlighted|
 
@@ -203,7 +263,7 @@ Time zone
 You will be shown a map, where the current place is shown (and its time zone and name written on the bottom of the screen), and from where you can change it, by selecting the place which is closest to your location (or one which is in your local timezone). You can select the place by choosing it from the map.
     |choose-time-zone-London|
 
-When ready, tap on Done, at the top of the screeen, if you want to save the changes.
+When ready, tap on *Done*, at the top of the screeen, if you want to save the changes.
 
 .. note:: You can also search for a place by tapping on the magnifier on top of the screen.
     |choose-time-zone-search|
@@ -214,26 +274,26 @@ And then you can type to search for a place to select as your local time place.
 Your new time zone location will then be displayed.
     |choose-time-zone-Chisinau|
 
-When ready, tap on Done. Otherwise, search for a different place.
+When ready, tap on *Done*. Otherwise, search for a different place.
 
 Date
 """"
 A menu will appear, from which you can select the current date.
     |adjust-date|
 
-Then tap on Done when ready selecting.
+Then tap on *Done* when ready selecting.
 
 Time
 """"
 A menu will appear, from which you can select the current time.
     |adjust-time|
 
-Then tap on Done when ready selecting.
+Then tap on *Done* when ready selecting.
 
 New alarm
 ---------
 
-Tap on New alarm
+Tap on *New alarm*
 
    |new-alarm-button|
 
@@ -282,7 +342,8 @@ The default option, Never, means that the alarm will run only once.
 
 If you need it to run on a specific date, and not the first occurring time, check out the :ref:`Alarm date` option above.
 
-.. note:: Styling bug. Black text on black background. See :ref:`Known bugs`.
+
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
 
 You can select one or more weekdays, when the alarm should recur.
 
@@ -294,7 +355,7 @@ All weekdays will be then selected.
 
     |alarm-repeat-every-day|
 
-Tap on OK to confirm the selection, otherwise tap on Cancel.
+Tap on *OK* to confirm the selection, otherwise tap on *Cancel*.
 
 Alarm tone (read-only)
 """"""""""""""""""""""
@@ -303,14 +364,14 @@ The alarm tone option is read-only here, so it cannot be modified.
 
 To change the alarm tone, go to :ref:`Alarm settings` in the app menu.
 
-Tap on Save to save the alarm.
+Tap on *Save* to save the alarm.
 
 .. note::  Check out :ref:`Interface and user interaction` on how to exit a menu without a cancel button.
 
 Alarms
 ------
 
-Tap on New alarm
+Tap on *New alarm*
 
     |alarms-list|
 
@@ -331,7 +392,8 @@ If you already have alarms set up, they will appear here.
 
 Otherwise, the list here will be empty.
 
-.. note:: Styling bug. Black text on black background. See :ref:`Known bugs`.
+
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
 
 The alarms which are checked are enabled. Uncheck an alarm to disable it.
 
@@ -339,49 +401,166 @@ To change an alarm, tap on it.
 
 You will have the same options as when setting up a :ref:`New alarm`.
 
+Stopping or snoozing a running alarm
+""""""""""""""""""""""""""""""""""""
+
+When the alarm will run, you will see the following pop-up:
+
+|alarm-running|
+
+Tap on *Snooze* to postpone the alarm.
+
+The amount of time the alarm will be postponed by is defined by the :ref:`Snooze time` option.
+
+Tap on *Stop* to end the alarm.
+
 World clocks
 ------------
 
-Tap on World clocks
+Tap on *World clocks*
+
+You will be presented with the following screen:
+
+|world-clocks|
 
 The following options will be available:
 
-#. World clock (you can select the city from a list)
-#. List of existing world clocks (or just the Local time clock)
+#. New World clock (You can select the city from the world map, or from a list)
+#. List of existing world clocks (Or just the Local time clock)
+
+New World clock
+"""""""""""""""
+
+You can scroll through the cities list.
+
+.. note:: Finger scrolling doesn't work. Use the keyboard keys to navigate through the list. See :ref:`Known bugs`.
+
+To search through the list, start typing the name of the place you're looking for.
+
+.. note:: Check out :ref:`Interface and user interaction` about ways to do this.
+
+As you start typing, the results will be narrowed down, and then you will be able to easier select the desired city.
+
+|world-clocks-search-city-Nairobi|
+
+List of existing world clocks
+"""""""""""""""""""""""""""""
+
+When you have World clocks set up, they will appear in the list:
+
+|world-clocks-multiple|
 
 Seconds
 -------
 
-Tap on Seconds in the app menu
+Tap on *Seconds* in the :ref:`In-app menu`.
 
-Tapping on it toggles showing seconds in the time display
+|seconds-button|
+
+Tapping on it toggles showing seconds in the time display.
+
+|date-time-seconds|
 
 Regional settings
 -----------------
 
-Tap on Regional settings in the app menu
+Tap on *Regional settings* in the :ref:`In-app menu`.
+
+|regional-settings-button|
+
+You will be presented with the following screen:
+
+|language-n-region|
 
 The following options will be available:
 
 #. Device language
+#. Date format (read-only)
 #. Date format
+#. Decimal separator (read-only)
+#. Thousands separator (read-only)
 
 .. warning:: Saving these settings will require the device to reboot
+
+Device language
+"""""""""""""""
+
+You will be shown a list, through which you can scroll and select your desired interface language:
+
+|device-language|
+
+.. note:: You can also type to search, but you will need to have a method of :ref:`Input and keyboard` layout which includes the potentialy special characters of the language you search for, since native language names are being used.
+
+Date format (read-only)
+"""""""""""""""""""""""
+
+This shows how the date is being displayed based on the currently set :ref:`Device language`.
+
+Date format
+"""""""""""
+
+.. note:: This is probably a bug, while it should be named Regional format, instead of date format.
+
+
+You will be shown a list, through which you can scroll and select the country corresponding to the your desired regional format:
+
+|date-format|
+
+Decimal separator (read-only)
+"""""""""""""""""""""""""""""
+
+This shows which decimal separator is being used, based on the currently set :ref:`date format`.
+
+Thousands separator (read-only)
+"""""""""""""""""""""""""""""""
+
+This shows which thousands separator is being used, based on the currently set :ref:`date format`.
 
 Adjust date and time
 --------------------
 
-Tap on Adjust date and time in the app menu
+Tap on *Adjust date and time* in the :ref:`In-app menu`.
 
-This option is the same as the option Date and Time (tapping on the current hour & date display)
+|adjust-date-time-button|
+
+This option is the same as when you tap on the :ref:`Date and time display`
 
 Alarm settings
 --------------
 
-Tap on Alarm settings in the app menu
+Tap on *Alarm settings* in the :ref:`In-app menu`.
+
+|alarm-settings-button|
+
+You will be presented with the following screen:
+
+|alarm-settings|
 
 A menu with the following options will be available:
 
 #. Alarm tone (set the tone for the alarm)
-You can choose your own audio file by using tapping on More
 #. Snooze time (snooze time for the alarm)
+
+Alarm tone
+""""""""""
+
+You can pick your desired alarm sounding tone, from a list of predifined alarm sounds.
+
+
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
+
+|choose-alarm-tone|
+
+You can also choose your own audio file by tapping on *More*, and then picking an audio file from the file system.
+
+. note:: Check out :ref:`File management` to know more about this.
+
+Snooze time
+"""""""""""
+
+Here you can pick the snooze time of alarms.
+
+
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
+
+|snooze-time|
