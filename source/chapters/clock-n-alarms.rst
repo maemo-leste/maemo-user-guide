@@ -263,7 +263,7 @@ Time zone
 You will be shown a map, where the current place is shown (and its time zone and name written on the bottom of the screen), and from where you can change it, by selecting the place which is closest to your location (or one which is in your local timezone). You can select the place by choosing it from the map.
     |choose-time-zone-London|
 
-When ready, tap on *Done*, at the top of the screeen, if you want to save the changes.
+When ready, tap on *Done*, at the top of the screen, if you want to save the changes.
 
 .. note:: You can also search for a place by tapping on the magnifier on top of the screen.
     |choose-time-zone-search|
@@ -489,7 +489,7 @@ You will be shown a list, through which you can scroll and select your desired i
 
 |device-language|
 
-.. note:: You can also type to search, but you will need to have a method of :ref:`Input and keyboard` layout which includes the potentialy special characters of the language you search for, since native language names are being used.
+.. note:: You can also type to search, but you will need to have a method of :ref:`Input and keyboard` layout which includes the potentially special characters of the language you search for, since native language names are being used.
 
 Date format (read-only)
 """""""""""""""""""""""
@@ -544,7 +544,7 @@ A menu with the following options will be available:
 Alarm tone
 """"""""""
 
-You can pick your desired alarm sounding tone, from a list of predifined alarm sounds.
+You can pick your desired alarm sounding tone, from a list of predefined alarm sounds.
 
 
 .. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
@@ -553,7 +553,7 @@ You can pick your desired alarm sounding tone, from a list of predifined alarm s
 
 You can also choose your own audio file by tapping on *More*, and then picking an audio file from the file system.
 
-. note:: Check out :ref:`File management` to know more about this.
+.. note:: Check out :ref:`File management` to know more about this.
 
 Snooze time
 """""""""""

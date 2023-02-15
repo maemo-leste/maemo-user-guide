@@ -1,0 +1,23 @@
+.note a {
+        color: yellow;
+}
+
+.note a:hover {
+        color:orange;
+        -moz-transition:color .4s ease-in;
+        -o-transition:color .4s ease-in;
+        -webkit-transition:color .4s ease-in;
+        transition:color .4s ease-in
+}
+
+.warning a {
+        color: yellow;
+}
+
+.warning a:hover {
+        color:lightgreen;
+        -moz-transition:color .4s ease-in;
+        -o-transition:color .4s ease-in;
+        -webkit-transition:color .4s ease-in;
+        transition:color .4s ease-in
+}

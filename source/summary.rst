@@ -149,7 +149,7 @@ Missing important features
   - Notifications don't work for IM [wip]
   - USB connection - gadget -> network; OTG -> mouse should work (not storage, etc.)
   - Virtual keyboard terminal workarounds
-  - Scrolling inconsistencies (scrolling should work in QT apps)
+  - Scrolling inconsistencies (scrolling should work in QT apps, using arrows on hw keyboard as workaround)
   - enabling mobile network roaming only works through cli
 
 Known bugs
