@@ -9,10 +9,10 @@ Clock & Alarms
 
 .. note:: Using this app, you can check and change the current time, the time zones, and set alarms.
 
-.. |app-list| image:: /screenshots/ui-main/app-list.png
+.. |application-menu-button| image:: /screenshots/ui-main/application-menu-button.png
    :scale: 60%
    :align: bottom
-   :alt: App list
+   :alt: Application menu button
 
 .. |clock-n-alarms-icon| image:: /screenshots/clock-n-alarms/clock-n-alarms-icon.png
    :scale: 60%
@@ -26,7 +26,7 @@ Clock & Alarms
 
 Open the app list
 
-     |app-list|
+     |app-list-button|
 
 Open the Clock app
 
@@ -362,7 +362,7 @@ Alarm tone (read-only)
 
 The alarm tone option is read-only here, so it cannot be modified.
 
-To change the alarm tone, go to :ref:`Alarm settings` in the app menu.
+To change the alarm tone, go to :ref:`Alarm settings` in the :ref:`In-app menu`.
 
 Tap on *Save* to save the alarm.
 

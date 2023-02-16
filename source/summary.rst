@@ -18,7 +18,7 @@ Quick-start (in short, + links to reference section)
 * How to charge the battery (device dependent)
 * How to clean the device (device dependent)
 * How to install the SIM card and the microSD card (device dependent)
-* How to navigate through the user interface (links to reference section)
+* How to navigate through the user interface (:ref:`UI Navigation` - start apps, change app settings, switch between apps, go back, close apps)
 * How to change basic settings: screen brightness, sound volume, display language, keyboard layout, date & time & timezone
 * How to place a call
 * How to access a website
@@ -38,30 +38,33 @@ The authors and the licence of this manual
 Reference
 =========
 
-Interface and user interaction
--------------------------------
+* Interface and user interaction
 
-App status bar
-""""""""""""""
-  - modify basic options from there (wifi, screen brightness..)
+:ref:`Main screen (Desktop)`
 
-App list
-""""""""
-* Switch between apps
+* Status area - modify basic options from the status menu (wifi, sound volume, screen brightness..)
+* App list
+* Customize main screen
+
+:ref:`UI Navigation`
+
+* Switch between apps, the Dashboard
 * Stacked windows (x switches to a back arrow, as you navigate down)
+* Navigation using buttons (device depedent)
+* Exit menus without a cancel button
 
-In-app menu
-"""""""""""
-   - touch the title (some apps have a small down arrow - not the QT ones)
+:ref:`In-app menu`
 
-Notifications in lock screen
-""""""""""""""""""""""""""""
+* Touch the title (some apps have a small down arrow - not the QT ones)
 
-Input and keyboard
-""""""""""""""""""
+:ref:`Notifications in lock screen`
 
-   - Some devices have keyboards, others don't. There's also keyboard layout, etc.
-   - Hardware vs. virtual keyboard
+* For incoming emails
+
+:ref:`Input and keyboard`
+
+* Some devices have keyboards, others don't. There's also keyboard layout, etc.
+* Hardware vs. virtual keyboard
 
 Customization
 -------------

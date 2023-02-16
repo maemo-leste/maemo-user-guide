@@ -21,3 +21,13 @@
         -webkit-transition:color .4s ease-in;
         transition:color .4s ease-in
 }
+
+.align-bottom {
+        background-color: black;
+        border-radius: 7px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
