@@ -138,7 +138,7 @@ UI Navigation
 
 * Switch between apps
 * Stacked windows (x switches to a back arrow, as you navigate down)
-* Navigation using buttons (device depedent)
+* Navigation using buttons (device dependent)
 
 In-app menu
 -----------

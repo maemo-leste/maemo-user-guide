@@ -50,7 +50,7 @@ Reference
 
 * Switch between apps, the Dashboard
 * Stacked windows (x switches to a back arrow, as you navigate down)
-* Navigation using buttons (device depedent)
+* Navigation using buttons (device dependent)
 * Exit menus without a cancel button
 
 :ref:`In-app menu`
