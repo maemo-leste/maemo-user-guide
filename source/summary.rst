@@ -18,7 +18,7 @@ Quick-start (in short, + links to reference section)
 * How to charge the battery (device dependent)
 * How to clean the device (device dependent)
 * How to install the SIM card and the microSD card (device dependent)
-* How to navigate through the user interface (:ref:`UI Navigation` - start apps, change app settings, switch between apps, go back, close apps)
+* How to navigate through the user interface (:ref:`chapters/ui:UI Navigation` - start apps, change app settings, switch between apps, go back, close apps)
 * How to change basic settings: screen brightness, sound volume, display language, keyboard layout, date & time & timezone
 * How to place a call
 * How to access a website
@@ -40,28 +40,28 @@ Reference
 
 * Interface and user interaction
 
-:ref:`Main screen (Desktop)`
+:ref:`chapters/ui:Main screen (Desktop)`
 
 * Status area - modify basic options from the status menu (wifi, sound volume, screen brightness..)
 * App list
 * Customize main screen
 
-:ref:`UI Navigation`
+:ref:`chapters/ui:UI Navigation`
 
 * Switch between apps, the Dashboard
 * Stacked windows (x switches to a back arrow, as you navigate down)
 * Navigation using buttons (device dependent)
 * Exit menus without a cancel button
 
-:ref:`In-app menu`
+:ref:`chapters/ui:In-app menu`
 
 * Touch the title (some apps have a small down arrow - not the QT ones)
 
-:ref:`Notifications in lock screen`
+:ref:`chapters/ui:Notifications in lock screen`
 
 * For incoming emails
 
-:ref:`Input and keyboard`
+:ref:`chapters/ui:Input and keyboard`
 
 * Some devices have keyboards, others don't. There's also keyboard layout, etc.
 * Hardware vs. virtual keyboard
@@ -71,7 +71,7 @@ Customization
 * Themes: how to change themes
 * Language: how to select a different language
 * Profiles (silent, normal, etc) and sound. This is about sounds the device makes, but also for example vibration when touching the screen.
-* :ref:`Clock & Alarms` - How to check and change the time and zones, how to set alarms
+* :ref:`chapters/clock:Clock & Alarms` - How to check and change the time and zones, how to set alarms
 
 Hardware settings
 -----------------

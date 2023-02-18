@@ -11,8 +11,8 @@ Welcome to the Maemo Leste User Handbook!
    :caption: Contents:
 
    summary
-   /chapters/ui-navigation
-   /chapters/clock-n-alarms
+   /chapters/ui
+   /chapters/clock
 
 .. only:: html
 

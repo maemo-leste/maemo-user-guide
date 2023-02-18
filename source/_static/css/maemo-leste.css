@@ -10,6 +10,18 @@
         transition:color .4s ease-in
 }
 
+.tip a {
+        color: greenyellow;
+}
+
+.tip a:hover {
+        color:pink;
+        -moz-transition:color .4s ease-in;
+        -o-transition:color .4s ease-in;
+        -webkit-transition:color .4s ease-in;
+        transition:color .4s ease-in
+}
+
 .warning a {
         color: yellow;
 }

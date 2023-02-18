@@ -26,7 +26,7 @@ Clock & Alarms
 
 Open the app list
 
-     |app-list-button|
+     |application-menu-button|
 
 Open the Clock app
 
@@ -314,7 +314,7 @@ Title
 
 Type in a title (descriptive name) for your new alarm.
 
-.. note:: Check out :ref:`Interface and user interaction` about ways to do this.
+.. note:: Check out :ref:`chapters/ui:Input and keyboard` about ways to do this.
 
 Alarm time
 """"""""""
@@ -328,7 +328,7 @@ Alarm date
 
 If you want the alarm to run only once, on a specific date, you can select it here.
 
-If you want it to be recurring, check out the :ref:`Repeat` option below.
+If you want it to be recurring, check out the :ref:`chapters/clock:Repeat` option below.
 
     |adjust-date|
 
@@ -340,10 +340,10 @@ The default option, Never, means that the alarm will run only once.
 
     |alarm-repeat-never|
 
-If you need it to run on a specific date, and not the first occurring time, check out the :ref:`Alarm date` option above.
+If you need it to run on a specific date, and not the first occurring time, check out the :ref:`chapters/clock:Alarm date` option above.
 
 
-.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`summary:Known bugs`.
 
 You can select one or more weekdays, when the alarm should recur.
 
@@ -362,11 +362,11 @@ Alarm tone (read-only)
 
 The alarm tone option is read-only here, so it cannot be modified.
 
-To change the alarm tone, go to :ref:`Alarm settings` in the :ref:`In-app menu`.
+To change the alarm tone, go to :ref:`chapters/clock:Alarm settings` in the :ref:`chapters/ui:In-app menu`.
 
 Tap on *Save* to save the alarm.
 
-.. note::  Check out :ref:`Interface and user interaction` on how to exit a menu without a cancel button.
+.. note::  Check out :ref:`chapters/ui:UI Navigation` on how to exit a menu without a cancel button.
 
 Alarms
 ------
@@ -377,13 +377,13 @@ Tap on *New alarm*
 
 The following options will be available:
 
-#. New alarm (the same as the option :ref:`New alarm`)
+#. New alarm (the same as the option :ref:`chapters/clock:New alarm`)
 #. List of existing alarms (or no alarms)
 
 New alarm (the same as the option in the main screen)
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 
-This is the same as :ref:`New alarm`, so check there on how to use the options here.
+This is the same as :ref:`chapters/clock:New alarm`, so check there on how to use the options here.
 
 List of existing alarms (or no alarms)
 """"""""""""""""""""""""""""""""""""""
@@ -393,13 +393,13 @@ If you already have alarms set up, they will appear here.
 Otherwise, the list here will be empty.
 
 
-.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`summary:Known bugs`.
 
 The alarms which are checked are enabled. Uncheck an alarm to disable it.
 
 To change an alarm, tap on it.
 
-You will have the same options as when setting up a :ref:`New alarm`.
+You will have the same options as when setting up a :ref:`chapters/clock:New alarm`.
 
 Stopping or snoozing a running alarm
 """"""""""""""""""""""""""""""""""""
@@ -410,7 +410,7 @@ When the alarm will run, you will see the following pop-up:
 
 Tap on *Snooze* to postpone the alarm.
 
-The amount of time the alarm will be postponed by is defined by the :ref:`Snooze time` option.
+The amount of time the alarm will be postponed by is defined by the :ref:`chapters/clock:Snooze time` option.
 
 Tap on *Stop* to end the alarm.
 
@@ -433,11 +433,11 @@ New World clock
 
 You can scroll through the cities list.
 
-.. note:: Finger scrolling doesn't work. Use the keyboard keys to navigate through the list. See :ref:`Known bugs`.
+.. note:: Finger scrolling doesn't work. Use the keyboard keys to navigate through the list. See :ref:`summary:Known bugs`.
 
 To search through the list, start typing the name of the place you're looking for.
 
-.. note:: Check out :ref:`Interface and user interaction` about ways to do this.
+.. note:: Check out :ref:`chapters/ui:Input and keyboard` about ways to do this.
 
 As you start typing, the results will be narrowed down, and then you will be able to easier select the desired city.
 
@@ -453,7 +453,7 @@ When you have World clocks set up, they will appear in the list:
 Seconds
 -------
 
-Tap on *Seconds* in the :ref:`In-app menu`.
+Tap on *Seconds* in the :ref:`chapters/ui:In-app menu`.
 
 |seconds-button|
 
@@ -464,7 +464,7 @@ Tapping on it toggles showing seconds in the time display.
 Regional settings
 -----------------
 
-Tap on *Regional settings* in the :ref:`In-app menu`.
+Tap on *Regional settings* in the :ref:`chapters/ui:In-app menu`.
 
 |regional-settings-button|
 
@@ -489,12 +489,12 @@ You will be shown a list, through which you can scroll and select your desired i
 
 |device-language|
 
-.. note:: You can also type to search, but you will need to have a method of :ref:`Input and keyboard` layout which includes the potentially special characters of the language you search for, since native language names are being used.
+.. note:: You can also type to search, but you will need to have a method of :ref:`chapters/ui:Input and keyboard` layout which includes the potentially special characters of the language you search for, since native language names are being used.
 
 Date format (read-only)
 """""""""""""""""""""""
 
-This shows how the date is being displayed based on the currently set :ref:`Device language`.
+This shows how the date is being displayed based on the currently set :ref:`chapters/clock:Device language`.
 
 Date format
 """""""""""
@@ -509,26 +509,26 @@ You will be shown a list, through which you can scroll and select the country co
 Decimal separator (read-only)
 """""""""""""""""""""""""""""
 
-This shows which decimal separator is being used, based on the currently set :ref:`date format`.
+This shows which decimal separator is being used, based on the currently set :ref:`chapters/clock:date format`.
 
 Thousands separator (read-only)
 """""""""""""""""""""""""""""""
 
-This shows which thousands separator is being used, based on the currently set :ref:`date format`.
+This shows which thousands separator is being used, based on the currently set :ref:`chapters/clock:date format`.
 
 Adjust date and time
 --------------------
 
-Tap on *Adjust date and time* in the :ref:`In-app menu`.
+Tap on *Adjust date and time* in the :ref:`chapters/ui:In-app menu`.
 
 |adjust-date-time-button|
 
-This option is the same as when you tap on the :ref:`Date and time display`
+This option is the same as when you tap on the :ref:`chapters/clock:Date and time display`
 
 Alarm settings
 --------------
 
-Tap on *Alarm settings* in the :ref:`In-app menu`.
+Tap on *Alarm settings* in the :ref:`chapters/ui:In-app menu`.
 
 |alarm-settings-button|
 
@@ -547,13 +547,13 @@ Alarm tone
 You can pick your desired alarm sounding tone, from a list of predefined alarm sounds.
 
 
-.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`summary:Known bugs`.
 
 |choose-alarm-tone|
 
 You can also choose your own audio file by tapping on *More*, and then picking an audio file from the file system.
 
-.. note:: Check out :ref:`File management` to know more about this.
+.. note:: Check out :ref:`summary:File management` to know more about this.
 
 Snooze time
 """""""""""
@@ -561,6 +561,6 @@ Snooze time
 Here you can pick the snooze time of alarms.
 
 
-.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`Known bugs`.
+.. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`summary:Known bugs`.
 
 |snooze-time|
