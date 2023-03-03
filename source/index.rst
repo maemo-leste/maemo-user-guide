@@ -13,6 +13,7 @@ Welcome to the Maemo Leste User Handbook!
    summary
    /chapters/ui
    /chapters/clock
+   /glossary
 
 .. only:: html
 

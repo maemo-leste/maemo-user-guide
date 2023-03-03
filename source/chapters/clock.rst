@@ -58,13 +58,13 @@ You will be presented with the following interface:
 
 The following options will be available:
 
-#. Date and time display (Adjust the local date and hour)
+#. :ref:`chapters/clock:Date and time display` (Adjust the local date and hour)
      |date-time-button|
-#. New alarm (Set a new alarm)
+#. :ref:`chapters/clock:New alarm` (Set a new alarm)
      |new-alarm-button|
-#. Alarms (See and edit existing alarms)
+#. :ref:`chapters/clock:Alarms` (See and edit existing alarms)
      |alarms-button|
-#. World clocks (See and edit World clocks)
+#. :ref:`chapters/clock:World clocks` (See and edit World clocks)
      |world-clocks-button|
 
 .. |seconds-button| image:: /screenshots/clock-n-alarms/seconds-button.png
@@ -89,13 +89,13 @@ The following options will be available:
 
 Options in the app menu
 
-#. Seconds
+#. :ref:`chapters/clock:Seconds`
     |seconds-button|
-#. Regional settings
+#. :ref:`chapters/clock:Regional settings`
     |regional-settings-button|
-#. Adjust date and time
+#. :ref:`chapters/clock:Adjust date and time`
     |adjust-date-time-button|
-#. Alarm settings
+#. :ref:`chapters/clock:Alarm settings`
     |alarm-settings-button|
 
 Date and time display
@@ -245,10 +245,10 @@ You will be presented with the following menu:
 
 The following options will be available:
 
-#. 24-hr clock
-#. Time zone
-#. Date
-#. Time
+#. :ref:`chapters/clock:24-hr clock`
+#. :ref:`chapters/clock:Time zone`
+#. :ref:`chapters/clock:Date`
+#. :ref:`chapters/clock:Time`
 
 24-hr clock
 """""""""""
@@ -303,11 +303,11 @@ A menu will appear, from which you can set a new alarm:
 
 The following options will be available:
 
-#. Title
-#. Time
-#. Date
-#. Repeat
-#. Alarm tone (read-only)
+#. :ref:`chapters/clock:Title`
+#. :ref:`chapters/clock:Time`
+#. :ref:`chapters/clock:Date`
+#. :ref:`chapters/clock:Repeat`
+#. :ref:`chapters/clock:Alarm tone (read-only)`
 
 Title
 """""
@@ -378,7 +378,7 @@ Tap on *New alarm*
 The following options will be available:
 
 #. New alarm (the same as the option :ref:`chapters/clock:New alarm`)
-#. List of existing alarms (or no alarms)
+#. :ref:`chapters/clock:List of existing alarms (or no alarms)`
 
 New alarm (the same as the option in the main screen)
 """""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -425,8 +425,8 @@ You will be presented with the following screen:
 
 The following options will be available:
 
-#. New World clock (You can select the city from the world map, or from a list)
-#. List of existing world clocks (Or just the Local time clock)
+#. :ref:`chapters/clock:New World clock` (You can select the city from the world map, or from a list)
+#. :ref:`chapters/clock:List of existing world clocks` (Or just the Local time clock)
 
 New World clock
 """""""""""""""
@@ -474,11 +474,11 @@ You will be presented with the following screen:
 
 The following options will be available:
 
-#. Device language
-#. Date format (read-only)
-#. Date format
-#. Decimal separator (read-only)
-#. Thousands separator (read-only)
+#. :ref:`chapters/clock:Device language`
+#. :ref:`chapters/clock:Date format (read-only)`
+#. :ref:`chapters/clock:Date format`
+#. :ref:`chapters/clock:Decimal separator (read-only)`
+#. :ref:`chapters/clock:Thousands separator (read-only)`
 
 .. warning:: Saving these settings will require the device to reboot
 
@@ -538,8 +538,8 @@ You will be presented with the following screen:
 
 A menu with the following options will be available:
 
-#. Alarm tone (set the tone for the alarm)
-#. Snooze time (snooze time for the alarm)
+#. :ref:`chapters/clock:Alarm tone` (set the tone for the alarm)
+#. :ref:`chapters/clock:Snooze time` (snooze time for the alarm)
 
 Alarm tone
 """"""""""

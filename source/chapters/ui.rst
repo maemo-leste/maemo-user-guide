@@ -141,6 +141,51 @@ Interface and user interaction
    :align: bottom
    :alt: Status menu Select profile
 
+.. |customize-main-screen| image:: /screenshots/ui-main-customize/customize-main-screen.png
+   :scale: 60%
+   :align: bottom
+   :alt: Customize main screen
+
+.. |desktop-settings| image:: /screenshots/ui-main-customize/desktop-settings.png
+   :scale: 60%
+   :align: bottom
+   :alt: Desktop settings
+
+.. |add-shortcut-list| image:: /screenshots/ui-main-customize/add-shortcut-list.png
+   :scale: 60%
+   :align: bottom
+   :alt: Add shortcut list
+
+.. |add-shortcut-first| image:: /screenshots/ui-main-customize/add-shortcut-first.png
+   :scale: 60%
+   :align: bottom
+   :alt: Add first shortcut
+
+.. |add-shortcut-more| image:: /screenshots/ui-main-customize/add-shortcut-more.png
+   :scale: 60%
+   :align: bottom
+   :alt: Add more shortcuts
+
+.. |choose-background-image| image:: /screenshots/ui-main-customize/choose-background-image.png
+   :scale: 60%
+   :align: bottom
+   :alt: Choose backround image
+
+.. |add-image| image:: /screenshots/ui-main-customize/add-image.png
+   :scale: 60%
+   :align: bottom
+   :alt: Add image
+
+.. |activate-views| image:: /screenshots/ui-main-customize/activate-views.png
+   :scale: 60%
+   :align: bottom
+   :alt: Activate views
+
+.. |select-theme| image:: /screenshots/ui-main-customize/select-theme.png
+   :scale: 60%
+   :align: bottom
+   :alt: Select theme
+
 Main screen (Desktop)
 ---------------------
 
@@ -152,11 +197,11 @@ On top of the screen there is, from left to right:
 
      |main-screen-top|
 
-#. Application menu button
-#. Status area
-#. Status menu (tap on status area)
-#. Current mobile network
-#. Desktop settings button (appears when you touch anywhere on the main screen)
+#. :ref:`chapters/ui:Application menu` button
+#. :ref:`chapters/ui:Status area`
+#. :ref:`chapters/ui:Status menu` (tap on status area)
+#. :ref:`chapters/ui:Current mobile network`
+#. :ref:`chapters/ui:Desktop settings button` (appears when you touch anywhere on the main screen)
 
 Application menu
 """"""""""""""""
@@ -184,7 +229,7 @@ To the left there's the clock display, then, some icons representing the status 
      Mobile signal strength
 
      |status-cell-gen-4| |status-cell-gen-3_5| |status-cell-gen-3| |status-cell-gen-2_5| |status-cell-gen-2|
-     Current mobile network generation
+     Current mobile network generation :term:`4G`, :term:`3.5G`, :term:`3G`, :term:`2.5G` or :term:`2G`
 
      |status-silent-profile|
      Silent profile
@@ -224,13 +269,14 @@ When there is an active mobile network connection, the name of the network is wr
 
 .. note:: The network name is displayed on top of the screen only when you're in the main screen. Otherwise, the name of the app is displayed there instead.
 
-Desktop settings
-""""""""""""""""
+Desktop settings button
+"""""""""""""""""""""""
+
+Tapping anywhere on the screen will make the settings button appear on the top right of the screen.
 
      |desktop-settings-button|
 
-Customize main screen
-"""""""""""""""""""""
+Tapping on this button will allow you to :ref:`chapters/ui:Customize the main screen`
 
 Status menu
 -----------
@@ -245,24 +291,24 @@ You are then presented with the following menu:
 
 You will have the following options (from top to down, and left to right):
 
-#. Battery (read only)
-#. Clock & Alarms menu button
-#. Internet connection menu button
-#. Volume slider
-#. Profile menu button
+#. :ref:`chapters/ui:Battery (read only)`
+#. :ref:`chapters/ui:Clock & Alarms button`
+#. :ref:`chapters/ui:Internet connection menu` button
+#. :ref:`chapters/ui:Volume slider`
+#. :ref:`chapters/ui:Profile selector` button
 
 Battery (read only)
 """""""""""""""""""
 
 The battery charging level is displayed here.
 
-Clock & Alarms menu button
-""""""""""""""""""""""""""
+Clock & Alarms button
+"""""""""""""""""""""
 
 Selecting this will open the :ref:`chapters/clock:Clock & Alarms` application, allowing you to set the date and hour, and manage alarms.
 
-Internet connection menu button
-"""""""""""""""""""""""""""""""
+Internet connection menu
+""""""""""""""""""""""""
 
 By tapping on the Internet connection button in the menu, you will be presented with the following menu:
 
@@ -304,9 +350,95 @@ From here you can switch sound profiles, between the available ones.
 
 The default normal and silent profiles can be edited, or new custom profiles can be created, from the :ref:`summary:Customization` section.
 
-|select-profile|
+     |select-profile|
 
 Checking the Vibrate option besides each of the profiles in the list enables vibration when that profile is active.
+
+Customize the main screen
+-------------------------
+
+Tapping on the :ref:`chapters/ui:Desktop settings button` will allow you to customize the :ref:`chapters/ui:Main screen (Desktop)`.
+
+     |customize-main-screen|
+
+The screen backround will fade-out, and the shortcuts on the current desktop view will be shown. If there are none, an empty screen will be displayed.
+
+Here you can change the positioning on the screen of the existing shortcuts. To add new shortcuts, access the :ref:`chapters/ui:In-app menu` and :ref:`chapters/ui:Add shortcut`,.
+
+.. note:: :ref:`summary:Unexpected behavior`: It's not possible to move a shortcut from another desktop view then the currently displayed one (you need to see it in order to select it), so make sure you move to the correct one before tapping on the settings button. Adding a new shortcut, though, is possible, from any desktop view.
+
+From here, you can access the :ref:`chapters/ui:In-app menu` of the desktop settings, to customize the current desktop view.
+
+The following menu will be shown:
+
+     |desktop-settings|
+
+You will have the following options:
+
+#. :ref:`chapters/ui:Add shortcut`
+#. :ref:`chapters/ui:Manage views`
+#. :ref:`chapters/ui:Change background`
+#. :ref:`chapters/ui:Themes`
+
+Add shortcut
+""""""""""""
+
+When you select the Add shortcut option, a list of available shortcuts will be shown.
+
+     |add-shortcut-list|
+
+Select the desired shortcut, from the list. It will be placed on the first available free spot in the current desktop view.
+
+     |add-shortcut-first|
+
+From there, tap and drag it to move it anywhere on the screen.
+
+You can then add more, and move them to organize them.
+
+     |add-shortcut-more|
+
+Tapping on the small X on the top right of each shortcut, deletes it.
+
+Moving a shortcut to the right or left edge of the screen, alllows you to move it to another screen.
+
+Manage views
+""""""""""""
+
+Tapping on Manage views will show you the list of desktop views.
+
+     |activate-views|
+
+You can enable or disable views. Check a view to enable it.
+
+The maximum number of views is four.
+
+.. warning:: :ref:`summary:Unexpected behavior`: Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view. One way to tell which screen is which, is by comparing walpapers of each view. Oterwise you will have to add them again, see :ref:`chapters/ui:Add shortcut`.
+
+Change background
+"""""""""""""""""
+
+Tapping on Change background will allow you to change the desktop background.
+
+     |choose-background-image|
+
+One way to change the desktop backround is to select one of the available :ref:`chapters/ui:Themes`.
+
+.. note:: :ref:`summary:Leftovers`: Get more from Ovi Store option doesn't work, since this is part of the old Maemo system, and thus the Ovi Store is not available.
+
+Tapping on more allows you to use custom images as background image.
+
+     |add-image|
+
+Navigate through the File System, to the desired image file.
+
+.. note:: :ref:`summary:Unexpected behavior`: Manually changing the desktop image (outside of a theme) will only change the image of the current desktop view. Each view should then have a different image, and if any fluid transition between views is desired, then that particular image should be prepared (split accordingly) in advance, in an external program.
+
+Themes
+""""""
+
+Tapping on themes gives you a list of the available themes that you can pick from, to have an uniformous design look of the interface.
+
+     |select-theme|
 
 UI Navigation
 -------------
@@ -322,6 +454,10 @@ In-app menu
 
 Notifications in lock screen
 ----------------------------
+
+* For missed calls
+
+* For SMS
 
 * For incoming emails
 

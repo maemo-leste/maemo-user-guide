@@ -163,6 +163,16 @@ Known bugs
   - Ephemeral contacts in contact list (based on the contact rosters of online accounts) show as "(No name)"
   - Error about diversions when upgrading using apt - fix by removing the diversion $ sudo dpkg-divert --remove /lib/udev/rules.d/85-input-devices.rules
 
+Unexpected behavior
+"""""""""""""""""""
+
+  - It's not possible to move a shortcut from another desktop view then the currently displayed one (you need to see it in order to select it, and you cannot move between views when editing, only when adding a new one).
+  - Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view.
+
+Leftovers
+"""""""""
+
+ - Nokia-branded (Nokia, Ovi) features in certain places
 
 What do do in certain situations
 """"""""""""""""""""""""""""""""
