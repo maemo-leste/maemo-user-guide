@@ -1,7 +1,9 @@
+.. index:: UI
+
 Interface and user interaction
 ==============================
 
-.. |main-screen| image:: /screenshots/ui-main//main-screen.png
+.. |main-screen| image:: /screenshots/ui-main/main-screen.png
    :scale: 60%
    :align: bottom
    :alt: Main screen
@@ -186,6 +188,48 @@ Interface and user interaction
    :align: bottom
    :alt: Select theme
 
+.. |task-launcher| image:: /screenshots/ui-buttons/wmTaskLauncherIcon.png
+   :width: 60px
+   :align: bottom
+   :alt: Task launcher
+
+.. |task-switcher-button| image:: /screenshots/ui-buttons/wmTaskSwitcherIcon.png
+   :width: 60px
+   :align: bottom
+   :alt: Task switcher button
+
+.. |task-switcher-button-highlight| image:: /screenshots/ui-buttons/wmTaskSwitcherIconHighlight.png
+   :width: 60px
+   :align: bottom
+   :alt: Task switcher button highlight
+
+.. |close-button| image:: /screenshots/ui-buttons/wmCloseIcon.png
+   :width: 60px
+   :align: bottom
+   :alt: Task launcher
+
+.. |back-button| image:: /screenshots/ui-buttons/wmBackIcon.png
+   :width: 60px
+   :align: bottom
+   :alt: Back button
+
+.. |menu-indicator| image:: /screenshots/ui-buttons/wmMenuIndicator.png
+   :width: 40px
+   :align: bottom
+   :alt: Menu indicator
+
+.. |task-switcher| image:: /screenshots/ui-nav/task-switcher.png
+   :scale: 60%
+   :align: bottom
+   :alt: Task switcher
+
+.. |progress-indicator| image:: /screenshots/ui-buttons/wmProgressIndicator-animated.gif
+   :width: 40px
+   :align: bottom
+   :alt: Progress indicator
+
+.. index:: Desktop
+
 Main screen (Desktop)
 ---------------------
 
@@ -203,12 +247,16 @@ On top of the screen there is, from left to right:
 #. :ref:`chapters/ui:Current mobile network`
 #. :ref:`chapters/ui:Desktop settings button` (appears when you touch anywhere on the main screen)
 
+.. index:: Application menu
+
 Application menu
 """"""""""""""""
 
 If you tap on the Application menu button, the Application menu is displayed, which shows the installed applications.
 
      |application-menu|
+
+.. index:: Status area
 
 Status area
 """""""""""
@@ -307,10 +355,12 @@ Clock & Alarms button
 
 Selecting this will open the :ref:`chapters/clock:Clock & Alarms` application, allowing you to set the date and hour, and manage alarms.
 
+.. index:: Connect to wifi
+
 Internet connection menu
 """"""""""""""""""""""""
 
-By tapping on the Internet connection button in the menu, you will be presented with the following menu:
+By tapping on the Internet connection button in the :ref:`chapters/ui:Status menu`, you will be presented with the following menu:
 
      |status-menu-connect|
 
@@ -354,6 +404,9 @@ The default normal and silent profiles can be edited, or new custom profiles can
 
 Checking the Vibrate option besides each of the profiles in the list enables vibration when that profile is active.
 
+.. index:: Customize the desktop
+.. index:: Customize the main screen
+
 Customize the main screen
 -------------------------
 
@@ -380,6 +433,8 @@ You will have the following options:
 #. :ref:`chapters/ui:Change background`
 #. :ref:`chapters/ui:Themes`
 
+.. index:: Add shortcut on the main screen
+
 Add shortcut
 """"""""""""
 
@@ -401,6 +456,8 @@ Tapping on the small X on the top right of each shortcut, deletes it.
 
 Moving a shortcut to the right or left edge of the screen, alllows you to move it to another screen.
 
+.. index:: Manage screen views
+
 Manage views
 """"""""""""
 
@@ -413,6 +470,8 @@ You can enable or disable views. Check a view to enable it.
 The maximum number of views is four.
 
 .. warning:: :ref:`summary:Unexpected behavior`: Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view. One way to tell which screen is which, is by comparing walpapers of each view. Oterwise you will have to add them again, see :ref:`chapters/ui:Add shortcut`.
+
+.. index:: Change desktop background
 
 Change background
 """""""""""""""""
@@ -433,6 +492,8 @@ Navigate through the File System, to the desired image file.
 
 .. note:: :ref:`summary:Unexpected behavior`: Manually changing the desktop image (outside of a theme) will only change the image of the current desktop view. Each view should then have a different image, and if any fluid transition between views is desired, then that particular image should be prepared (split accordingly) in advance, in an external program.
 
+.. index:: Themes
+
 Themes
 """"""
 
@@ -443,17 +504,119 @@ Tapping on themes gives you a list of the available themes that you can pick fro
 UI Navigation
 -------------
 
-* Switch between apps
-* Stacked windows (x switches to a back arrow, as you navigate down)
-* Navigation using buttons (device dependent)
+To navigate through the device's interface, you have three areas of control:
+
+#. :ref:`chapters/ui:The top-left area`
+#. :ref:`chapters/ui:The top-right area`
+#. :ref:`chapters/ui:The area around menus`
+
+The top-left area
+"""""""""""""""""
+
+Depending on where you are, here the following can be shown:
+
+     |task-launcher|
+     The App menu (Task launcher) button
+
+Tapping on it will take you to the :ref:`chapters/ui:Application menu`
+
+     |task-switcher-button|
+     The dashboard (Task switcher) button
+
+Tapping on it will take you to the :ref:`chapters/ui:Task switcher`
+
+     |task-switcher-button-highlight|
+     The blinking dashboard (task switcher) button
+
+When the dashboard button is blinking, it means that you have unread :ref:`chapters/ui:Notifications`.
+
+The top-right area
+""""""""""""""""""
+
+Depending on where you are, here the following can be shown:
+
+     |close-button|
+     The X button
+
+Tapping on it will close the current application. See :ref:`chapters/ui:In-app navigation`.
+
+     |back-button|
+     The back arrow
+
+Tapping on it will take you to the previous window/menu of the current application. See :ref:`chapters/ui:In-app navigation`.
+
+The area around menus
+"""""""""""""""""""""
+
+When you are in a menu, you can close that menu and go back to the previous screen or application, by tapping in the empty area around it.
+
+.. tip:: When you want to exit a menu without saving any changes, and that menu doesn't have a cancel button, tapping outside of it will do exactly this.
+
+Task switcher
+"""""""""""""
+
+Tapping on the task switcher button in the :ref:`chapters/ui:The top-left area` will take you to the task switcher, showing stacked snapshots of all the currently running applications, from where you can switch between apps.
+
+     |task-switcher|
+
+Depending on how many apps you have open, they there will be shown stacked on more or fewer rows.
+
+Tapping on a app snapshot will switch to that app, and will show it on full-screen.
+
+Tapping on the small X button on top right of each application window, will close that particular app.
+
+When in the task switcher, the button in the :ref:`chapters/ui:The top-left area` switches to App menu (Task launcher) button.
+
+.. tip:: To open the task switcher, you can also use the home button (if the device has it), see :ref:`chapters/devices:Device specific info [wip]`.
+
+         Pressing it while already in the Task switcher takes you to the App menu (Task launcher).
+
+In-app navigation
+"""""""""""""""""
+
+The windows in an application are stacked.
+
+When you select an option, press a button, or open a menu, the previous window will be go to the back as you navigate further through the application.
+
+In the :ref:`chapters/ui:The top-right area`, depending on whether you are in the main application window or not, the button shown will either be:
+
+      |close-button|
+      An X
+
+      |back-button|
+      A back button
+
+The X button, which closes the application, will switch to a back arrow, when you navigate away from the main window of the application.
+
+Tapping on that arrow will take you back to the previous window or menu, until you will reach the main window of the application, when the back arrow will switch back to the X button.
+
+.. tip:: To go back, you can also use the back hardware button (if the device has it), see :ref:`chapters/devices:Device specific info [wip]`
+
+.. index:: In-app menu
+
+Progress indicator
+""""""""""""""""""
+
+     |progress-indicator|
+
+When this rotating graphical symbol (also called a throbber) is being shown next to a menu or window title, it means that something is being worked out, or processed, and that you should wait until the current action is finished, until taking another action.
 
 In-app menu
 -----------
 
-* Touch the title (some apps have a small down arrow - not the QT ones)
+Touching the title of a currently application or window, will open the in-app menu, where you can access settings of that application/window.
 
-Notifications in lock screen
-----------------------------
+     |menu-indicator|
+     The presence of the in-app menu is (sometimes, see note below) signaled by this down-pointing arrow.
+
+.. note:: :ref:`summary:Unexpected behavior`: Even if this arrow is not shown, tapping on the title of the application will show the in-app menu.
+
+.. tip:: To access the in-app menu, you can also use the menu hardware button (if the device has it), see :ref:`chapters/devices:Device specific info [wip]`
+
+.. index:: Notifications
+
+Notifications
+-------------
 
 * For missed calls
 
@@ -461,9 +624,21 @@ Notifications in lock screen
 
 * For incoming emails
 
+.. index:: Input
+.. index:: Keyboard
+.. index:: Virtual keyboard
+.. index:: Hardware keyboard
+
 Input and keyboard
 ------------------
 
-* Some devices have keyboards, others don't. There's also keyboard layout, etc.
-* Hardware vs. virtual keyboard
+Hardware keyboard
+"""""""""""""""""
 
+Some devices have hardware keyboards, others don't. See :ref:`chapters/devices:Device specific info [wip]`
+
+Virtual keyboard
+""""""""""""""""
+
+Keyboard layout
+"""""""""""""""

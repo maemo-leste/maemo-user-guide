@@ -57,7 +57,7 @@ Reference
 
 * Touch the title (some apps have a small down arrow - not the QT ones)
 
-:ref:`chapters/ui:Notifications in lock screen`
+:ref:`chapters/ui:Notifications`
 
 * For incoming emails
 
@@ -139,9 +139,9 @@ File synchronisation
 Device specific info [wip]
 --------------------------
 
-Pinephone
-"""""""""
-  - Main issue - no hw keyboard, as some apps expect
+:ref:`chapters/devices:Droid 4`
+
+:ref:`chapters/devices:Pinephone`
 
 Troubleshooting
 ---------------
@@ -168,6 +168,7 @@ Unexpected behavior
 
   - It's not possible to move a shortcut from another desktop view then the currently displayed one (you need to see it in order to select it, and you cannot move between views when editing, only when adding a new one).
   - Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view.
+  - Sometimes the in-app menu arrow indicator is not shown. The QT applications usually don't have it.
 
 Leftovers
 """""""""

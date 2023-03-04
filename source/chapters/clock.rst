@@ -1,6 +1,4 @@
 .. index:: Clock
-.. index:: Alarm
-.. index:: Zone
 .. index:: Time
 .. index:: Date
 
@@ -258,6 +256,8 @@ When ticked, the clock will be displayed as 24-hour (also called military time).
 Untick it, and hit the Save button, and then the clock will be displayed as 12-hour clock (AM and PM).
     |date-time-12h|
 
+.. index:: Time zone
+
 Time zone
 """""""""
 You will be shown a map, where the current place is shown (and its time zone and name written on the bottom of the screen), and from where you can change it, by selecting the place which is closest to your location (or one which is in your local timezone). You can select the place by choosing it from the map.
@@ -276,12 +276,16 @@ Your new time zone location will then be displayed.
 
 When ready, tap on *Done*. Otherwise, search for a different place.
 
+.. index:: Date setting
+
 Date
 """"
 A menu will appear, from which you can select the current date.
     |adjust-date|
 
 Then tap on *Done* when ready selecting.
+
+.. index:: Time setting
 
 Time
 """"
@@ -367,6 +371,8 @@ To change the alarm tone, go to :ref:`chapters/clock:Alarm settings` in the :ref
 Tap on *Save* to save the alarm.
 
 .. note::  Check out :ref:`chapters/ui:UI Navigation` on how to exit a menu without a cancel button.
+
+.. index:: Alarm
 
 Alarms
 ------
