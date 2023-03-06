@@ -12,6 +12,7 @@ Welcome to the Maemo Leste User Handbook!
 
    summary
    /chapters/ui
+   /chapters/settings
    /chapters/clock
    /chapters/devices
    /glossary

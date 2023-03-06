@@ -43,6 +43,17 @@ Some of these functions can be used:
      |search-touch-button|
      The search button opens the :ref:`chapters/ui:Virtual keyboard`, even if a :ref:`chapters/ui:Hardware keyboard` is available.
 
+Hardware keyboard and layout
+""""""""""""""""""""""""""""
+
+To use the *CTRL* key's function, you need to press *SHIFT*, and keep it pressed while you press the additional key of the needed keyboard shortcut (the usual behavior of a modifier key, as CTRL is).
+
+To write a capital letter, or to use the "SHIFT" key's function (shift to the secondary symbols of the keyboard layout) you need to press *Caps Lock*, anf then press the letter. To write capital letters continuously, keep *Caps Lock* pressed while you enter the letters.
+
+
+Notification LED
+""""""""""""""""
+
 Pinephone
 ---------
 

@@ -30,7 +30,7 @@ Open the Clock app
 
     |clock-n-alarms-icon|
 
-You will be presented with the following interface:
+You will be greeted with the following interface:
 
     |clock-n-alarms-main|
 
@@ -237,7 +237,7 @@ Date and time display
 Tap on the current hour & date display.
      |date-time-button-highlighted|
 
-You will be presented with the following menu:
+You will be greeted with the following menu:
      |date-time-main|
 
 
@@ -425,7 +425,7 @@ World clocks
 
 Tap on *World clocks*
 
-You will be presented with the following screen:
+You will be greeted with the following screen:
 
 |world-clocks|
 
@@ -474,7 +474,7 @@ Tap on *Regional settings* in the :ref:`chapters/ui:In-app menu`.
 
 |regional-settings-button|
 
-You will be presented with the following screen:
+You will be greeted with the following screen:
 
 |language-n-region|
 
@@ -538,7 +538,7 @@ Tap on *Alarm settings* in the :ref:`chapters/ui:In-app menu`.
 
 |alarm-settings-button|
 
-You will be presented with the following screen:
+You will be greeted with the following screen:
 
 |alarm-settings|
 

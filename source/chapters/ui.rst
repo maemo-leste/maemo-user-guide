@@ -228,12 +228,52 @@ Interface and user interaction
    :align: bottom
    :alt: Progress indicator
 
+.. |notification-mosaic| image:: /screenshots/ui-notifications/notification-mosaic.png
+   :scale: 60%
+   :align: bottom
+   :alt: Notification mosaic
+
+.. |notification-call| image:: /screenshots/ui-notifications/notification-call.png
+   :scale: 60%
+   :align: bottom
+   :alt: Missed call notification
+
+.. |pop-up-call| image:: /screenshots/ui-notifications/pop-up-call.png
+   :scale: 60%
+   :align: bottom
+   :alt: Missed call pop-up
+
+.. |notification-sms| image:: /screenshots/ui-notifications/notification-sms.png
+   :scale: 60%
+   :align: bottom
+   :alt: Received SMS notification
+
+.. |pop-up-sms| image:: /screenshots/ui-notifications/pop-up-sms.png
+   :scale: 60%
+   :align: bottom
+   :alt: Incoming SMS pop-up
+
+.. |notification-email| image:: /screenshots/ui-notifications/notification-email.png
+   :scale: 60%
+   :align: bottom
+   :alt: Received email notification
+
+.. |pop-up-email| image:: /screenshots/ui-notifications/pop-up-email.png
+   :scale: 60%
+   :align: bottom
+   :alt: Incoming email pop-up
+
+.. |lockscreen-email| image:: /screenshots/ui-notifications/lockscreen-email.png
+   :scale: 60%
+   :align: bottom
+   :alt: Received email lockscreen notification
+
 .. index:: Desktop
 
 Main screen (Desktop)
 ---------------------
 
-When you start the device, unlock the screen, or explicitly go to the main screen, you are presented with the following interface:
+When you start the device, unlock the screen, or explicitly go to the main screen, you are greeted with the following interface:
 
      |main-screen|
 
@@ -333,7 +373,7 @@ Tap on status area on top of the screen.
 
      |status-area|
 
-You are then presented with the following menu:
+You are then greeted with the following menu:
 
      |status-menu|
 
@@ -360,7 +400,7 @@ Selecting this will open the :ref:`chapters/clock:Clock & Alarms` application, a
 Internet connection menu
 """"""""""""""""""""""""
 
-By tapping on the Internet connection button in the :ref:`chapters/ui:Status menu`, you will be presented with the following menu:
+By tapping on the Internet connection button in the :ref:`chapters/ui:Status menu`, you will be greeted with the following menu:
 
      |status-menu-connect|
 
@@ -506,12 +546,12 @@ UI Navigation
 
 To navigate through the device's interface, you have three areas of control:
 
-#. :ref:`chapters/ui:The top-left area`
-#. :ref:`chapters/ui:The top-right area`
-#. :ref:`chapters/ui:The area around menus`
+#. :ref:`chapters/ui:Top-left area`
+#. :ref:`chapters/ui:Top-right area`
+#. :ref:`chapters/ui:Area around menus`
 
-The top-left area
-"""""""""""""""""
+Top-left area
+"""""""""""""
 
 Depending on where you are, here the following can be shown:
 
@@ -530,8 +570,8 @@ Tapping on it will take you to the :ref:`chapters/ui:Task switcher`
 
 When the dashboard button is blinking, it means that you have unread :ref:`chapters/ui:Notifications`.
 
-The top-right area
-""""""""""""""""""
+Top-right area
+""""""""""""""
 
 Depending on where you are, here the following can be shown:
 
@@ -545,8 +585,8 @@ Tapping on it will close the current application. See :ref:`chapters/ui:In-app n
 
 Tapping on it will take you to the previous window/menu of the current application. See :ref:`chapters/ui:In-app navigation`.
 
-The area around menus
-"""""""""""""""""""""
+Area around menus
+"""""""""""""""""
 
 When you are in a menu, you can close that menu and go back to the previous screen or application, by tapping in the empty area around it.
 
@@ -555,7 +595,7 @@ When you are in a menu, you can close that menu and go back to the previous scre
 Task switcher
 """""""""""""
 
-Tapping on the task switcher button in the :ref:`chapters/ui:The top-left area` will take you to the task switcher, showing stacked snapshots of all the currently running applications, from where you can switch between apps.
+Tapping on the task switcher button in the :ref:`chapters/ui:Top-left area` will take you to the task switcher, showing stacked snapshots of all the currently running applications, from where you can switch between apps.
 
      |task-switcher|
 
@@ -565,7 +605,7 @@ Tapping on a app snapshot will switch to that app, and will show it on full-scre
 
 Tapping on the small X button on top right of each application window, will close that particular app.
 
-When in the task switcher, the button in the :ref:`chapters/ui:The top-left area` switches to App menu (Task launcher) button.
+When in the task switcher, the button in the :ref:`chapters/ui:Top-left area` switches to App menu (Task launcher) button.
 
 .. tip:: To open the task switcher, you can also use the home button (if the device has it), see :ref:`chapters/devices:Device specific info [wip]`.
 
@@ -578,7 +618,7 @@ The windows in an application are stacked.
 
 When you select an option, press a button, or open a menu, the previous window will be go to the back as you navigate further through the application.
 
-In the :ref:`chapters/ui:The top-right area`, depending on whether you are in the main application window or not, the button shown will either be:
+In the :ref:`chapters/ui:Top-right area`, depending on whether you are in the main application window or not, the button shown will either be:
 
       |close-button|
       An X
@@ -602,7 +642,7 @@ Progress indicator
 When this rotating graphical symbol (also called a throbber) is being shown next to a menu or window title, it means that something is being worked out, or processed, and that you should wait until the current action is finished, until taking another action.
 
 In-app menu
------------
+"""""""""""
 
 Touching the title of a currently application or window, will open the in-app menu, where you can access settings of that application/window.
 
@@ -618,11 +658,52 @@ Touching the title of a currently application or window, will open the in-app me
 Notifications
 -------------
 
-* For missed calls
+Notifications appear as part of the task switcher.
 
-* For SMS
+When there are new notifications, the dashboard button in the :ref:`chapters/ui:Top-left area` will be highlighted/blinking.
 
-* For incoming emails
+When you have more applications open, and more active notifications, the :ref:`chapters/ui:Task switcher` (dashboard) will look like this:
+
+     |notification-mosaic|
+
+For missed calls
+""""""""""""""""
+
+When you fail to pick up a call, the following pop-up with the text *Missed call* and the phone number will be shown:
+
+     |pop-up-call|
+
+Then, the missed call will be notified in the :ref:`chapters/ui:Task switcher` (dashboard). Here, three calls were successively missed:
+
+     |notification-call|
+
+For received SMS
+""""""""""""""""
+
+When you receive an SMS, and the screen is unlocked, a pop-up with the text of the message and the phone number will be shown:
+
+     |pop-up-sms|
+
+Unread SMS messages are notified in the :ref:`chapters/ui:Task switcher` (dashboard). Here, there are two unread messages:
+
+     |notification-sms|
+
+For received emails
+"""""""""""""""""""
+
+When you receive an email, and the screen is unlocked, a pop-up with title of the message and the name of the sender will be shown:
+
+     |pop-up-email|
+
+Unread emails are notified in the :ref:`chapters/ui:Task switcher` (dashboard):
+
+     |notification-email|
+
+The number after the @ email logo represents the number of unread emails, here, two.
+
+The same way, the number of unread emails is also shown on the lockscreen:
+
+     |lockscreen-email|
 
 .. index:: Input
 .. index:: Keyboard
@@ -635,10 +716,27 @@ Input and keyboard
 Hardware keyboard
 """""""""""""""""
 
-Some devices have hardware keyboards, others don't. See :ref:`chapters/devices:Device specific info [wip]`
+Some devices have hardware keyboards, others don't.
+
+For details about what a particular model has, and how the keys of the hardware keyboard match the layout, see :ref:`chapters/devices:Device specific info [wip]`
 
 Virtual keyboard
 """"""""""""""""
 
+The virtual keyboard is especially useful when the device is being used in portrait mode (for devices with a sliding keyboard), or for devices without a hardware keyboard. See :ref:`chapters/devices:Device specific info [wip]`
+
 Keyboard layout
 """""""""""""""
+
+You can select one of the two preset keyboard layouts, from the Keyboard menu of the :ref:`chapters/ui:Virtual keyboard`.
+
+These layouts you can set from see :ref:`chapters/settings:Text input` in Settings.
+
+Editing text
+""""""""""""
+
+To select text, swipe your finger from the start point to the end point of the text you want to select.
+
+To copy text, press *CTRL* (The actual key on the keyboard might differ, see :ref:`chapters/devices:Device specific info [wip]`) and *C*
+
+To paste copied text, press *CTRL* (The actual key on the keyboard might differ, see :ref:`chapters/devices:Device specific info [wip]`) and *V*
