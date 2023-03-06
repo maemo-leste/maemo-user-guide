@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Maemo Leste User Handbook'
-copyright = '2023, Cornel-Florentin Dimitriu'
+copyright = '2023, Cornel-Florentin Dimitriu, licensed under GNU FDL 1.3'
 author = 'Cornel-Florentin Dimitriu'
 
 # The full version, including alpha/beta/rc tags

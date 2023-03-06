@@ -16,6 +16,7 @@ Welcome to the Maemo Leste User Handbook!
    /chapters/clock
    /chapters/devices
    /glossary
+   /copyright
 
 .. only:: html
 

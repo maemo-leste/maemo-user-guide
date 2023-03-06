@@ -32,8 +32,10 @@ How-to list (links to reference section)
 * How to customize the interface
 * What is expected to be similar to a GNU+Linux distribution (links to Devuan docs?)
 
-The authors and the licence of this manual
+The authors and the license of this manual
 ------------------------------------------
+
+The Maemo Leste User Handbook is published under the `GNU FDL 1.3 <https://www.gnu.org/licenses/fdl-1.3.en.html>`_ license.
 
 Reference
 =========
