@@ -164,6 +164,8 @@ Known bugs
   - Slow scroll (driver dependent)
   - Ephemeral contacts in contact list (based on the contact rosters of online accounts) show as "(No name)"
   - Error about diversions when upgrading using apt - fix by removing the diversion $ sudo dpkg-divert --remove /lib/udev/rules.d/85-input-devices.rules
+  - In Language & region, the option "Date format" should probably be named "Regional format", since it refers to decimal and thousands separator. The date format is determined by the device language.
+  - The layout for the hardware keyboard doesn't seem to change. Possible bug.
 
 Unexpected behavior
 """""""""""""""""""

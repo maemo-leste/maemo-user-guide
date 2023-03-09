@@ -268,6 +268,61 @@ Interface and user interaction
    :align: bottom
    :alt: Received email lockscreen notification
 
+.. |virtual-keyboard-first-layer| image:: /screenshots/ui-keyboard/virtual-keyboard-first-layer.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard first layer
+
+.. |virtual-keyboard-second-layer| image:: /screenshots/ui-keyboard/virtual-keyboard-second-layer.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard second layer
+
+.. |virtual-keyboard-third-layer| image:: /screenshots/ui-keyboard/virtual-keyboard-third-layer.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard third layer
+
+.. |virtual-keyboard-fourth-layer| image:: /screenshots/ui-keyboard/virtual-keyboard-fourth-layer.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard fourth layer
+
+.. |virtual-keyboard-menu| image:: /screenshots/ui-keyboard/virtual-keyboard-menu.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard menu
+
+.. |virtual-keyboard-menu-two-languages| image:: /screenshots/ui-keyboard/virtual-keyboard-menu-two-languages.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard menu two languages
+
+.. |virtual-keyboard-shift-key| image:: /screenshots/ui-keyboard/virtual-keyboard-shift-key.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard Shift key
+
+.. |virtual-keyboard-numeric-key| image:: /screenshots/ui-keyboard/virtual-keyboard-numeric-key.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard Numeric key
+
+.. |virtual-keyboard-menu-key| image:: /screenshots/ui-keyboard/virtual-keyboard-menu-key.png
+   :scale: 60%
+   :align: bottom
+   :alt: Virtual keyboard Menu key
+
+.. |select-text| image:: /screenshots/ui-keyboard/select-text.png
+   :scale: 60%
+   :align: bottom
+   :alt: Select text
+
+.. |move-text-drag| image:: /screenshots/ui-keyboard/move-text-drag.png
+   :scale: 60%
+   :align: bottom
+   :alt: Move text drag
+
 .. index:: Desktop
 
 Main screen (Desktop)
@@ -438,7 +493,7 @@ Profile selector
 
 From here you can switch sound profiles, between the available ones.
 
-The default normal and silent profiles can be edited, or new custom profiles can be created, from the :ref:`summary:Customization` section.
+To edit the default normal and silent profiles, or to create new custom profiles, go to :ref:`chapters/settings:Profiles` in Settings.
 
      |select-profile|
 
@@ -609,7 +664,9 @@ When in the task switcher, the button in the :ref:`chapters/ui:Top-left area` sw
 
 .. tip:: To open the task switcher, you can also use the home button (if the device has it), see :ref:`chapters/devices:Device specific info [wip]`.
 
-         Pressing it while already in the Task switcher takes you to the App menu (Task launcher).
+Pressing it while already in the Task switcher takes you to the App menu (Task launcher).
+
+.. tip:: From an application, tap on the task switcher button once, to switch to another application, or tap on it twice, to start a new application without closing the current one.
 
 In-app navigation
 """""""""""""""""
@@ -652,6 +709,8 @@ Touching the title of a currently application or window, will open the in-app me
 .. note:: :ref:`summary:Unexpected behavior`: Even if this arrow is not shown, tapping on the title of the application will show the in-app menu.
 
 .. tip:: To access the in-app menu, you can also use the menu hardware button (if the device has it), see :ref:`chapters/devices:Device specific info [wip]`
+
+Menus don't have a In-app menu of themselves, only windows have it.
 
 .. index:: Notifications
 
@@ -725,18 +784,68 @@ Virtual keyboard
 
 The virtual keyboard is especially useful when the device is being used in portrait mode (for devices with a sliding keyboard), or for devices without a hardware keyboard. See :ref:`chapters/devices:Device specific info [wip]`
 
+The first layer of the keyboard contains the lowercase letters, and some of the most used punctuation marks:
+
+     |virtual-keyboard-first-layer|
+
+You get to the second layer of the keyboard by pressing the Shift key:
+
+     |virtual-keyboard-shift-key|
+
+The second layer contains the capital (uppercase) letters, and the other most used punctuation marks:
+
+     |virtual-keyboard-second-layer|
+
+You get to the third layer of the keyboard, by pressing the Numeric key:
+
+     |virtual-keyboard-numeric-key|
+
+The third layer of the keyboard contains the numbers, and other punctuation marks and symbols:
+
+     |virtual-keyboard-third-layer|
+
+By pressing both the Numeric and Shift keys, you get to the fourth layer, which contains less used punctuation marks and symbols:
+
+     |virtual-keyboard-fourth-layer|
+
+To quickly access some tools related to the keyboard, tap on the Keyboard menu key:
+
+     |virtual-keyboard-menu-key|
+
+A menu will be shown, from which you can choose the following:
+
+#. Cut (move the selected text somewhere else)
+#. Copy (Copy the selected text somewhere else)
+#. Paste (insert here the text you cut, or copied from somewhere else)
+
+     |virtual-keyboard-menu|
+
+If you have two languages set for :ref:`chapters/settings:Text input`, they will be visible in this menu, too, and you can switch between them from here:
+
+     |virtual-keyboard-menu-two-languages|
+
 Keyboard layout
 """""""""""""""
 
-You can select one of the two preset keyboard layouts, from the Keyboard menu of the :ref:`chapters/ui:Virtual keyboard`.
+You can set the layout for the hardware keyboard, and two layouts for the virtual keyboard from :ref:`chapters/settings:Text input` in Settings.
 
-These layouts you can set from see :ref:`chapters/settings:Text input` in Settings.
+You can then switch between the two preset layouts of the virtual keyboard, from the Keyboard menu of the :ref:`chapters/ui:Virtual keyboard`.
 
 Editing text
 """"""""""""
 
 To select text, swipe your finger from the start point to the end point of the text you want to select.
 
+     |select-text|
+
 To copy text, press *CTRL* (The actual key on the keyboard might differ, see :ref:`chapters/devices:Device specific info [wip]`) and *C*
 
 To paste copied text, press *CTRL* (The actual key on the keyboard might differ, see :ref:`chapters/devices:Device specific info [wip]`) and *V*
+
+To copy or move text using the virtual keyboard, use the options from the menu of the :ref:`chapters/ui:Virtual keyboard`.
+
+     |virtual-keyboard-menu|
+
+You can also move text by dragging the selected text to another position.
+
+     |move-text-drag|

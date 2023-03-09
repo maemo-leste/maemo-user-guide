@@ -22,11 +22,11 @@ Clock & Alarms
    :align: bottom
    :alt: Clock app main screen
 
-Open the app list
+Open the applications list
 
      |application-menu-button|
 
-Open the Clock app
+Open the Clock application
 
     |clock-n-alarms-icon|
 
@@ -104,47 +104,12 @@ Date and time display
    :align: bottom
    :alt: Date and Time button highlighted
 
-.. |date-time-main| image:: /screenshots/clock-n-alarms/date-time-main.png
-   :scale: 60%
-   :align: bottom
-   :alt: Date and Time main screen
-
-.. |date-time-24h| image:: /screenshots/clock-n-alarms/date-time-24h.png
-   :scale: 60%
-   :align: bottom
-   :alt: Date and Time 24-hour display
-
-.. |date-time-12h| image:: /screenshots/clock-n-alarms/date-time-12h.png
-   :scale: 60%
-   :align: bottom
-   :alt: Date and Time 12-hour display
-
-.. |choose-time-zone-London| image:: /screenshots/clock-n-alarms/choose-time-zone-London.png
-   :scale: 60%
-   :align: bottom
-   :alt: Choose time zone - London
-
-.. |choose-time-zone-Chisinau| image:: /screenshots/clock-n-alarms/choose-time-zone-Chisinau.png
-   :scale: 60%
-   :align: bottom
-   :alt: Choose time zone - Chisinau
-
-.. |choose-time-zone-search| image:: /screenshots/clock-n-alarms/choose-time-zone-search.png
-   :scale: 60%
-   :align: bottom
-   :alt: Choose time zone - search
-
-.. |choose-time-zone-select-Chisinau| image:: /screenshots/clock-n-alarms/choose-time-zone-select-Chisinau.png
-   :scale: 60%
-   :align: bottom
-   :alt: Choose time zone  - select Chisinau
-
-.. |adjust-date| image:: /screenshots/clock-n-alarms/adjust-date.png
+.. |adjust-date| image:: /screenshots/settings/adjust-date.png
    :scale: 60%
    :align: bottom
    :alt: Adjust date
 
-.. |adjust-time| image:: /screenshots/clock-n-alarms/adjust-time.png
+.. |adjust-time| image:: /screenshots/settings/adjust-time.png
    :scale: 60%
    :align: bottom
    :alt: Adjust time
@@ -199,21 +164,6 @@ Date and time display
    :align: bottom
    :alt: Date Time Seconds
 
-.. |language-n-region| image:: /screenshots/clock-n-alarms/language-n-region.png
-   :scale: 60%
-   :align: bottom
-   :alt: Language & region
-
-.. |device-language| image:: /screenshots/clock-n-alarms/device-language.png
-   :scale: 60%
-   :align: bottom
-   :alt: Device language
-
-.. |date-format| image:: /screenshots/clock-n-alarms/date-format.png
-   :scale: 60%
-   :align: bottom
-   :alt: Date format
-
 .. |alarm-settings| image:: /screenshots/clock-n-alarms/alarm-settings.png
    :scale: 60%
    :align: bottom
@@ -237,62 +187,7 @@ Date and time display
 Tap on the current hour & date display.
      |date-time-button-highlighted|
 
-You will be greeted with the following menu:
-     |date-time-main|
-
-
-The following options will be available:
-
-#. :ref:`chapters/clock:24-hr clock`
-#. :ref:`chapters/clock:Time zone`
-#. :ref:`chapters/clock:Date`
-#. :ref:`chapters/clock:Time`
-
-24-hr clock
-"""""""""""
-When ticked, the clock will be displayed as 24-hour (also called military time).
-    |date-time-24h|
-
-Untick it, and hit the Save button, and then the clock will be displayed as 12-hour clock (AM and PM).
-    |date-time-12h|
-
-.. index:: Time zone
-
-Time zone
-"""""""""
-You will be shown a map, where the current place is shown (and its time zone and name written on the bottom of the screen), and from where you can change it, by selecting the place which is closest to your location (or one which is in your local timezone). You can select the place by choosing it from the map.
-    |choose-time-zone-London|
-
-When ready, tap on *Done*, at the top of the screen, if you want to save the changes.
-
-.. note:: You can also search for a place by tapping on the magnifier on top of the screen.
-    |choose-time-zone-search|
-
-And then you can type to search for a place to select as your local time place.
-    |choose-time-zone-select-Chisinau|
-
-Your new time zone location will then be displayed.
-    |choose-time-zone-Chisinau|
-
-When ready, tap on *Done*. Otherwise, search for a different place.
-
-.. index:: Date setting
-
-Date
-""""
-A menu will appear, from which you can select the current date.
-    |adjust-date|
-
-Then tap on *Done* when ready selecting.
-
-.. index:: Time setting
-
-Time
-""""
-A menu will appear, from which you can select the current time.
-    |adjust-time|
-
-Then tap on *Done* when ready selecting.
+This is the same as :ref:`chapters/settings:Date and time` in Settings.
 
 New alarm
 ---------
@@ -320,15 +215,15 @@ Type in a title (descriptive name) for your new alarm.
 
 .. note:: Check out :ref:`chapters/ui:Input and keyboard` about ways to do this.
 
-Alarm time
-""""""""""
+Time
+""""
 
 A menu will appear, from which you can select the desired time when the alarm should run.
 
     |adjust-time|
 
-Alarm date
-""""""""""
+Date
+""""
 
 If you want the alarm to run only once, on a specific date, you can select it here.
 
@@ -474,53 +369,7 @@ Tap on *Regional settings* in the :ref:`chapters/ui:In-app menu`.
 
 |regional-settings-button|
 
-You will be greeted with the following screen:
-
-|language-n-region|
-
-The following options will be available:
-
-#. :ref:`chapters/clock:Device language`
-#. :ref:`chapters/clock:Date format (read-only)`
-#. :ref:`chapters/clock:Date format`
-#. :ref:`chapters/clock:Decimal separator (read-only)`
-#. :ref:`chapters/clock:Thousands separator (read-only)`
-
-.. warning:: Saving these settings will require the device to reboot
-
-Device language
-"""""""""""""""
-
-You will be shown a list, through which you can scroll and select your desired interface language:
-
-|device-language|
-
-.. note:: You can also type to search, but you will need to have a method of :ref:`chapters/ui:Input and keyboard` layout which includes the potentially special characters of the language you search for, since native language names are being used.
-
-Date format (read-only)
-"""""""""""""""""""""""
-
-This shows how the date is being displayed based on the currently set :ref:`chapters/clock:Device language`.
-
-Date format
-"""""""""""
-
-.. note:: This is probably a bug, while it should be named Regional format, instead of date format.
-
-
-You will be shown a list, through which you can scroll and select the country corresponding to the your desired regional format:
-
-|date-format|
-
-Decimal separator (read-only)
-"""""""""""""""""""""""""""""
-
-This shows which decimal separator is being used, based on the currently set :ref:`chapters/clock:date format`.
-
-Thousands separator (read-only)
-"""""""""""""""""""""""""""""""
-
-This shows which thousands separator is being used, based on the currently set :ref:`chapters/clock:date format`.
+This option is the same as :ref:`chapters/settings:Language & region`.
 
 Adjust date and time
 --------------------
@@ -529,7 +378,7 @@ Tap on *Adjust date and time* in the :ref:`chapters/ui:In-app menu`.
 
 |adjust-date-time-button|
 
-This option is the same as when you tap on the :ref:`chapters/clock:Date and time display`
+This is the same as :ref:`chapters/settings:Date and time` in Settings.
 
 Alarm settings
 --------------
