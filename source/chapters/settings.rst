@@ -103,7 +103,7 @@
    :align: bottom
    :alt: Hardware keyboard layout
 
-.. |text-input-two-languges| image:: /screenshots/settings/text-input-two-languges.png
+.. |text-input-two-languages| image:: /screenshots/settings/text-input-two-languages.png
    :scale: 60%
    :align: bottom
    :alt: Text input two languages
@@ -127,6 +127,271 @@
    :scale: 60%
    :align: bottom
    :alt: Keyboard second language dictionary
+
+.. |account-setup-service| image:: /screenshots/settings/account-setup-service.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |device-lock-auto| image:: /screenshots/settings/device-lock-auto.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |device-lock-enter-current| image:: /screenshots/settings/device-lock-enter-current.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |device-lock| image:: /screenshots/settings/device-lock.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |gabble-jabber-account-setup| image:: /screenshots/settings/gabble-jabber-account-setup.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |gabble-jabber-new| image:: /screenshots/settings/gabble-jabber-new.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |gabble-jabber-settings-1| image:: /screenshots/settings/gabble-jabber-settings-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |gabble-jabber-settings-2| image:: /screenshots/settings/gabble-jabber-settings-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |gps-device| image:: /screenshots/settings/gps-device.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-xmpp-account-setup| image:: /screenshots/settings/haze-xmpp-account-setup.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-simple-account-setup| image:: /screenshots/settings/haze-simple-account-setup.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-simple-keepalive-interval| image:: /screenshots/settings/haze-simple-keepalive-interval.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-simple-keepalive-mechanism| image:: /screenshots/settings/haze-simple-keepalive-mechanism.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-simple-settings-1| image:: /screenshots/settings/haze-simple-settings-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-simple-settings-2| image:: /screenshots/settings/haze-simple-settings-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-simple-transport| image:: /screenshots/settings/haze-simple-transport.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |idle-irc-account-setup| image:: /screenshots/settings/idle-irc-account-setup.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |idle-irc-settings| image:: /screenshots/settings/idle-irc-settings.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connect-automatically| image:: /screenshots/settings/internet-connect-automatically.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-complete| image:: /screenshots/settings/internet-connections-complete.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-list| image:: /screenshots/settings/internet-connections-list.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-main| image:: /screenshots/settings/internet-connections-main.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-mobile-edit-1| image:: /screenshots/settings/internet-connections-mobile-edit-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-mobile-edit-2| image:: /screenshots/settings/internet-connections-mobile-edit-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-search-interval| image:: /screenshots/settings/internet-connections-search-interval.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-available| image:: /screenshots/settings/internet-connections-wifi-available.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-edit-1| image:: /screenshots/settings/internet-connections-wifi-edit-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-edit-2| image:: /screenshots/settings/internet-connections-wifi-edit-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-key| image:: /screenshots/settings/internet-connections-wifi-key.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-name| image:: /screenshots/settings/internet-connections-wifi-name.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-scan| image:: /screenshots/settings/internet-connections-wifi-scan.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-settings-1| image:: /screenshots/settings/internet-connections-wifi-settings-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-settings-2| image:: /screenshots/settings/internet-connections-wifi-settings-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-settings-3| image:: /screenshots/settings/internet-connections-wifi-settings-3.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-settings-4| image:: /screenshots/settings/internet-connections-wifi-settings-4.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-settings-5| image:: /screenshots/settings/internet-connections-wifi-settings-5.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-settings-6| image:: /screenshots/settings/internet-connections-wifi-settings-6.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-setup| image:: /screenshots/settings/internet-connections-wifi-setup.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |location-1| image:: /screenshots/settings/location-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |location-2| image:: /screenshots/settings/location-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-1| image:: /screenshots/settings/phone-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-2| image:: /screenshots/settings/phone-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-3| image:: /screenshots/settings/phone-3.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-4| image:: /screenshots/settings/phone-4.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-data-roaming| image:: /screenshots/settings/phone-data-roaming.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-home-network-data| image:: /screenshots/settings/phone-home-network-data.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-home-roaming-data| image:: /screenshots/settings/phone-home-roaming-data.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |phone-network-mode| image:: /screenshots/settings/phone-network-mode.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |internet-connections-wifi-manual| image:: /screenshots/settings/internet-connections-wifi-manual.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |restore-original-settings| image:: /screenshots/settings/restore-original-settings.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |clear-device| image:: /screenshots/settings/clear-device.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-xmpp-settings-1| image:: /screenshots/settings/haze-xmpp-settings-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |haze-xmpp-settings-2| image:: /screenshots/settings/haze-xmpp-settings-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
 
 Settings
 ========
@@ -163,7 +428,7 @@ The available options are grouped in three sections, plus in the :ref:`chapters/
     #. :ref:`chapters/settings:Text input`
 #. :ref:`chapters/settings:Connectivity`
     #. :ref:`chapters/settings:Location`
-    #. :ref:`chapters/settings:Internet connection`
+    #. :ref:`chapters/settings:Internet connections`
     #. :ref:`chapters/settings:VoIP and IM acccounts`
     #. :ref:`chapters/settings:Phone`
 #. :ref:`chapters/settings:General`
@@ -335,19 +600,36 @@ Hardware keyboard layout
 Use virtual keyboard
 """"""""""""""""""""
 
+This enables the use of virtual (on-screen) keyboard.
+
+If this is disabled, the virtual keyboard won't work, but you can still use the hardware keyboard, if your device has one (see :ref:`chapters/devices:Device specific info [wip]`).
+
 Word completion
 """""""""""""""
+
+This enables automatic word completion.
+
+.. note:: Word completion doesn't seem to work. Possible bug. See :ref:`summary:Known bugs`
 
 Auto-capitalization
 """""""""""""""""""
 
+This enables automatic capitalization of words at the beginning of sentences (the first letter after *full stop* + *space*, or *full stop* + *new line* will be uppercase - the first letter after only *new line* won't be uppercased).
+The effects of this setting can be changed by using the *SHIFT* key (for the exact key name on your device, see :ref:`chapters/devices:Device specific info [wip]`).
+
 Insert space after word
 """""""""""""""""""""""
+
+This option enables adding a space after each word chosen through the :ref:`chapters/settings:Auto-capitalization` option.
 
 1st language
 """"""""""""
 
+From here you can select the layout number one, of the virtual keyboard.
+
     |keyboard-first-language|
+
+You can have two layouts set, between which you can switch. Select the second layout from the option :ref:`chapters/settings:2nd language`.
 
 Dictionary (of the 1st language)
 """"""""""""""""""""""""""""""""
@@ -357,7 +639,11 @@ Dictionary (of the 1st language)
 2nd language
 """"""""""""
 
+From here you can select the layout number two, of the virtual keyboard.
+
     |keyboard-second-language|
+
+You can have two layouts set, between which you can switch. Select the first layout from the option :ref:`chapters/settings:1st language`.
 
 Dictionary (of the 2nd language)
 """"""""""""""""""""""""""""""""
@@ -369,7 +655,9 @@ Use dual dictionaries
 
 This option is active only if you have two languages set. Then, the :ref:`chapters/settings:Text input` menu's second page looks like this:
 
-    |text-input-two-languges|
+    |text-input-two-languages|
+
+Then, when this is enabled, words are being searched for in both languages, when using :ref:`chapters/settings:Word completion`.
 
 Connectivity
 ------------
@@ -377,14 +665,175 @@ Connectivity
 Location
 ^^^^^^^^
 
-Internet connection
-^^^^^^^^^^^^^^^^^^^
+    |location-1|
+
+    |location-2|
+
+GPS
+"""
+
+    |gps-device|
+
+Network positioning
+"""""""""""""""""""
+
+Internet connections
+^^^^^^^^^^^^^^^^^^^^
+
+    |internet-connections-main|
+
+#. Connect automatically
+#. Search interval
+#. Switch to Wi-Fi when available
+#. Connections
+
+Connect automatically
+"""""""""""""""""""""
+
+    |internet-connect-automatically|
+
+Search interval
+"""""""""""""""
+
+    |internet-connections-search-interval|
+
+Switch to Wi-Fi when available
+""""""""""""""""""""""""""""""
+
+Connections
+"""""""""""
+
+    |internet-connections-list|
+
+New connection
+""""""""""""""
+
+    |internet-connections-wifi-setup|
+
+    |internet-connections-wifi-name|
+
+    |internet-connections-wifi-scan|
+
+If you want to add a hidden network, or one that is not in range, select *No* here.
+
+You will then be able to manually add the network settings:
+
+    |internet-connections-wifi-manual|
+
+#. Network name (SSID)
+#. Network is hidden (keep checked if the network you want to add is hidden)
+#. Network mode:
+    * Infrastructure (AP-mode)
+    * Ad hoc (No need of an AP)
+#. Security method:
+    * None
+    * WEP
+    * WPA pre-shared key
+    * WPA with EAP
+
+    |internet-connections-wifi-available|
+
+    |internet-connections-wifi-key|
+
+    |internet-connections-complete|
+
+    |internet-connections-wifi-settings-1|
+
+    |internet-connections-wifi-settings-2|
+
+    |internet-connections-wifi-settings-3|
+
+    |internet-connections-wifi-settings-4|
+
+    |internet-connections-wifi-settings-5|
+
+    |internet-connections-wifi-settings-6|
+
+Edit WiFi connection
+""""""""""""""""""""
+
+    |internet-connections-wifi-edit-1|
+
+    |internet-connections-wifi-edit-2|
+
+Edit mobile connection
+""""""""""""""""""""""
+
+    |internet-connections-mobile-edit-1|
+
+    |internet-connections-mobile-edit-2|
 
 VoIP and IM acccounts
 ^^^^^^^^^^^^^^^^^^^^^
 
+    |account-setup-service|
+
+IRC (idle)
+""""""""""
+
+    |idle-irc-account-setup|
+
+    |idle-irc-settings|
+
+Jabber (gabble)
+"""""""""""""""
+
+    |gabble-jabber-account-setup|
+
+    |gabble-jabber-new|
+
+    |gabble-jabber-settings-1|
+
+    |gabble-jabber-settings-2|
+
+
+SIMPLE (haze)
+"""""""""""""
+
+    |haze-simple-account-setup|
+
+    |haze-simple-settings-1|
+
+    |haze-simple-settings-2|
+
+    |haze-simple-transport|
+
+    |haze-simple-keepalive-interval|
+
+    |haze-simple-keepalive-mechanism|
+
+XMPP (haze)
+
+    |haze-xmpp-account-setup|
+
+    |gabble-jabber-new|
+
+    |haze-xmpp-settings-1|
+
+    |haze-xmpp-settings-2|
+
 Phone
 ^^^^^
+
+    |phone-1|
+
+    |phone-2|
+
+    |phone-3|
+
+    |phone-4|
+
+    |phone-network-mode|
+
+    |phone-data-roaming|
+
+    |phone-home-network-data|
+
+    |phone-home-roaming-data|
+
+
+
+
 
 General
 -------
@@ -392,12 +841,21 @@ General
 Device lock
 ^^^^^^^^^^^
 
+    |device-lock|
+
+    |device-lock-auto|
+
+    |device-lock-enter-current|
+
 In-app menu
 -----------
 
 Restore original settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+    |restore-original-settings|
+
 Clear device
 ^^^^^^^^^^^^
 
+    |clear-device|

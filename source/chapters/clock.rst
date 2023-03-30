@@ -239,7 +239,7 @@ The default option, Never, means that the alarm will run only once.
 
     |alarm-repeat-never|
 
-If you need it to run on a specific date, and not the first occurring time, check out the :ref:`chapters/clock:Alarm date` option above.
+If you need it to run on a specific date, and not the first occurring time, check out the :ref:`chapters/clock:Date` option above.
 
 
 .. note:: Styling bug. Black text on black background. Text is visible only when selected. See :ref:`summary:Known bugs`.

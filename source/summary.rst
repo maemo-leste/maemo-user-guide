@@ -166,6 +166,7 @@ Known bugs
   - Error about diversions when upgrading using apt - fix by removing the diversion $ sudo dpkg-divert --remove /lib/udev/rules.d/85-input-devices.rules
   - In Language & region, the option "Date format" should probably be named "Regional format", since it refers to decimal and thousands separator. The date format is determined by the device language.
   - The layout for the hardware keyboard doesn't seem to change. Possible bug.
+  - Word completion doesn't seem to work. Possible bug.
 
 Unexpected behavior
 """""""""""""""""""
@@ -174,6 +175,7 @@ Unexpected behavior
   - Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view.
   - Manually changing the desktop image (outside of a theme) will only change the image of the current desktop view. Each view should then have a different image, and if any fluid transition between views is desired, then that particular image should be prepared (split accordingly) in advance, in an external program.
   - Sometimes the in-app menu arrow indicator is not shown. The QT applications usually don't have it.
+  - Some applications only work in landscape mode (e.g. email, calendar)
 
 Leftovers
 """""""""
