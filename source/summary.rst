@@ -162,25 +162,28 @@ Known bugs
 
   - Black text on black (style bug - should be fixed soon)
   - Slow scroll (driver dependent)
-  - Ephemeral contacts in contact list (based on the contact rosters of online accounts) show as "(No name)"
+  - Ephemeral contacts in contact list (based on the contact rosters of online accounts) show as *(No name)*
   - Error about diversions when upgrading using apt - fix by removing the diversion $ sudo dpkg-divert --remove /lib/udev/rules.d/85-input-devices.rules
-  - In Language & region, the option "Date format" should probably be named "Regional format", since it refers to decimal and thousands separator. The date format is determined by the device language.
-  - The layout for the hardware keyboard doesn't seem to change. Possible bug.
+  - In :ref:`chapters/settings:Language & region`, the option :ref:`chapters/settings:Date format` should probably be named *Regional format*, since it refers to decimal and thousands separator. The date format is determined by the device language.
+  - The :ref:`chapters/settings:Hardware keyboard layout` doesn't seem to change. Possible bug.
   - Word completion doesn't seem to work. Possible bug.
 
 Unexpected behavior
 """""""""""""""""""
 
-  - It's not possible to move a shortcut from another desktop view then the currently displayed one (you need to see it in order to select it, and you cannot move between views when editing, only when adding a new one).
-  - Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view.
-  - Manually changing the desktop image (outside of a theme) will only change the image of the current desktop view. Each view should then have a different image, and if any fluid transition between views is desired, then that particular image should be prepared (split accordingly) in advance, in an external program.
+  - It's not possible to move a shortcut from another desktop view then the currently displayed one (you need to see it in order to select it, and you cannot move between views when editing, only when adding a new one). See :ref:`chapters/ui:Add shortcut`.
+  - Disabling a view by using :ref:`chapters/ui:Manage views` will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view.
+  - Manually changing the desktop image (outside of a theme) from :ref:`chapters/ui:Change background` -> *More* will only change the image of the current desktop view. Each view should then have a different image, and if any fluid transition between views is desired, then that particular image should be prepared (split accordingly) in advance, in an external program.
   - Sometimes the in-app menu arrow indicator is not shown. The QT applications usually don't have it.
   - Some applications only work in landscape mode (e.g. email, calendar)
+  - When changing :ref:`chapters/settings:Themes`, you have to still manually change the wallpaper by selecting the wallpaper corresponding to the theme from :ref:`chapters/ui:Change background` in the Desktop menu
+  - Pressing on :ref:`chapters/settings:Pair new device` to pair a new external :term:`GPS` device seems to not do anything.
 
 Leftovers
 """""""""
 
  - Nokia-branded (Nokia, Ovi) features in certain places
+ - The :ref:`chapters/settings:Network positioning` service seems to not work. supl.nokia.com is given as default server, which seems to not be reachable anymore.
 
 What do do in certain situations
 """"""""""""""""""""""""""""""""
@@ -201,3 +204,6 @@ Useful cli commands
   - bluetooth (for now it works only from cli)
   - mirror screen to HDMI
   - enable mobile network roaming
+
+To-do
+-----

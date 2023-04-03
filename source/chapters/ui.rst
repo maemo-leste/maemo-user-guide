@@ -133,10 +133,20 @@ Interface and user interaction
    :align: bottom
    :alt: Status menu Wifi connected
 
-.. |status-menu-wifi-secured| image:: /screenshots/status-area/connect_manager_wlan_securitylevel3.png
+.. |status-menu-wifi-wpa-secured| image:: /screenshots/status-area/connect_manager_wlan_securitylevel3.png
    :width: 20px
    :align: bottom
-   :alt: Status menu Wifi secured
+   :alt: Status menu Wifi WPA secured
+
+.. |status-menu-wifi-wep-secured| image:: /screenshots/status-area/general_locked.png
+   :width: 20px
+   :align: bottom
+   :alt: Status menu Wifi WEP secured
+
+.. |status-menu-wifi-not-secured| image:: /screenshots/status-area/general_unlock.png
+   :width: 20px
+   :align: bottom
+   :alt: Status menu Wifi not secured
 
 .. |select-profile| image:: /screenshots/ui-main/select-profile.png
    :scale: 60%
@@ -459,9 +469,9 @@ By tapping on the Internet connection button in the :ref:`chapters/ui:Status men
 
      |status-menu-connect|
 
-From here you can enable or disable Wifi or mobile data connections.
+From here you can enable the currently available Wifi or mobile data connections, or disable the currently active one.
 
-.. tip:: This is different than the Network section in Settings. From here it's easier to connect to new Wifi networks.
+.. tip:: This is different than the :ref:`chapters/settings:Internet connections` section in Settings. From here it's easier to connect to new Wifi networks.
 
 You connect to a Wifi or mobile data connection by tapping on it.
 
@@ -480,8 +490,14 @@ The symbols to the tright of each connection give information about the connecti
      |status-menu-wifi-connected|
      The currently active connection
 
-     |status-menu-wifi-secured|
-     The Wifi connection is secured (and password protected)
+     |status-menu-wifi-wpa-secured|
+     The Wifi connection is secured (and password protected) using WPA.
+
+     |status-menu-wifi-wep-secured|
+     The Wifi connection is secured (and key protected) using WEP.
+
+     |status-menu-wifi-not-secured|
+     The Wifi connection is not secured (and not password protected).
 
 Volume slider
 """""""""""""

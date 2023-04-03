@@ -39,3 +39,24 @@ Glossary
 
     4G
       Fourth generation cellular network, based on the :term:`LTE` standard
+
+    5G
+      Fifth generation cellular network, based on the :term:`5G NR` standard
+
+    5G NR
+      5G New Radio, a fifth generation mobile network standard, designed for :term:`5G` networks.
+
+    GPS
+      Global Positioning System (GPS), One of the global navigation satellite systems (GNSS).
+
+    WPA
+      Wi-Fi Protected Access. Security standard for Wi-Fi networks, more secure than the previous standard, :term:`WEP`.
+
+    WEP
+      Wired Equivalent Privacy. Security algorithm for Wi-Fi networks, intended to provide data confidentiality comparable to that of a traditional wired network. It's considered to be weak from a security point of view, and it was superseded by :term:`WPA`.
+
+    APN
+      Access Point Name. The name of a :term:`gateway` between a mobile network (:term:`GSM`, :term:`GPRS`, :term:`3G`, :term:`4G` and :term:`5G`) and another computer network, usually for connecting to the internet.
+
+    Gateway
+      A device which provides a connection between networks
