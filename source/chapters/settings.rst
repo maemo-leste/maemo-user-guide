@@ -429,7 +429,7 @@ The available options are grouped in three sections, plus in the :ref:`chapters/
 #. Connectivity
     #. :ref:`chapters/settings:Location`
     #. :ref:`chapters/settings:Internet connections`
-    #. :ref:`chapters/settings:VoIP and IM acccounts`
+    #. :ref:`chapters/settings:VoIP and IM accounts`
     #. :ref:`chapters/settings:Phone`
 #. General
     #. :ref:`chapters/settings:Device lock`
@@ -867,13 +867,13 @@ The configuration should be done now, but if you need advanced settings, tap on 
 
 If you select Advanced, you will be shown this four-tabbed menu, from where you can make the changes you need for your particular situation.
 
+The first tab is *Proxies*. If you need to setup a proxy for this connection, you can do this here.
+
     |internet-connections-wifi-settings-1|
 
     |internet-connections-wifi-settings-2|
 
-The first tab is *Proxies*. If you need to setup a proxy for this connection, you can do this here. Check *Use proxy* to enable it.
-
-Then you have the following options:
+Check *Use proxy* to enable it. Then you have the following options:
 
     * **HTTP proxy**
     * **Port number** (for HTTP)
@@ -887,9 +887,9 @@ Then you have the following options:
     * **Automatic configuration** (Check to use an automatic proxy configuration)
     * **Web address** (The address where the automatic proxy configuration is to be found)
 
-    |internet-connections-wifi-settings-3|
-
 The second tab is *IP Addresses*. IP related settings go here.
+
+    |internet-connections-wifi-settings-3|
 
 If you want to set IP addresses manually, and not use DHCP to get the addresses automatically, uncheck *Auto-retrieve IP address* and then set manually the following:
 
@@ -904,18 +904,18 @@ If you want to set-up DNS manually, uncheck *Auto-retrieve DNS* and then set man
     * **Primary DNS address**
     * **Secondary DNS address**
 
-    |internet-connections-wifi-settings-5|
-
 The third tab is *Providers*
+
+    |internet-connections-wifi-settings-5|
 
 The options are:
 
     * **Provider type**
     * **Provider ID**
 
-    |internet-connections-wifi-settings-6|
-
 The fourth tab is *Other*. Here you can find the other settings, not belonging to the other categories:
+
+    |internet-connections-wifi-settings-6|
 
     * **Wi-Fi transmission power** (How much power the device outputs while connected to WiFi, the default being 100mW)
     * **WPA2-only mode** (Only WPA2 will be allowed as a protocol for securing WiFi connections)
@@ -970,7 +970,7 @@ Save (Internet connections)
 Tap here when done configuring, to save the settings made, and exit the :ref:`chapters/settings:Internet connections` menu.
 
 VoIP and IM accounts
----------------------
+--------------------
 
     |account-setup-service|
 
