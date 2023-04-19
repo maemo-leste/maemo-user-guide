@@ -43,6 +43,18 @@
    :align: bottom
    :alt: Date format
 
+.. |notification-light-1| image:: /screenshots/settings/notification-light-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Notification light 1
+
+.. |notification-light-2| image:: /screenshots/settings/notification-light-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Notification light 2
+
+
+
 .. |date-time-main| image:: /screenshots/settings/date-time-main.png
    :scale: 60%
    :align: bottom
@@ -136,262 +148,342 @@
 .. |device-lock-auto| image:: /screenshots/settings/device-lock-auto.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Device autolock
 
 .. |device-lock-enter-current| image:: /screenshots/settings/device-lock-enter-current.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Device lock enter current
 
 .. |device-lock| image:: /screenshots/settings/device-lock.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Device lock
 
 .. |gabble-jabber-account-setup| image:: /screenshots/settings/gabble-jabber-account-setup.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Jabber (Gabble) account setup
 
 .. |gabble-jabber-new| image:: /screenshots/settings/gabble-jabber-new.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Jabber (Gabble) new
 
 .. |gabble-jabber-settings-1| image:: /screenshots/settings/gabble-jabber-settings-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Jabber (Gabble) settings 1
 
 .. |gabble-jabber-settings-2| image:: /screenshots/settings/gabble-jabber-settings-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Jabber (Gabble) settings 2
 
 .. |gps-device| image:: /screenshots/settings/gps-device.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: GPS device
 
 .. |haze-xmpp-account-setup| image:: /screenshots/settings/haze-xmpp-account-setup.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: XMPP (Haze) account setup
 
 .. |haze-simple-account-setup| image:: /screenshots/settings/haze-simple-account-setup.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: SIMPLE (Haze) account setup
 
 .. |haze-simple-keepalive-interval| image:: /screenshots/settings/haze-simple-keepalive-interval.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: SIMPLE (Haze) keepalive interval
 
 .. |haze-simple-keepalive-mechanism| image:: /screenshots/settings/haze-simple-keepalive-mechanism.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: SIMPLE (Haze) keepalive mechanism
 
 .. |haze-simple-settings-1| image:: /screenshots/settings/haze-simple-settings-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: SIMPLE (Haze) settings 1
 
 .. |haze-simple-settings-2| image:: /screenshots/settings/haze-simple-settings-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: SIMPLE (Haze) settings 2
 
 .. |haze-simple-transport| image:: /screenshots/settings/haze-simple-transport.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: SIMPLE (Haze) transport
 
 .. |idle-irc-account-setup| image:: /screenshots/settings/idle-irc-account-setup.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: IRC (Idle) account setup
 
 .. |idle-irc-settings| image:: /screenshots/settings/idle-irc-settings.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: IRC (Idle) settings
 
 .. |internet-connect-automatically| image:: /screenshots/settings/internet-connect-automatically.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connect automatically
 
 .. |internet-connections-complete| image:: /screenshots/settings/internet-connections-complete.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections complete
 
 .. |internet-connections-list| image:: /screenshots/settings/internet-connections-list.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections list
 
 .. |internet-connections-main| image:: /screenshots/settings/internet-connections-main.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections main
 
 .. |internet-connections-mobile-edit-1| image:: /screenshots/settings/internet-connections-mobile-edit-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections mobile edit 1
 
 .. |internet-connections-mobile-edit-2| image:: /screenshots/settings/internet-connections-mobile-edit-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections mobile edit 2
 
 .. |internet-connections-search-interval| image:: /screenshots/settings/internet-connections-search-interval.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections search interval
 
 .. |internet-connections-wifi-available| image:: /screenshots/settings/internet-connections-wifi-available.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi available
 
 .. |internet-connections-wifi-key| image:: /screenshots/settings/internet-connections-wifi-key.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi key
 
 .. |internet-connections-wifi-name| image:: /screenshots/settings/internet-connections-wifi-name.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi name
 
 .. |internet-connections-wifi-scan| image:: /screenshots/settings/internet-connections-wifi-scan.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi scan
 
 .. |internet-connections-wifi-settings-1| image:: /screenshots/settings/internet-connections-wifi-settings-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi settings 1
 
 .. |internet-connections-wifi-settings-2| image:: /screenshots/settings/internet-connections-wifi-settings-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi settings 2
 
 .. |internet-connections-wifi-settings-3| image:: /screenshots/settings/internet-connections-wifi-settings-3.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi settings 3
 
 .. |internet-connections-wifi-settings-4| image:: /screenshots/settings/internet-connections-wifi-settings-4.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi settings 4
 
 .. |internet-connections-wifi-settings-5| image:: /screenshots/settings/internet-connections-wifi-settings-5.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi settings 5
 
 .. |internet-connections-wifi-settings-6| image:: /screenshots/settings/internet-connections-wifi-settings-6.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi settings 6
 
 .. |internet-connections-wifi-setup| image:: /screenshots/settings/internet-connections-wifi-setup.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections WiFi setup
 
 .. |location-1| image:: /screenshots/settings/location-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Location 1
 
 .. |location-2| image:: /screenshots/settings/location-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Location 2
 
 .. |phone-1| image:: /screenshots/settings/phone-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone 1
 
 .. |phone-2| image:: /screenshots/settings/phone-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone 2
 
 .. |phone-3| image:: /screenshots/settings/phone-3.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone 3
 
 .. |phone-4| image:: /screenshots/settings/phone-4.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone 4
 
 .. |phone-data-roaming| image:: /screenshots/settings/phone-data-roaming.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone data roaming
 
 .. |phone-home-network-data| image:: /screenshots/settings/phone-home-network-data.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone home network data
 
 .. |phone-home-roaming-data| image:: /screenshots/settings/phone-home-roaming-data.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone home network mode
 
 .. |phone-network-mode| image:: /screenshots/settings/phone-network-mode.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Phone network mode
 
 .. |internet-connections-wifi-manual-1| image:: /screenshots/settings/internet-connections-wifi-manual-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections wifi manual 1
 
 .. |internet-connections-wifi-manual-2| image:: /screenshots/settings/internet-connections-wifi-manual-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections wifi manual 2
 
 .. |internet-connections-wifi-manual-3| image:: /screenshots/settings/internet-connections-wifi-manual-3.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Internet connections wifi manual 3
 
 .. |restore-original-settings| image:: /screenshots/settings/restore-original-settings.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Rerstore original settings
 
 .. |clear-device| image:: /screenshots/settings/clear-device.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Clear device
 
 .. |haze-xmpp-settings-1| image:: /screenshots/settings/haze-xmpp-settings-1.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: XMPP (Haze) settings 1
 
 .. |haze-xmpp-settings-2| image:: /screenshots/settings/haze-xmpp-settings-2.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: XMPP (Haze) settings 2
+
+.. |profiles-add-tone| image:: /screenshots/settings/profiles-add-tone.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles add tone
+
+.. |profiles-custom| image:: /screenshots/settings/profiles-custom.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles custom
+
+.. |profiles-email-alert| image:: /screenshots/settings/profiles-email-alert.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles e-mail alert
+
+.. |profiles-im-alert| image:: /screenshots/settings/profiles-im-alert.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles IM alert
+
+.. |profiles-key-sounds| image:: /screenshots/settings/profiles-key-sounds.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles key sounds
+
+.. |profiles-main| image:: /screenshots/settings/profiles-main.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles main
+
+.. |profiles-new-name| image:: /screenshots/settings/profiles-new-name.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles new name
+
+.. |profiles-new-settings-1| image:: /screenshots/settings/profiles-new-settings-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles new settings 1
+
+.. |profiles-new-settings-2| image:: /screenshots/settings/profiles-new-settings-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles new settings 2
+
+.. |profiles-new-settings-3| image:: /screenshots/settings/profiles-new-settings-3.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles new settings 3
+
+.. |profiles-ringing-tone| image:: /screenshots/settings/profiles-ringing-tone.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles ringing tone
+
+.. |profiles-sms-alert| image:: /screenshots/settings/profiles-sms-alert.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles SMS alert
+
+.. |profiles-statusbar-icon-custom| image:: /screenshots/settings/profiles-statusbar-icon-custom.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles statusbar icon custom
+
+.. |profiles-statusbar-icon| image:: /screenshots/settings/profiles-statusbar-icon.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles statusbar icon
+
+.. |profiles-system-sounds| image:: /screenshots/settings/profiles-system-sounds.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles system sounds
+
+.. |profiles-touch-screen-sounds| image:: /screenshots/settings/profiles-touch-screen-sounds.png
+   :scale: 60%
+   :align: bottom
+   :alt: Profiles touch screen sounds
 
 Settings
 ========
@@ -442,14 +534,16 @@ Themes
 
 You have a list of available themes that you can pick from, to have an uniform design look of the interface.
 
-|select-theme|
+     |select-theme|
+
+.. note:: You can install more themes from the :ref:`summary:Application Manager`.
 
 Language & region
 -----------------
 
 You will be greeted with the following screen:
 
-|language-n-region|
+     |language-n-region|
 
 The following options will be available:
 
@@ -466,7 +560,7 @@ Device language
 
 You will be shown a list, through which you can scroll and select your desired interface language:
 
-|device-language|
+     |device-language|
 
 .. note:: You can also type to search, but you will need to have a method of :ref:`chapters/ui:Input and keyboard` layout which includes the potentially special characters of the language you search for, since native language names are being used.
 
@@ -483,7 +577,7 @@ Date format
 
 You will be shown a list, through which you can scroll and select the country corresponding to the your desired regional format:
 
-|date-format|
+     |date-format|
 
 Decimal separator (read-only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -498,8 +592,250 @@ This shows which thousands separator is being used, based on the currently set :
 Notification light
 ------------------
 
+You will be shown a menu from where you select the desired settings regarding notifications using the LED light.
+
+     |notification-light-1|
+
+The options go on two screens:
+
+     |notification-light-1|
+
+The following options are available:
+
+#. :ref:`chapters/settings:Device on`
+#. :ref:`chapters/settings:Missed call`
+#. :ref:`chapters/settings:Text message received`
+#. :ref:`chapters/settings:E-mail message received`
+#. :ref:`chapters/settings:Instant message received`
+#. :ref:`chapters/settings:Charging`
+#. :ref:`chapters/settings:Other notifications`
+
+Check the situations when you would like to have notifications signaled by the LED (if your device has one - see see :ref:`chapters/devices:Device specific info [wip]`)
+
+Device on
+^^^^^^^^^
+
+Use the notification light to show that the device is on, when the display is off.
+
+Missed call
+^^^^^^^^^^^
+
+Notify missed calls.
+
+Text message received
+^^^^^^^^^^^^^^^^^^^^^
+
+Notify when there's an incoming text message (SMS).
+
+E-mail message received
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Notify when there's a new e-mail message received.
+
+Instant message received
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Notify when there's an incoming instant message (IM).
+
+Charging
+^^^^^^^^
+
+Notify when the device's battery is charging.
+
+Other notifications
+^^^^^^^^^^^^^^^^^^^
+
+Notify all other events.
+
 Profiles
 --------
+
+Selecting *Profiles* gives you the list of the existing sound profiles.
+
+Besides the default General and Silent, you can make your own custom profiles.
+
+    |profiles-custom|
+
+Here you have the following options:
+
+#. :ref:`chapters/settings:Delete (profile)`
+#. :ref:`chapters/settings:Edit (profile)`
+#. :ref:`chapters/settings:New (profile)`
+
+When finished modifying settings, tap on *Done*.
+
+Delete (profile)
+^^^^^^^^^^^^^^^^
+
+Tap on *Delete* to remove the selected custom profile.
+
+The default profiles cannot be deleted, so the *Delete* button won't be present if you have no custom profiles configured.
+
+    |profiles-main|
+
+Edit (profile)
+^^^^^^^^^^^^^^
+
+Tap on *Edit* to modify the sselected profile.
+
+Editing profiles gives the same options as when creating a :ref:`chapters/settings:New (profile)`.
+
+New (profile)
+^^^^^^^^^^^^^
+
+Start by giving the new profile a name. See :ref:`chapters/ui:Input and keyboard` about how to input text.
+
+    |profiles-new-name|
+
+Then, when you tap on *Done*, a menu with options will appear.
+
+    |profiles-new-settings-1|
+
+The menu goes on more pages.
+
+    |profiles-new-settings-2|
+
+Some options' availability depends on enabling others.
+
+    |profiles-new-settings-3|
+
+We have the following settings for a profile:
+
+#. :ref:`chapters/settings:Statusbar icon`
+#. :ref:`chapters/settings:Vibrate`
+#. :ref:`chapters/settings:Ringing tone`
+#. :ref:`chapters/settings:SMS alert`
+#. :ref:`chapters/settings:IM tone`
+#. :ref:`chapters/settings:E-mail alert`
+#. :ref:`chapters/settings:System sounds`
+#. :ref:`chapters/settings:Key sounds`
+#. :ref:`chapters/settings:Touch screen sounds`
+#. :ref:`chapters/settings:Touch screen vibrate (profi_fi_touch_screen_vibrate)`
+#. :ref:`chapters/settings:Autoanswer`
+#. :ref:`chapters/settings:Autoanswer timer slider`
+#. :ref:`chapters/settings:Disable proximity check`
+#. :ref:`chapters/settings:Speaker`
+
+Statusbar icon
+""""""""""""""
+
+Here you can choose which icon will be shown in the :ref:`chapters/ui:Status menu`.
+
+    |profiles-statusbar-icon|
+
+Tapping on the folder icon allows you to pick a custom icon from the :term:`filesystem`.
+
+    |profiles-statusbar-icon-custom|
+
+Vibrate
+"""""""
+
+Checking this enables vibration for the current profile.
+
+Ringing tone
+""""""""""""
+
+Here you can select which sound will be played as ringing for an incoming call.
+
+    |profiles-ringing-tone|
+
+Tapping on more allows you to pick a custom audio file from the :term:`filesystem` as ringing tone.
+
+    |profiles-add-tone|
+
+SMS alert
+"""""""""
+
+Here you can select which sound will be played as an alert for an incoming text message (SMS).
+
+    |profiles-sms-alert|
+
+Tapping on more allows you to pick a custom audio file from the :term:`filesystem` as SMS alert, similar as for picking a custom :ref:`chapters/settings:Ringing tone`.
+
+IM tone
+"""""""
+
+Here you can select which sound will be played as an alert for an incoming instant message (IM).
+
+    |profiles-im-alert|
+
+Tapping on more allows you to pick a custom audio file from the :term:`filesystem` as IM alert, similar as for picking a custom :ref:`chapters/settings:Ringing tone`.
+
+
+E-mail alert
+""""""""""""
+
+Here you can select which sound will be played as an alert for a new email.
+
+    |profiles-email-alert|
+
+Tapping on more allows you to pick a custom audio file from the :term:`filesystem` as e-mail alert, similar as for picking a custom :ref:`chapters/settings:Ringing tone`.
+
+System sounds
+"""""""""""""
+
+Here you can select the volume level of system sounds.
+
+    |profiles-system-sounds|
+
+You can select between:
+
+* **Off** - there will be no system sounds played.
+* **Level 1** - the system sounds will be less loud
+* **Level 2** - the system sounds will be louder
+
+Key sounds
+""""""""""
+
+Here you can select the volume level of key sounds (sounds made when pressing/tapping a key on the keyboard).
+
+    |profiles-key-sounds|
+
+You can select between:
+
+* **Off** - pressing keys will make no sound.
+* **Level 1** - the key sounds will be less loud
+* **Level 2** - the key sounds will be louder
+
+Touch screen sounds
+"""""""""""""""""""
+
+Here you can select the volume level of touch screen sounds (sounds made when tapping on the screen).
+
+    |profiles-touch-screen-sounds|
+
+You can select between:
+
+* **Off** - touching the screen will make no sound.
+* **Level 1** - the touch screen sounds will be less loud
+* **Level 2** - the touch screen sounds will be louder
+
+Touch screen vibrate (profi_fi_touch_screen_vibrate)
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Check to enable vibrating when touching the screen.
+
+Autoanswer
+""""""""""
+
+Check to enable automatic call answering.
+
+Autoanswer timer slider
+"""""""""""""""""""""""
+
+Set the the time after which the call is automatically answered.
+
+Disable proximity check
+"""""""""""""""""""""""
+
+Check to disable proximity check when automaticaly answering calls.
+
+If this is checked, the call will be automatically answered even if the device is not held to the ear.
+
+Speaker
+"""""""
+
+Check to answer the call in loudspeaker mode (?).
 
 Date and time
 -------------
@@ -814,7 +1150,7 @@ Tap *Next* to continue.
 
     |internet-connections-wifi-name|
 
-Write a network name. See :ref:`chapters/ui:Input and keyboard` about how to do input text.
+Write a network name. See :ref:`chapters/ui:Input and keyboard` about how to input text.
 
 The network name is a local name, like a bookmark, so it can be different than the network's actual name (SSID).
 
@@ -972,14 +1308,75 @@ Tap here when done configuring, to save the settings made, and exit the :ref:`ch
 VoIP and IM accounts
 --------------------
 
+If you have no accounts set, you will be shown a list of services from which you can pick to configure your accounts with.
+
     |account-setup-service|
+
+You have the following options (protocol, and in brackets, the connection manager):
+
+#. :ref:`chapters/settings:IRC (idle)`
+#. :ref:`chapters/settings:Jabber (gabble)`
+#. :ref:`chapters/settings:SIMPLE (haze)`
+#. :ref:`chapters/settings:XMPP (haze)`
 
 IRC (idle)
 ^^^^^^^^^^
 
+Here you can configure an *IRC* account, using the *idle* connection manager.
+
     |idle-irc-account-setup|
 
+You have the following basic options:
+
+#. :ref:`chapters/settings:Nickname (accounts_fi_nickname)`
+#. :ref:`chapters/settings:Server (accounts_fi_server)`
+#. :ref:`chapters/settings:Real name (accounts_fi_real_name)`
+
+Nickname (accounts_fi_nickname)
+"""""""""""""""""""""""""""""""
+
+The nickname displayed in the chat server and channels.
+
+Server (accounts_fi_server)
+"""""""""""""""""""""""""""
+
+The address of the server to connect to.
+
+Real name (accounts_fi_real_name)
+"""""""""""""""""""""""""""""""""
+
+The real name of the user.
+
+For more settings, tap on *Advanced settings*.
+
     |idle-irc-settings|
+
+You will have the following advanced options:
+
+#. :ref:`chapters/settings:User name`
+#. :ref:`chapters/settings:Password`
+#. :ref:`chapters/settings:Port`
+#. :ref:`chapters/settings:Use SSL`
+
+User name
+"""""""""
+
+The user name of the account, if you need one to connect to the server.
+
+Password
+""""""""
+
+The password of the account, if you need one to connect to the server.
+
+Port
+""""
+
+The network port used to connect to the server (to modify it if it's different than the default).
+
+Use SSL
+"""""""
+
+Check to use an SSL connection to the server.
 
 Jabber (gabble)
 ^^^^^^^^^^^^^^^
@@ -1009,6 +1406,7 @@ SIMPLE (haze)
     |haze-simple-keepalive-mechanism|
 
 XMPP (haze)
+^^^^^^^^^^^
 
     |haze-xmpp-account-setup|
 

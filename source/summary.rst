@@ -40,11 +40,11 @@ The Maemo Leste User Handbook is published under the `GNU FDL 1.3 <https://www.g
 Reference
 =========
 
-* Interface and user interaction
+* :ref:`chapters/ui:Interface and user interaction`
 
 :ref:`chapters/ui:Main screen (Desktop)`
 
-* Status area - modify basic options from the status menu (wifi, sound volume, screen brightness..)
+* :ref:`chapters/ui:Status menu` - modify basic options from the status menu (:ref:`chapters/ui:Internet connection menu`, sound volume, screen brightness..)
 * App list
 * Customize main screen
 

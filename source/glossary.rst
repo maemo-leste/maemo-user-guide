@@ -60,3 +60,6 @@ Glossary
 
     Gateway
       A device which provides a connection between networks
+
+    Filesystem
+      A method and data structure used to control how data is stored and retrieved. Technical name and method for the storage of files, usualy in a directory structure.
