@@ -268,57 +268,57 @@
 .. |internet-connections-wifi-available| image:: /screenshots/settings/internet-connections-wifi-available.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi available
+   :alt: Internet connections Wi-Fi available
 
 .. |internet-connections-wifi-key| image:: /screenshots/settings/internet-connections-wifi-key.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi key
+   :alt: Internet connections Wi-Fi key
 
 .. |internet-connections-wifi-name| image:: /screenshots/settings/internet-connections-wifi-name.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi name
+   :alt: Internet connections Wi-Fi name
 
 .. |internet-connections-wifi-scan| image:: /screenshots/settings/internet-connections-wifi-scan.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi scan
+   :alt: Internet connections Wi-Fi scan
 
 .. |internet-connections-wifi-settings-1| image:: /screenshots/settings/internet-connections-wifi-settings-1.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi settings 1
+   :alt: Internet connections Wi-Fi settings 1
 
 .. |internet-connections-wifi-settings-2| image:: /screenshots/settings/internet-connections-wifi-settings-2.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi settings 2
+   :alt: Internet connections Wi-Fi settings 2
 
 .. |internet-connections-wifi-settings-3| image:: /screenshots/settings/internet-connections-wifi-settings-3.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi settings 3
+   :alt: Internet connections Wi-Fi settings 3
 
 .. |internet-connections-wifi-settings-4| image:: /screenshots/settings/internet-connections-wifi-settings-4.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi settings 4
+   :alt: Internet connections Wi-Fi settings 4
 
 .. |internet-connections-wifi-settings-5| image:: /screenshots/settings/internet-connections-wifi-settings-5.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi settings 5
+   :alt: Internet connections Wi-Fi settings 5
 
 .. |internet-connections-wifi-settings-6| image:: /screenshots/settings/internet-connections-wifi-settings-6.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi settings 6
+   :alt: Internet connections Wi-Fi settings 6
 
 .. |internet-connections-wifi-setup| image:: /screenshots/settings/internet-connections-wifi-setup.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections WiFi setup
+   :alt: Internet connections Wi-Fi setup
 
 .. |location-1| image:: /screenshots/settings/location-1.png
    :scale: 60%
@@ -373,17 +373,17 @@
 .. |internet-connections-wifi-manual-1| image:: /screenshots/settings/internet-connections-wifi-manual-1.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections wifi manual 1
+   :alt: Internet connections Wi-Fi manual 1
 
 .. |internet-connections-wifi-manual-2| image:: /screenshots/settings/internet-connections-wifi-manual-2.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections wifi manual 2
+   :alt: Internet connections Wi-Fi manual 2
 
 .. |internet-connections-wifi-manual-3| image:: /screenshots/settings/internet-connections-wifi-manual-3.png
    :scale: 60%
    :align: bottom
-   :alt: Internet connections wifi manual 3
+   :alt: Internet connections Wi-Fi manual 3
 
 .. |restore-original-settings| image:: /screenshots/settings/restore-original-settings.png
    :scale: 60%
@@ -394,16 +394,6 @@
    :scale: 60%
    :align: bottom
    :alt: Clear device
-
-.. |haze-xmpp-settings-1| image:: /screenshots/settings/haze-xmpp-settings-1.png
-   :scale: 60%
-   :align: bottom
-   :alt: XMPP (Haze) settings 1
-
-.. |haze-xmpp-settings-2| image:: /screenshots/settings/haze-xmpp-settings-2.png
-   :scale: 60%
-   :align: bottom
-   :alt: XMPP (Haze) settings 2
 
 .. |profiles-add-tone| image:: /screenshots/settings/profiles-add-tone.png
    :scale: 60%
@@ -1059,7 +1049,7 @@ Choose the server which is being used to provide network positioning.
 Internet connections
 --------------------
 
-From here you can configure the ways to connect to internet, through WiFi, or through mobile networks.
+From here you can configure the ways to connect to :term:`internet`, through :term:`Wi-Fi`, or through mobile networks.
 
     |internet-connections-main|
 
@@ -1071,7 +1061,7 @@ You have the following options:
 #. :ref:`chapters/settings:Connections`
 #. :ref:`chapters/settings:Save (Internet connections)`
 
-.. tip:: If you just want to connect to a visible WiFi network, or to an already-known-to-work mobile connection, it's easier to do it from the :ref:`chapters/ui:Internet connection menu`.
+.. tip:: If you just want to connect to a visible :term:`Wi-Fi` network, or to an already-known-to-work mobile connection, it's easier to do it from the :ref:`chapters/ui:Internet connection menu`.
 
 Connect automatically
 ^^^^^^^^^^^^^^^^^^^^^
@@ -1093,7 +1083,7 @@ Never automatically connect, ask each time instead.
 Wi-Fi
 """""
 
-Automatically connect to available saved WiFi networks.
+Automatically connect to available saved :term:`Wi-Fi` networks.
 
 Mobile connection (Orange)
 """"""""""""""""""""""""""
@@ -1105,9 +1095,9 @@ Automatically connect to mobile data.
 Any connection
 """"""""""""""
 
-Connect automatically to any available connection, be it WiFi or mobile.
+Connect automatically to any available connection, be it :term:`Wi-Fi` or mobile.
 
-.. note:: To set the priority, WiFi over mobile, or the other way around, see :ref:`chapters/settings:Switch to Wi-Fi when available`.
+.. note:: To set the priority, :term:`Wi-Fi` over mobile, or the other way around, see :ref:`chapters/settings:Switch to Wi-Fi when available`.
 
 Search interval
 ^^^^^^^^^^^^^^^
@@ -1118,27 +1108,27 @@ Search interval
 Switch to Wi-Fi when available
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Check to give priority to Wi-Fi over mobile data, when a saved WiFi connection is available.
+Check to give priority to :term:`Wi-Fi` over mobile data, when a saved :term:`Wi-Fi` connection is available.
 
 Especially useful when connecting to :ref:`chapters/settings:Any connection` is active.
 
 Connections
 ^^^^^^^^^^^
 
-Here you can see the list of saved WiFi networks, and the available mobile network:
+Here you can see the list of saved :term:`Wi-Fi` networks, and the available mobile network:
 
     |internet-connections-list|
 
 And you have the following options:
 
-#. :ref:`chapters/settings:New (WiFi connection)`
-#. :ref:`chapters/settings:Edit (WiFi connection)`
+#. :ref:`chapters/settings:New (Wi-Fi connection)`
+#. :ref:`chapters/settings:Edit (Wi-Fi connection)`
 #. :ref:`chapters/settings:Edit (Mobile connection)`
 #. :ref:`chapters/settings:Delete (Connections)`
 #. :ref:`chapters/settings:Done (Connections)`
 
-New (WiFi connection)
-"""""""""""""""""""""
+New (Wi-Fi connection)
+""""""""""""""""""""""
 
 You will be carried through a multi-page configuration wizard.
 
@@ -1158,7 +1148,7 @@ Tap *Next* to continue.
 
     |internet-connections-wifi-scan|
 
-You will be asked whether to scan for available WiFi networks.
+You will be asked whether to scan for available :term:`Wi-Fi` networks.
 
 If you want to add a hidden network, or one that is not in range, select *No* here.
 
@@ -1179,11 +1169,11 @@ You will then be able to manually add the network settings:
     |internet-connections-wifi-manual-3|
 
     * None
-    * WEP
-    * WPA pre-shared key
-    * WPA with EAP
+    * :term:`WEP`
+    * :term:`WPA` pre-shared key
+    * :term:`WPA` with EAP
 
-If you select *Yes* when you are asked to scan for WiFi networks, then you will receive the list of available WiFi networks:
+If you select *Yes* when you are asked to scan for :term:`Wi-Fi` networks, then you will receive the list of available :term:`Wi-Fi` networks:
 
     |internet-connections-wifi-available|
 
@@ -1223,11 +1213,11 @@ Check *Use proxy* to enable it. Then you have the following options:
     * **Automatic configuration** (Check to use an automatic proxy configuration)
     * **Web address** (The address where the automatic proxy configuration is to be found)
 
-The second tab is *IP Addresses*. IP related settings go here.
+The second tab is :term:`IP` Address. :term:`IP` related settings go here.
 
     |internet-connections-wifi-settings-3|
 
-If you want to set IP addresses manually, and not use DHCP to get the addresses automatically, uncheck *Auto-retrieve IP address* and then set manually the following:
+If you want to set :term:`IP` addresses manually, and not use :term:`DHCP` to get the addresses automatically, uncheck *Auto-retrieve IP address* and then set manually the following:
 
     * **IP address**
     * **Subnet mask**
@@ -1235,7 +1225,7 @@ If you want to set IP addresses manually, and not use DHCP to get the addresses 
 
     |internet-connections-wifi-settings-4|
 
-If you want to set-up DNS manually, uncheck *Auto-retrieve DNS* and then set manually the following:
+If you want to set-up :term:`DNS` manually, uncheck *Auto-retrieve DNS* and then set manually the following:
 
     * **Primary DNS address**
     * **Secondary DNS address**
@@ -1253,17 +1243,17 @@ The fourth tab is *Other*. Here you can find the other settings, not belonging t
 
     |internet-connections-wifi-settings-6|
 
-    * **Wi-Fi transmission power** (How much power the device outputs while connected to WiFi, the default being 100mW)
-    * **WPA2-only mode** (Only WPA2 will be allowed as a protocol for securing WiFi connections)
-    * **Power saving** (The level of WiFi power saving)
+    * **Wi-Fi transmission power** (How much power the device outputs while connected to :term:`Wi-Fi`, the default being 100mW)
+    * **WPA2-only mode** (Only :term:`WPA2` will be allowed as a protocol for securing :term:`Wi-Fi` connections)
+    * **Power saving** (The level of :term:`Wi-Fi` power saving)
 
 
-Edit (WiFi connection)
-""""""""""""""""""""""
+Edit (Wi-Fi connection)
+"""""""""""""""""""""""
 
-Here you can edit the settings of a WiFi connection. Tap on *Finish* on any step, when done.
+Here you can edit the settings of a :term:`Wi-Fi` connection. Tap on *Finish* on any step, when done.
 
-The steps are almost the same as when creating a :ref:`chapters/settings:New (WiFi connection)`.
+The steps are almost the same as when creating a :ref:`chapters/settings:New (Wi-Fi connection)`.
 
 Edit (Mobile connection)
 """"""""""""""""""""""""
@@ -1288,12 +1278,12 @@ Tap *Next* to continue.
 
 The configuration should be done now, but if you need advanced settings, tap on *Advanced*, otherwise just tap on *Finish*.
 
-The advanced settings are almost the same as for creating a :ref:`chapters/settings:New (WiFi connection)`.
+The advanced settings are almost the same as for creating a :ref:`chapters/settings:New (Wi-Fi connection)`.
 
 Delete (Connections)
 """"""""""""""""""""
 
-It deletes the currently selected WiFi connection (inactive for mobile connections).
+It deletes the currently selected :term:`Wi-Fi` connection (inactive for mobile connections).
 
 Done (Connections)
 """"""""""""""""""
@@ -1307,6 +1297,8 @@ Tap here when done configuring, to save the settings made, and exit the :ref:`ch
 
 VoIP and IM accounts
 --------------------
+
+Here you can edit the settings of VoIP and IM accounts.
 
 If you have no accounts set, you will be shown a list of services from which you can pick to configure your accounts with.
 
@@ -1322,7 +1314,7 @@ You have the following options (protocol, and in brackets, the connection manage
 IRC (idle)
 ^^^^^^^^^^
 
-Here you can configure an *IRC* account, using the *idle* connection manager.
+Here you can configure an :term:`IRC` account, using the *idle* connection manager.
 
     |idle-irc-account-setup|
 
@@ -1376,48 +1368,170 @@ The network port used to connect to the server (to modify it if it's different t
 Use SSL
 """""""
 
-Check to use an SSL connection to the server.
+Check to use an :term:`SSL` connection to the server.
 
 Jabber (gabble)
 ^^^^^^^^^^^^^^^
 
+Here you can configure a :term:`Jabber` (now called :term:`XMPP`) account, using the *gabble* connection manager.
+
     |gabble-jabber-account-setup|
 
-    |gabble-jabber-new|
+You have the following options:
+
+**Register new account** - If you don't already have an account, tap here to go to :ref:`chapters/settings:New Jabber account (gabble)`
+
+**Address** - If you already have a :term:`Jabber` (:term:`XMPP`) account, you can just enter your XMPP address (or :term:`JID` - Jabber ID) here
+
+**Password** - ...and here, the corresponding password.
+
+**Advanced settings** - If you need special settings, tap here, to go to :ref:`chapters/settings:Advanced settings (Jabber)`
+
+Then tap on **Sign in**, to connect.
+
+Advanced settings (Jabber)
+""""""""""""""""""""""""""
+
+Here are some extra settings, in case you need a special configuration.
 
     |gabble-jabber-settings-1|
 
+They go on two pages.
+
     |gabble-jabber-settings-2|
 
+Available options:
+
+**Connect to server** - The address of the server to connect to, in case it's different than the one in the address.
+
+**Port** - The port on the server to connect to.
+
+**Resource** - The identifier (name) of the client/device. Use this to differentiate between your devices connected through the same account.
+
+**STUN server** - The :term:`STUN` server to connect to, in case it's needed, if you are behind a :term:`NAT`.
+
+**STUN port** - The port of the :term:`STUN` server to connect to.
+
+**Encryption required** - Check if encryption is required for making the connection to the server.
+
+**Use old SSL** - Use the old :term:`SSL` protocol, and not the new :term:`TLS` protocol.
+
+**Ignore SSL certificate errors** - Check to ignore :term:`SSL` certificate errors, for instance if using a self-signed or an expired :term:`Digital certificate`.
+
+New Jabber account (gabble)
+"""""""""""""""""""""""""""
+
+Here you can register a new :term:`Jabber` (now called :term:`XMPP`) account, on a server of your choice.
+
+    |gabble-jabber-new|
+
+**Address** - Enter here the XMPP address (or :term:`JID` - Jabber ID) you want to register, in the form of user@server.
+
+**Password** - ...and here, the chosen new password (See here :ref:`summary:How to choose a good password`).
+
+**Verify password** - Enter the chosen password here, to verify that you entered it correctly.
+
+Then tap on **Register**.
+
+.. note:: If registering doesn't work, check if that particular server allows this.
 
 SIMPLE (haze)
 ^^^^^^^^^^^^^
 
+Here you can configure a :term:`SIMPLE` (based on :term:`SIP`) account, using the *haze* connection manager.
+
     |haze-simple-account-setup|
+
+Available options:
+
+**Address** - The :term:`SIP address` (read-only)
+
+**Password** - The password of the :term:`SIP` account
+
+**Advanced settings** - They're called *advanced settings*, but you will most likely need to configure them, so then tap here, to go to :ref:`chapters/settings:Advanced settings (SIMPLE)`.
+
+Then tap on **Sign in**, to connect.
+
+Advanced settings (SIMPLE)
+""""""""""""""""""""""""""
+
+Here are some extra settings, which you will most likely need:
 
     |haze-simple-settings-1|
 
+They go on two pages.
+
     |haze-simple-settings-2|
+
+Available options:
+
+**User name** - The user name of the :term:`SIP` account.
+
+**Transport** - Pick the transport mode, between **Auto**, **TCP**, **UDP** or **TLS**.
 
     |haze-simple-transport|
 
+**Outbound proxy** - The :term:`SIP` server used as a proxy for outbound connections.
+
+**Port** - The port on the :term:`SIP` server to connect to.
+
+**Discover public address** - Discover your public address.
+
+**Loose routing** - Enable loose routing, which is being used since SIP version 2. It might break compatibility with some servers having older versions.
+
+**Keep-alive mechanism** - Select the method of keeping the connection active between the device and the server.
+
+|haze-simple-keepalive-mechanism|
+
+**Keep-alive period** - Select how often to check if the connection between the device and the server is active.
+
     |haze-simple-keepalive-interval|
 
-    |haze-simple-keepalive-mechanism|
+**Auto-detect STUN** - Check to enable automatic detection of the :term:`STUN` server.
 
 XMPP (haze)
 ^^^^^^^^^^^
 
+Here you can configure an :term:`XMPP` (formerly :term:`Jabber`) account, using the *haze* connection manager.
+
+The procedure is the same as for :ref:`chapters/settings:Jabber (gabble)`.
+
     |haze-xmpp-account-setup|
 
-    |gabble-jabber-new|
+You have the following options:
 
-    |haze-xmpp-settings-1|
+**Register new account** - If you don't already have an account, tap here to go to :ref:`chapters/settings:New XMPP account (haze)`
 
-    |haze-xmpp-settings-2|
+**Address** - If you already have a :term:`Jabber` (:term:`XMPP`) account, you can just enter your XMPP address (or :term:`JID` - Jabber ID) here
+
+**Password** - ...and here, the corresponding password.
+
+**Advanced settings** - If you need special settings, tap here, to go to :ref:`chapters/settings:Advanced settings (XMPP)`
+
+Then tap on **Sign in**, to connect.
+
+Advanced settings (XMPP)
+""""""""""""""""""""""""
+
+The settings are the same as :ref:`chapters/settings:Advanced settings (Jabber)`
+
+New XMPP account (haze)
+"""""""""""""""""""""""
+
+The procedure is the same as for a :ref:`chapters/settings:New Jabber account (gabble)`
 
 Phone
 -----
+
+Here you can edit the settings of telephony. When done, tap on *Save*.
+
+The settings go on more pages, and are split into three categories:
+
+#. :ref:`chapters/settings:Call`
+#. :ref:`chapters/settings:Network`
+#. :ref:`chapters/settings:SIM card`
+
+    .. note:: The availability and the configuration of some options depend on the mobile network operator.
 
     |phone-1|
 
@@ -1427,13 +1541,107 @@ Phone
 
     |phone-4|
 
+Call
+^^^^
+
+Send my caller ID
+"""""""""""""""""
+
+Options about :term:`Caller ID`
+
+Call waiting
+""""""""""""
+
+Check to enable :term:`Call waiting`.
+
+Call forwarding
+"""""""""""""""
+
+Options about :term:`Call forwarding`
+
+Forward to
+""""""""""
+
+Destination of the forwarded calls, if :ref:`chapters/settings:Call forwarding` is active.
+
+Network
+^^^^^^^
+
+Network selection
+"""""""""""""""""
+
+Options about network selection:
+
+**Automatic** - automatically select the first available authorized one
+
+**Manual** - manually pick from the authorized ones
+
+Network mode
+""""""""""""
+
+Select the network mode:
+
+**Dual** - Automatically switch between the best available type (:term:`3G` or :term:`2G`).
+
+**3G** - Use only :term:`3G` networks
+
+**GSM** - Use only :term:`GSM` (:term:`2G`) networks
+
     |phone-network-mode|
+
+Data roaming
+""""""""""""
+
+Options about mobile data connection in :term:`Roaming`:
+
+**Always ask** - Always ask before enabling mobile data connection when in :term:`Roaming`.
+
+**Always alllow** - Always enable mobile data connection, even when in :term:`Roaming`.
 
     |phone-data-roaming|
 
+Home network data counter
+"""""""""""""""""""""""""
+
+Here you can see the amount of mobile data used in the home network (the network of your provider).
+
     |phone-home-network-data|
 
+Options available:
+
+**Sent (read only)** - the amount of sent data
+
+**Received (read only)** - the amount of received data
+
+**Cleared (read only)** - last time the counter was cleared
+
+**Enable transfer warning** - Enable being warned when the amount of transferred data exceeds a certain threshold.
+
+**Display warning for every** - When to be warned about the amount of transferred data. Enabled only if *Enable transfer warning* is active.
+
+Roaming network data counter
+""""""""""""""""""""""""""""
+
+Here you can see the amount of mobile data used in :term:`Roaming` (other networks than of your provider's).
+
     |phone-home-roaming-data|
+
+The settings are the same as for :ref:`chapters/settings:Home network data counter`.
+
+SIM card
+^^^^^^^^
+
+Here there are options about the :term:`SIM` card.
+
+PIN code request
+""""""""""""""""
+
+Check to enable asking for the PIN code to enable the :term:`SIM` card.
+
+PIN code
+""""""""
+
+Set the PIN code.
 
 Device lock
 -----------

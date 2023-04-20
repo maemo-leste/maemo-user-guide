@@ -128,15 +128,15 @@ System administration
 ---------------------
 
 Application Manager
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
    - How to install applications
 
 File management
-"""""""""""""""
+^^^^^^^^^^^^^^^
    - Standard file locations
 
 File synchronisation
-""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^
 
 Device specific info [wip]
 --------------------------
@@ -149,7 +149,7 @@ Troubleshooting
 ---------------
 
 Missing important features
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   - Notifications don't work for IM [wip]
   - USB connection - gadget -> network; OTG -> mouse should work (not storage, etc.)
@@ -158,7 +158,7 @@ Missing important features
   - enabling mobile network roaming only works through cli
 
 Known bugs
-""""""""""
+^^^^^^^^^^
 
   - Black text on black (style bug - should be fixed soon)
   - Slow scroll (driver dependent)
@@ -169,7 +169,7 @@ Known bugs
   - Word completion doesn't seem to work. Possible bug.
 
 Unexpected behavior
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
   - It's not possible to move a shortcut from another desktop view then the currently displayed one (you need to see it in order to select it, and you cannot move between views when editing, only when adding a new one). See :ref:`chapters/ui:Add shortcut`.
   - Disabling a view by using :ref:`chapters/ui:Manage views` will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view.
@@ -180,25 +180,39 @@ Unexpected behavior
   - Pressing on :ref:`chapters/settings:Pair new device` to pair a new external :term:`GPS` device seems to not do anything.
 
 Leftovers
-"""""""""
+^^^^^^^^^
 
  - Nokia-branded (Nokia, Ovi) features in certain places
  - The :ref:`chapters/settings:Network positioning` service seems to not work. supl.nokia.com is given as default server, which seems to not be reachable anymore.
 
 What do do in certain situations
-""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   - When the phone doesn't turn on
   - When the battery doesn't charge
   - When you want to boot into Android
 
+
+
 Advanced
 --------
 
+Tips
+^^^^
+
+How to choose a good password
+"""""""""""""""""""""""""""""
+
+  - minimum numbers of characters
+  - no dictionary names (except for passphrases)
+  - numbers and special characters
+  - different than others
+  - password managers
+
 Structural details
-""""""""""""""""""
+^^^^^^^^^^^^^^^^^^
 
 Useful cli commands
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
   - connect via SSH
   - bluetooth (for now it works only from cli)
