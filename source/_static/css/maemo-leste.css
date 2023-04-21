@@ -10,6 +10,10 @@
         transition:color .4s ease-in
 }
 
+.note em, .note strong {
+        color: yellow;
+}
+
 .tip a {
         color: greenyellow;
 }
@@ -22,6 +26,10 @@
         transition:color .4s ease-in
 }
 
+.tip em, .tip strong {
+        color: greenyellow;
+}
+
 .warning a {
         color: yellow;
 }
@@ -32,6 +40,10 @@
         -o-transition:color .4s ease-in;
         -webkit-transition:color .4s ease-in;
         transition:color .4s ease-in
+}
+
+.warning em, .warning strong {
+        color: yellow;
 }
 
 .align-bottom {

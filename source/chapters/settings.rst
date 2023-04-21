@@ -53,8 +53,6 @@
    :align: bottom
    :alt: Notification light 2
 
-
-
 .. |date-time-main| image:: /screenshots/settings/date-time-main.png
    :scale: 60%
    :align: bottom
@@ -94,6 +92,16 @@
    :scale: 60%
    :align: bottom
    :alt: Adjust date
+
+.. |display| image:: /screenshots/settings/display.png
+   :scale: 60%
+   :align: bottom
+   :alt: Display
+
+.. |display-backlight-timeout| image:: /screenshots/settings/display-backlight-timeout.png
+   :scale: 60%
+   :align: bottom
+   :alt: Display backlight timeout
 
 .. |adjust-time| image:: /screenshots/settings/adjust-time.png
    :scale: 60%
@@ -889,6 +897,51 @@ Then tap on *Done* when ready selecting.
 Display
 -------
 
+Here you can adjust the display settings.
+
+|display|
+
+You have the following options:
+
+#. :ref:`chapters/settings:Brightness`
+#. :ref:`chapters/settings:Backlight time-out`
+#. :ref:`chapters/settings:Lock screen automatically`
+#. :ref:`chapters/settings:Display stays lit when charging`
+
+Brightness
+^^^^^^^^^^
+
+By dragging the slider to the left or right, you can decrease, or respectively increase the display brightness level.
+
+Backlight time-out
+^^^^^^^^^^^^^^^^^^
+
+Here you can set the backlight timeout (how much the screen will be still on after the last interaction with the device).
+
+|display-backlight-timeout|
+
+You have the following options:
+
+**0 seconds**
+
+**10 seconds**
+
+**30 seconds**
+
+**1 minute**
+
+**2 minutes**
+
+Lock screen automatically
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Check to lock screen automatically when it turns off.
+
+Display stays lit when charging
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Check to always keep the display on when charging the device (when power is plugged in).
+
 Text input
 ----------
 
@@ -1170,8 +1223,8 @@ You will then be able to manually add the network settings:
 
     * None
     * :term:`WEP`
-    * :term:`WPA` pre-shared key
-    * :term:`WPA` with EAP
+    * :term:`WPA` :term:`pre-shared key`
+    * :term:`WPA` with :term:`EAP`
 
 If you select *Yes* when you are asked to scan for :term:`Wi-Fi` networks, then you will receive the list of available :term:`Wi-Fi` networks:
 
@@ -1646,18 +1699,74 @@ Set the PIN code.
 Device lock
 -----------
 
+Here there are settings for locking the access to the device (also called "locking the screen").
+
     |device-lock|
 
+You have the following options:
+
+#. :ref:`chapters/settings:Autolock`
+#. :ref:`chapters/settings:Change lock code`
+
+Autolock
+^^^^^^^^
+
+This option sets the automatical lock of the device after a certain amount of time, or disables this.
+
     |device-lock-auto|
+
+Available options:
+
+**Disabled**
+
+**After 5 minutes**
+
+**After 10 minutes**
+
+**After 30 minutes**
+
+**After 1 hour**
+
+Change lock code
+^^^^^^^^^^^^^^^^
+
+This option sets the lock code used to unlock the device, after it's been automatically or manually locked.
+
+To change the code, you'll be asked to first enter the current code.
 
     |device-lock-enter-current|
 
 Restore original settings
 -------------------------
 
+Tap on **Restore original settings** in the :ref:`chapters/ui:In-app menu`
+
+    |settings-in-app-menu|
+
+This option restores the original settings of the phone, and then reboots the device.
+
     |restore-original-settings|
+
+Tap **Yes** to perform this operation.
+
+Tap **No** to cancel.
+
+.. warning:: If you tap on **Yes**, all the modifications you did in settings will be lost, including internet connection settings and accounts.
+
 
 Clear device
 ------------
 
+Tap on **Clear device** in the :ref:`chapters/ui:In-app menu`
+
+    |settings-in-app-menu|
+
+This option clears all user data, except for installed programs, and then reboots the device.
+
     |clear-device|
+
+Tap **Yes** to perform this operation.
+
+Tap **No** to cancel.
+
+.. warning:: If you tap on **Yes**, all your modifications and files on the device will be lost, except for installed programs.

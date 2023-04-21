@@ -1,8 +1,3 @@
-.. index:: UI
-
-Interface and user interaction
-==============================
-
 .. |main-screen| image:: /screenshots/ui-main/main-screen.png
    :scale: 60%
    :align: bottom
@@ -148,10 +143,20 @@ Interface and user interaction
    :align: bottom
    :alt: Status menu Wifi not secured
 
+.. |volume-indicator| image:: /screenshots/ui-main/volume-indicator.png
+   :scale: 60%
+   :align: bottom
+   :alt: Volume indicator
+
 .. |select-profile| image:: /screenshots/ui-main/select-profile.png
    :scale: 60%
    :align: bottom
    :alt: Status menu Select profile
+
+.. |power-options| image:: /screenshots/ui-power/power-options.png
+   :scale: 60%
+   :align: bottom
+   :alt: Power options
 
 .. |customize-main-screen| image:: /screenshots/ui-main-customize/customize-main-screen.png
    :scale: 60%
@@ -333,6 +338,11 @@ Interface and user interaction
    :align: bottom
    :alt: Move text drag
 
+.. index:: UI
+
+Interface and user interaction
+==============================
+
 .. index:: Desktop
 
 Main screen (Desktop)
@@ -504,6 +514,12 @@ Volume slider
 
 The volume level can be adjusted by dragging this slider, from minimum, to the left, to maximum, to the right.
 
+.. tip:: You can also adjust the volume lever by pressing the volume keys, if your device has them. See :ref:`chapters/devices:Device specific info [wip]`.
+
+     You will have feedback on the volume level adjustment through the presence of this volume indicator:
+
+     |volume-indicator|
+
 Profile selector
 """"""""""""""""
 
@@ -515,8 +531,54 @@ To edit the default normal and silent profiles, or to create new custom profiles
 
 Checking the Vibrate option besides each of the profiles in the list enables vibration when that profile is active.
 
+Power options menu
+------------------
+
+Here you can choose actions related to device power.
+
+This menu appears when you press the power button. Usually any device should have one, but in any case, check :ref:`chapters/devices:Device specific info [wip]`.
+
+     |power-options|
+
 .. index:: Customize the desktop
 .. index:: Customize the main screen
+
+Available actions:
+
+#. :ref:`chapters/ui:Switch off!`
+#. :ref:`chapters/ui:Offline mode`
+#. :ref:`chapters/ui:Lock screen and keys`
+#. :ref:`chapters/ui:Secure device`
+#. :ref:`chapters/ui:End current task`
+
+Switch off!
+"""""""""""
+
+Turn the device off (power it down).
+
+Offline mode
+""""""""""""
+
+Disconnect from all networks (similar to *Airplane mode*).
+
+Lock screen and keys
+""""""""""""""""""""
+
+Lock the device (screen and keys).
+
+.. warning:: If you have :ref:`chapters/settings:Device lock` activated, to unlock the device you will have to input the lock code.
+
+.. tip:: To lock screen and keys, you can also press two times fast (double click) the power button.
+
+Secure device
+"""""""""""""
+
+End current task
+""""""""""""""""
+
+End the current task (application).
+
+.. note:: This option is present only when inside of an application.
 
 Customize the main screen
 -------------------------
@@ -740,6 +802,12 @@ When there are new notifications, the dashboard button in the :ref:`chapters/ui:
 When you have more applications open, and more active notifications, the :ref:`chapters/ui:Task switcher` (dashboard) will look like this:
 
      |notification-mosaic|
+
+Types of notifications:
+
+#. :ref:`chapters/ui:For missed calls`
+#. :ref:`chapters/ui:For received SMS`
+#. :ref:`chapters/ui:For received emails`
 
 For missed calls
 """"""""""""""""

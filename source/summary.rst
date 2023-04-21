@@ -5,25 +5,25 @@ Basic description
 -----------------
 * What it is
 * What it's not
-* Technical terms short glossary (acronyms especially)
+* Technical terms short glossary (acronyms especially) - :term:`2.5G`
 * Features known not to work / under development (some, device dependent)
-* Computer-based OS concepts, vs. phone-based, vs. special features\
+* Computer-based OS concepts, vs. phone-based, vs. special features
 * Apps, vs DEB packages (Apps just have an icon and descriptor file (otherwise they are deb packages))
 * Compatible standards, radio, power (device dependent)
 
 Quick-start (in short, + links to reference section)
 ----------------------------------------------------
-* Warning - multi-device OS (link to device-specific info)
-* How to turn the device on and off, reboot
+* Warning - multi-device OS (link to device-specific info - :ref:`chapters/devices:Device specific info [wip]`)
+* How to turn the device on and off, reboot (partially device dependent)
 * How to charge the battery (device dependent)
 * How to clean the device (device dependent)
 * How to install the SIM card and the microSD card (device dependent)
 * How to navigate through the user interface (:ref:`chapters/ui:UI Navigation` - start apps, change app settings, switch between apps, go back, close apps)
-* How to change basic settings: screen brightness, sound volume, display language, keyboard layout, date & time & timezone
+* How to change basic settings: screen brightness, sound volume (:ref:`chapters/ui:Volume slider`), display language (:ref:`chapters/settings:Device language`), keyboard layout (:ref:`chapters/settings:Hardware keyboard layout` & :ref:`chapters/settings:1st language` & :ref:`chapters/settings:2nd language`), :ref:`chapters/settings:Date` & :ref:`chapters/settings:Time` & :ref:`chapters/settings:Time zone`
 * How to place a call
 * How to access a website
 * How to take a picture using the camera
-* How to reset user data
+* How to reset user data (:ref:`chapters/settings:Restore original settings` & :ref:`chapters/settings:Clear device`)
 
 How-to list (links to reference section)
 ----------------------------------------
@@ -35,56 +35,61 @@ How-to list (links to reference section)
 The authors and the license of this manual
 ------------------------------------------
 
-The Maemo Leste User Handbook is published under the `GNU FDL 1.3 <https://www.gnu.org/licenses/fdl-1.3.en.html>`_ license.
+The Maemo Leste User Handbook is published under the :ref:`copyright:GNU Free Documentation License`, version 1.3.
+
+See more information on GNU.org: `GNU FDL 1.3 <https://www.gnu.org/licenses/fdl-1.3.en.html>`_.
 
 Reference
 =========
 
-* :ref:`chapters/ui:Interface and user interaction`
+:ref:`chapters/ui:Interface and user interaction`
 
-:ref:`chapters/ui:Main screen (Desktop)`
-
-* :ref:`chapters/ui:Status menu` - modify basic options from the status menu (:ref:`chapters/ui:Internet connection menu`, sound volume, screen brightness..)
-* App list
-* Customize main screen
+* :ref:`chapters/ui:Main screen (Desktop)`
+* :ref:`chapters/ui:Status menu` - modify basic options from the status menu (:ref:`chapters/ui:Internet connection menu`, sound volume (:ref:`chapters/ui:Volume slider`), screen brightness..)
+* :ref:`chapters/ui:Application menu`
+* :ref:`chapters/ui:Customize the main screen`
 
 :ref:`chapters/ui:UI Navigation`
 
-* Switch between apps, the Dashboard
-* Stacked windows (x switches to a back arrow, as you navigate down)
-* Navigation using buttons (device dependent)
-* Exit menus without a cancel button
+* Switch between apps, the Dashboard - :ref:`chapters/ui:Task switcher`
+* Stacked windows (x switches to a back arrow, as you navigate down) - :ref:`chapters/ui:In-app navigation`
+* Navigation using buttons (device dependent) - :ref:`chapters/devices:Device specific info [wip]` e.g. :ref:`chapters/devices:Droid 4 hardware buttons`
+* Exit menus without a cancel button - :ref:`chapters/ui:Area around menus`
 
 :ref:`chapters/ui:In-app menu`
 
-* Touch the title (some apps have a small down arrow - not the QT ones)
+* Touch the title (some apps have a small down arrow - not the QT ones) - :ref:`chapters/ui:In-app menu`
 
 :ref:`chapters/ui:Notifications`
 
-* For incoming emails
+* :ref:`chapters/ui:For missed calls`
+* :ref:`chapters/ui:For received SMS`
+* For received IM
+* :ref:`chapters/ui:For received emails`
 
 :ref:`chapters/ui:Input and keyboard`
 
-* Some devices have keyboards, others don't. There's also keyboard layout, etc.
+* Some devices have keyboards, others don't - :ref:`chapters/devices:Device specific info [wip]`
+* Keyboard layout, etc.
 * Hardware vs. virtual keyboard
 
 Customization
 -------------
-* Themes: how to change themes
-* Language: how to select a different language
-* Profiles (silent, normal, etc) and sound. This is about sounds the device makes, but also for example vibration when touching the screen.
+* Themes: how to change :ref:`chapters/settings:Themes`, how to add themes (from the Application Manager)
+* :ref:`chapters/settings:Language & region`: how to select a different language - :ref:`chapters/settings:Device language`
+* :ref:`chapters/settings:Profiles` (silent, normal, etc) and sound. This is about sounds the device makes, but also for example vibration when touching the screen.
 * :ref:`chapters/clock:Clock & Alarms` - How to check and change the time and zones, how to set alarms
 
 Hardware settings
 -----------------
-* Display settings
+* :ref:`chapters/settings:Display` settings
 * USB connection - gadget -> network; OTG -> mouse should work (not storage, etc.)
 * HDMI - screen mirroring works only from cli [wip]
 
 Connectivity
 ------------
-* SIM card configuration, How to connect to mobile data, set APNs [wip]
-* WiFi - How to connect to wireless, how to manage wireless connections and such. Probably also mention that various supported WPA types.
+* SIM card configuration, How to connect to mobile data (:ref:`chapters/ui:Internet connection menu` & :ref:`chapters/settings:Internet connections`), set APNs (:ref:`chapters/settings:Edit (Mobile connection)` [wip]
+* WiFi (:ref:`chapters/ui:Internet connection menu` & :ref:`chapters/settings:Internet connections`) - How to connect to wireless, how to manage wireless connections and such. Probably also mention that various supported :term:`WPA` types (:ref:`chapters/settings:New (Wi-Fi connection)`.
 * Bluetooth: How to set up bluetooth, for example keyboard, for example headset, etc.
 
 Communication tools
@@ -92,7 +97,7 @@ Communication tools
 * Phone calls: SIP/VoIP calls, regular calls [wip]
 * Contacts: contacts application, how to import/export, how to synchronise contacts
 * Email: cover email application and how it works, notifications
-* VoIP and IM: accounts - which ones we currently support, how to set them up, etc [wip]
+* VoIP and IM: accounts (:ref:`chapters/settings:VoIP and IM accounts`) - which ones we currently support, how to set them up, etc [wip]
 * VoIP and IM: Telepathy, Conversations software, how to chat with others using it, notifications [wip]
 * Group chats [wip]
 
@@ -187,11 +192,10 @@ Leftovers
 
 What do do in certain situations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  - When the phone doesn't turn on
-  - When the battery doesn't charge
-  - When you want to boot into Android
-
-
+  - When the phone doesn't turn on (volume down + power to reset)
+  - When the phone is stuck (volume down + power to reset)
+  - When the battery doesn't charge (boot to Android)
+  - When you want to boot into Android (select Android from boot menu / remove SD card)
 
 Advanced
 --------
@@ -221,3 +225,6 @@ Useful cli commands
 
 To-do
 -----
+
+What is the :ref:`chapters/ui:Secure device` option doing?
+Which is the default :ref:`chapters/settings:Device lock` code?

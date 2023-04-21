@@ -24,8 +24,13 @@ Device specific info [wip]
 Droid 4
 -------
 
-Droid 4 dardware buttons
+Droid 4 hardware buttons
 """"""""""""""""""""""""
+
+It has three buttons on the side of the case:
+
+**Power/lock button** - Press it to get the :ref:`chapters/ui:Power options menu`
+**Volume butttons** - Press it to adjust the :ref:`chapters/ui:Volume slider` (in landscape mode, they are reversed: left is *volume down*, right is *volume up*)
 
 It has the old Android touch buttons: menu, home, back, search.
 

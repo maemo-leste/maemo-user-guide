@@ -79,6 +79,9 @@ Glossary
     EAP
       Enterprise access point, an access point (:term:`AP`) with features for enterprises and large networks.
 
+    Pre-shared key
+      A shared secret (password) which was previously shared between the two parties using some secure channel before it needs to be used.
+
     AP
       Access point, a networking hardware device that allows other :term:`Wi-Fi` devices to connect to a wired network. Also called :term:`WAP`.
 
