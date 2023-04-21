@@ -514,7 +514,7 @@ Volume slider
 
 The volume level can be adjusted by dragging this slider, from minimum, to the left, to maximum, to the right.
 
-.. tip:: You can also adjust the volume lever by pressing the volume keys, if your device has them. See :ref:`chapters/devices:Device specific info [wip]`.
+.. tip:: You can also adjust the volume level by pressing the volume keys, if your device has them. See :ref:`chapters/devices:Device specific info [wip]`.
 
      You will have feedback on the volume level adjustment through the presence of this volume indicator:
 

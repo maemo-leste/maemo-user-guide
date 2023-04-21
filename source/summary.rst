@@ -226,5 +226,6 @@ Useful cli commands
 To-do
 -----
 
-What is the :ref:`chapters/ui:Secure device` option doing?
-Which is the default :ref:`chapters/settings:Device lock` code?
+  - What is the :ref:`chapters/ui:Secure device` option doing?
+
+  - Which is the default :ref:`chapters/settings:Device lock` code?
