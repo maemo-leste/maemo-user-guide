@@ -39,6 +39,13 @@ The Maemo Leste User Handbook is published under the :ref:`copyright:GNU Free Do
 
 See more information on GNU.org: `GNU FDL 1.3 <https://www.gnu.org/licenses/fdl-1.3.en.html>`_.
 
+The `Sphinx PD theme <https://github.com/iktakahiro/sphinx_theme_pd>`_, included in the source (in _themes dir), is made by Takahiro Ikeuchi and is licenced under the `MIT licence <https://spdx.org/licenses/MIT.html>`_.
+
+Tools for building the manual, and their licences
+-------------------------------------------------
+
+To compile the documents in the best form, you will need `Sphinx <https://www.sphinx-doc.org>`_, which is published under a `two clause BSD licence <https://www.freebsd.org/copyright/freebsd-license/>`_.
+
 Reference
 =========
 

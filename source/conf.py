@@ -52,9 +52,10 @@ exclude_patterns = []
 #
 #html_theme = 'alabaster'
 
-import sphinx_theme_pd
+#import sphinx_theme_pd
 html_theme = 'sphinx_theme_pd'
-html_theme_path = [sphinx_theme_pd.get_html_theme_path()]
+#html_theme_path = [sphinx_theme_pd.get_html_theme_path()]
+html_theme_path = ["_themes"]
 
 html_title = project + ' v'+ release
 
