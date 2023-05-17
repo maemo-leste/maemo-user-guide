@@ -167,12 +167,19 @@ When you open the application, the list of your contacts will be shown.
 
      |contacts-main|
 
+The number next to *All contacts*, in brackets,  represents the total number of contacts.
+
 If you don't have any contacts yet, you will be automatically shown the :ref:`chapters/contacts:Get contacts` menu, from where you can get already existing contacts, by synchronizing, or importing.
 
-Options per-contact
--------------------
+.. note:: New addresses you receive instant messages (:term:`IM`) from will be automatically added as contacts. Only the IM address/ID will be filled-in, but you can add other information by editing the created contact.
 
-Tapping on a contact will show the details about that contact. From there you can also edit it, or share data about it. Tap on the :ref:`chapters/ui:In-app menu` of the contact.
+Tapping on a contact will show the details about that contact. From there you can also edit it, or share data about it.
+
+Tap on the photo of the contact to quickly :ref:`chapters/contacts:Edit` it.
+
+**Options per-contact**
+
+Tap on the :ref:`chapters/ui:In-app menu` of the contact, for more options.
 
      |contact-edit|
 
@@ -188,8 +195,6 @@ Edit
 ^^^^
 
 Editing a contact has the same options as creating a :ref:`chapters/contacts:New contact`.
-
-     |contacts-delete-select|
 
 Accounts
 ^^^^^^^^
@@ -213,8 +218,7 @@ Send contact detail
 
      |contact-send-avatar|
 
-Options in the in-app menu
---------------------------
+**Options in the in-app menu**
 
 Other general options are available in the :ref:`chapters/ui:In-app menu` of the Contacts application.
 
@@ -224,9 +228,14 @@ Available options:
 
 #. :ref:`chapters/contacts:Sort by ABC/Availability/Recent`
 #. :ref:`chapters/contacts:New contact`
-#. :ref:`chapters/contacts:My information`
 #. :ref:`chapters/contacts:Get contacts`
+#. :ref:`chapters/contacts:My information`
 #. :ref:`chapters/contacts:Settings`
+#. :ref:`chapters/contacts:Delete contacts`
+#. :ref:`chapters/contacts:Export`
+#. :ref:`chapters/contacts:Groups`
+
+The following options won't be available if you have no contacts: *Delete contacts*, *Export*, *Groups*.
 
 Sort by ABC/Availability/Recent
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -262,14 +271,6 @@ New contact
 
      |contact-new-done|
 
-My information
-^^^^^^^^^^^^^^
-
-     |contact-my-information|
-
-     |contact-my-information-add|
-
-
 Get contacts
 ^^^^^^^^^^^^
 
@@ -281,6 +282,13 @@ Get contacts
 
      |contacts-import-folder|
 
+My information
+^^^^^^^^^^^^^^
+
+     |contact-my-information|
+
+     |contact-my-information-add|
+
 Settings
 ^^^^^^^^
 
@@ -291,4 +299,15 @@ Settings
      |contacts-delete-all|
 
      |contacts-voicemail-number|
+
+Delete contacts
+^^^^^^^^^^^^^^^
+
+     |contacts-delete-select|
+
+Export
+^^^^^^
+
+Groups
+^^^^^^
 

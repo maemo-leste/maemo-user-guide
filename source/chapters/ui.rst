@@ -103,6 +103,56 @@
    :align: bottom
    :alt: Call in progress
 
+.. |status-presence-away| image:: /screenshots/status-area/general_presence_away.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Away
+
+.. |status-presence-busy| image:: /screenshots/status-area/general_presence_busy.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Busy
+
+.. |status-presence-offline| image:: /screenshots/status-area/general_presence_offline.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Offline
+
+.. |status-presence-online| image:: /screenshots/status-area/general_presence_online.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Online
+
+.. |status-presence-work| image:: /screenshots/status-area/general_presence_work.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Work
+
+.. |status-presence-travel| image:: /screenshots/status-area/general_presence_travel.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Travel
+
+.. |status-presence-sports| image:: /screenshots/status-area/general_presence_sports.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Sports
+
+.. |status-presence-out| image:: /screenshots/status-area/general_presence_out.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Out
+
+.. |status-presence-home| image:: /screenshots/status-area/general_presence_home.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Home
+
+.. |status-presence-cultural-activities| image:: /screenshots/status-area/general_presence_cultural_activities.png
+   :width: 20px
+   :align: bottom
+   :alt: Presence Cultural activities
+
 .. |current-mobile-network| image:: /screenshots/ui-main/current-mobile-network.png
    :scale: 60%
    :align: bottom
@@ -152,6 +202,26 @@
    :scale: 60%
    :align: bottom
    :alt: Status menu Select profile
+
+.. |my-availability| image:: /screenshots/ui-availability/my-availability.png
+   :scale: 60%
+   :align: bottom
+   :alt: My Availability
+
+.. |status-my-location| image:: /screenshots/ui-availability/status-my-location.png
+   :scale: 60%
+   :align: bottom
+   :alt: Status My location
+
+.. |availability-new-status| image:: /screenshots/ui-availability/availability-new-status.png
+   :scale: 60%
+   :align: bottom
+   :alt: Availability New status
+
+.. |status-select-icon| image:: /screenshots/ui-availability/status-select-icon.png
+   :scale: 60%
+   :align: bottom
+   :alt: Status Select icon
 
 .. |power-options| image:: /screenshots/ui-power/power-options.png
    :scale: 60%
@@ -421,6 +491,21 @@ To the left there's the clock display, then, some icons representing the status 
      |status-call|
      A phone call is in progress
 
+     |status-presence-online|
+     Your status is **Online**
+
+     |status-presence-away|
+     Your status is **Away**
+
+     |status-presence-busy|
+     Your status is **Busy**
+
+     |status-presence-offline|
+     Your status is **Offline**
+
+     |status-presence-work| |status-presence-travel| |status-presence-sports| |status-presence-out| |status-presence-home| |status-presence-cultural-activities|
+     Your status is **Custom**, if configured from #. :ref:`chapters/ui:New status`
+
 .. note:: If you tap on the status area, you will get the :ref:`chapters/ui:Status menu`
 
 Current mobile network
@@ -459,6 +544,9 @@ You will have the following options (from top to down, and left to right):
 #. :ref:`chapters/ui:Internet connection menu` button
 #. :ref:`chapters/ui:Volume slider`
 #. :ref:`chapters/ui:Profile selector` button
+#. :ref:`chapters/ui:Availability` button
+
+Availability is present only when there are :ref:`chapters/settings:VoIP and IM accounts` already configured.
 
 Battery (read only)
 """""""""""""""""""
@@ -530,6 +618,97 @@ To edit the default normal and silent profiles, or to create new custom profiles
      |select-profile|
 
 Checking the Vibrate option besides each of the profiles in the list enables vibration when that profile is active.
+
+Availability
+------------
+
+This option is present when you have :ref:`chapters/settings:VoIP and IM accounts` already configured.
+
+The dot in front of *Availability* represents current status. The default ones are:
+
+     * Online - a green dot
+     * Busy - a white stripe on a red dot
+     * Offline - a gray X on a white dot (this also means that the account is disconnected)
+
+An exclamation mark over the availability indicator means that the account is disconnected from the server.
+
+.. tip:: Check the internet connection, from :ref:`chapters/ui:Internet connection menu`.
+
+Tapping on the Availability button takes you to the My availability menu.
+
+     |my-availability|
+
+Here you have the following options:
+
+#. :ref:`chapters/ui:Select the availability status`
+#. :ref:`chapters/ui:Type your status message`
+#. :ref:`chapters/ui:My location`
+#. :ref:`chapters/ui:List of accounts`
+#. :ref:`chapters/ui:Accounts`
+#. :ref:`chapters/ui:New status`
+
+Press **Save** after you are done setting your status.
+
+Select the availability status
+""""""""""""""""""""""""""""""
+
+Here you can select your status, so that your contacts will know what's your availability.
+
+     |status-presence-online|
+     **Online** - a green dot
+
+     |status-presence-away|
+     **Away** - white clock hands on a blue dot
+
+     |status-presence-busy|
+     **Busy** - a white stripe on a red dot
+
+     |status-presence-offline|
+     **Offline** - a gray X on a white dot (this also disconnects the account)
+
+     |status-presence-work| |status-presence-travel| |status-presence-sports| |status-presence-out| |status-presence-home| |status-presence-cultural-activities|
+     **Custom** - other status, if configured from #. :ref:`chapters/ui:New status`
+
+Type your status message
+""""""""""""""""""""""""
+
+Type here the status message, that your contacts will see next to your name.
+
+My location
+"""""""""""
+
+Select here if and which level of location information to be displayed next to your status message, that your contacts will see next to your name.
+
+     |status-my-location|
+
+List of accounts
+""""""""""""""""
+
+Your :ref:`chapters/settings:VoIP and IM accounts` accounts will be shown here.
+
+Accounts
+""""""""
+
+This will take you to the list of existing :ref:`chapters/settings:VoIP and IM accounts`, from where you can also edit them, or add new ones.
+
+New status
+""""""""""
+
+Along the default (Online, Away, Busy, Offline) statuses, you can configure new ones.
+
+     |availability-new-status|
+
+You have the following options:
+
+**Name** - Type in the name of the status option. See :ref:`chapters/ui:Input and keyboard` about how to input text.
+
+**Icon** - Select the icon associated to the status (displayed when the status is active)
+
+     |status-select-icon|
+
+**Account Online/Offline** - Whether this status will trigger the account being *Online* or *Offline*.
+
+Tap **Save** when done configuring.
 
 Power options menu
 ------------------
@@ -795,7 +974,7 @@ Menus don't have a In-app menu of themselves, only windows have it.
 Notifications
 -------------
 
-Notifications appear as part of the task switcher.
+Notifications appear as part of the :ref:`chapters/ui:Task switcher`.
 
 When there are new notifications, the dashboard button in the :ref:`chapters/ui:Top-left area` will be highlighted/blinking.
 

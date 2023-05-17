@@ -148,10 +148,15 @@
    :align: bottom
    :alt: Keyboard second language dictionary
 
+.. |accounts| image:: /screenshots/settings/accounts.png
+   :scale: 60%
+   :align: bottom
+   :alt: Accounts
+
 .. |account-setup-service| image:: /screenshots/settings/account-setup-service.png
    :scale: 60%
    :align: bottom
-   :alt: Alt
+   :alt: Account Setup service
 
 .. |device-lock-auto| image:: /screenshots/settings/device-lock-auto.png
    :scale: 60%
@@ -1353,7 +1358,13 @@ VoIP and IM accounts
 
 Here you can edit the settings of VoIP and IM accounts.
 
-If you have no accounts set, you will be shown a list of services from which you can pick to configure your accounts with.
+    |accounts|
+
+Selecting an account will allow you to edit its settings, which is the same as creating a new account. See below how to create new accounts.
+
+Tapping on **New** will allow you to configure new accounts.
+
+When you configure a new account, or if you have no accounts set, you will be shown a list of services from which you can pick to configure your accounts with.
 
     |account-setup-service|
 
