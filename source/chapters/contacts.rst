@@ -205,16 +205,28 @@ E-mail
 Send contact card
 ^^^^^^^^^^^^^^^^^
 
+This option will allow you sending contact data of a person to someone, in the form of a contact card.
+
+When you pick this option, you are asked about the way of sending the contact card:
+
      |contact-card-send-via|
+
+And then you have the choice of also sending the avatar of the contact with the contact card, or not:
 
      |contact-send-avatar|
 
 Send contact detail
 ^^^^^^^^^^^^^^^^^^^
 
+This option will allow you sending just one contact detail (phone number, e-mail address, etc.) to someone.
+
      |contact-detail-send|
 
+You are then asked about the way of sending the contact detail:
+
      |contact-detail-send-via|
+
+And then you have the choice of also sending the avatar of the contact with the contact detail, or not:
 
      |contact-send-avatar|
 
@@ -240,16 +252,64 @@ The following options won't be available if you have no contacts: *Delete contac
 Sort by ABC/Availability/Recent
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Choosing between the three options available here will change the order of the displayed contacts in the list accordingly.
+
+#. **ABC** - Alphabetically
+#. **Availability**
+#. **Recent**
+
 New contact
 ^^^^^^^^^^^
 
+Here you can create a new contact entry.
+
      |contact-new|
+
+You have the following options available for each contact:
+
+#. :ref:`chapters/contacts:Avatar image`
+#. :ref:`chapters/contacts:Cell button`
+#. :ref:`chapters/contacts:E-mail button`
+#. :ref:`chapters/contacts:Add field`
+#. :ref:`chapters/contacts:Delete fields`
+
+You have two fixed fields, **First name** and **Last name**.
+The default optional fields are **Cell** and **E-mail**.
+You can change them by tapping the button in front of them, add other fields, by using the **Add field** button, or delete them, by using the **Delete fields** button.
+
+Avatar image
+""""""""""""
+
+Here you can select an image as the contact's avatar.
+
+     |contact-select-image|
+
+Tapping on browse allows you to select a picture from the device's storage, to use as avatar.
+
+     |contact-select-image-file|
+
+Cell button
+"""""""""""
+
+Here, instead of the default optional field **Cell**, you can select another type of phone number as that field's name/description:
 
      |contact-phone-1|
 
+The list is long, so it goes on yet another screen:
+
      |contact-phone-2|
 
+E-mail button
+"""""""""""""
+
+Here, instead of the default optional field **E-mail**, you can select another type of e-mail address as that field's name/description:
+
      |contact-email|
+
+Add field
+"""""""""
+
+Here you can add other different fields to the contact such as messaging, birthday or job information:
 
      |contact-new-field-1|
 
@@ -259,17 +319,28 @@ New contact
 
      |contact-new-field-4|
 
+After adding more fields, the contact entry will look something like this:
+
      |contact-added-fields|
+
+Delete fields
+"""""""""""""
+
+Using this option you can delete one or more of the optional fields (other than the **First name** or the **Last name**).
+
+Select the fields you want to delete:
 
      |contact-delete-fields|
 
+You will be asked to confirm. Tap on **Yes** if you really want to delete those fields, or tap on **No** if it was a mistake, or if you changed your mind (It happens, we know, don't worry).
+
      |contact-delete-fields-confirm|
 
-     |contact-select-image|
-
-     |contact-select-image-file|
+A completed new contact typically looks like this:
 
      |contact-new-done|
+
+You can now tap on **Save**.
 
 Get contacts
 ^^^^^^^^^^^^
