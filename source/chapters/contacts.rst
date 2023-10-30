@@ -192,18 +192,18 @@ You have the following options:
 #. :ref:`chapters/contacts:Send contact detail`
 
 Edit
-^^^^
+----
 
 Editing a contact has the same options as creating a :ref:`chapters/contacts:New contact`.
 
 Accounts
-^^^^^^^^
+--------
 
 E-mail
-^^^^^^
+------
 
 Send contact card
-^^^^^^^^^^^^^^^^^
+-----------------
 
 This option will allow you sending contact data of a person to someone, in the form of a contact card.
 
@@ -216,7 +216,7 @@ And then you have the choice of also sending the avatar of the contact with the 
      |contact-send-avatar|
 
 Send contact detail
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 This option will allow you sending just one contact detail (phone number, e-mail address, etc.) to someone.
 
@@ -250,7 +250,7 @@ Available options:
 The following options won't be available if you have no contacts: *Delete contacts*, *Export*, *Groups*.
 
 Sort by ABC/Availability/Recent
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
 Choosing between the three options available here will change the order of the displayed contacts in the list accordingly.
 
@@ -259,7 +259,7 @@ Choosing between the three options available here will change the order of the d
 #. **Recent**
 
 New contact
-^^^^^^^^^^^
+-----------
 
 Here you can create a new contact entry.
 
@@ -278,7 +278,7 @@ The default optional fields are **Cell** and **E-mail**.
 You can change them by tapping the button in front of them, add other fields, by using the **Add field** button, or delete them, by using the **Delete fields** button.
 
 Avatar image
-""""""""""""
+^^^^^^^^^^^^
 
 Here you can select an image as the contact's avatar.
 
@@ -289,7 +289,7 @@ Tapping on browse allows you to select a picture from the device's storage, to u
      |contact-select-image-file|
 
 Cell button
-"""""""""""
+^^^^^^^^^^^
 
 Here, instead of the default optional field **Cell**, you can select another type of phone number as that field's name/description:
 
@@ -300,22 +300,44 @@ The list is long, so it goes on yet another screen:
      |contact-phone-2|
 
 E-mail button
-"""""""""""""
+^^^^^^^^^^^^^
 
 Here, instead of the default optional field **E-mail**, you can select another type of e-mail address as that field's name/description:
 
      |contact-email|
 
 Add field
-"""""""""
+^^^^^^^^^
 
 Here you can add other different fields to the contact such as messaging, birthday or job information:
 
+#. AIM
+#. Gadu-Gadu
+#. GroupWise
+#. ICQ
+#. Jabber
+
      |contact-new-field-1|
+
+#. SIMPLE
+#. Sametime
+#. Zephyr
+#. Birthday
+#. Address
 
      |contact-new-field-2|
 
+#. Address (home)
+#. Address (work)
+#. Web page
+#. Gender
+
      |contact-new-field-3|
+
+#. Nickname
+#. Job title
+#. Company
+#. Note
 
      |contact-new-field-4|
 
@@ -324,7 +346,7 @@ After adding more fields, the contact entry will look something like this:
      |contact-added-fields|
 
 Delete fields
-"""""""""""""
+^^^^^^^^^^^^^
 
 Using this option you can delete one or more of the optional fields (other than the **First name** or the **Last name**).
 
@@ -343,25 +365,61 @@ A completed new contact typically looks like this:
 You can now tap on **Save**.
 
 Get contacts
-^^^^^^^^^^^^
+------------
+
+Besides creating new contact entries, you have also the possibility of getting (importing) existing contact records.
 
      |contacts-get|
 
+You have the following ways of getting contact records:
+
+#. :ref:`chapters/contacts:Synchronize from other device`
+#. :ref:`chapters/contacts:Import contacts from new account`
+#. :ref:`chapters/contacts:Import contacts`
+
+Synchronize from other device
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import contacts from new account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import contacts
+^^^^^^^^^^^^^^^
+
+Using this option you can import contacts from files in the :term:`filesystem`.
+
      |contacts-import|
+
+#. :ref:`chapters/contacts:Import contacts file`
+#. :ref:`chapters/contacts:Import contacts folder`
+
+Import contacts file
+^^^^^^^^^^^^^^^^^^^^
+
+This way you can import the contacts contained in one file:
 
      |contacts-import-files|
 
+Navigate through the :term:`filesystem` until you reach the desired file.
+
+Import contacts folder
+^^^^^^^^^^^^^^^^^^^^^^
+
+This way you can import contacts from all files in a folder:
+
      |contacts-import-folder|
 
+Navigate through the :term:`filesystem` until you reach the desired folder.
+
 My information
-^^^^^^^^^^^^^^
+--------------
 
      |contact-my-information|
 
      |contact-my-information-add|
 
 Settings
-^^^^^^^^
+--------
 
      |contacts-settings|
 
@@ -372,13 +430,13 @@ Settings
      |contacts-voicemail-number|
 
 Delete contacts
-^^^^^^^^^^^^^^^
+---------------
 
      |contacts-delete-select|
 
 Export
-^^^^^^
+------
 
 Groups
-^^^^^^
+------
 
