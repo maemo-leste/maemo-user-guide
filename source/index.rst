@@ -10,12 +10,12 @@ Welcome to the Maemo Leste User Handbook!
    :maxdepth: 2
    :caption: Contents:
 
-   summary
    /chapters/ui
    /chapters/settings
    /chapters/contacts
    /chapters/clock
    /chapters/devices
+   /summary
    /glossary
    /copyright
 

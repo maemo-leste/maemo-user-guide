@@ -1,12 +1,12 @@
-Intro
-=====
+To-do-list
+==========
 
 Basic description
 -----------------
 * What it is
 * What it's not
 * Technical terms short glossary (acronyms especially) - :term:`2.5G`
-* Features known not to work / under development (some, device dependent)
+* Features known not to work / under development (some, device dependent) - :ref:`summary:Troubleshooting`
 * Computer-based OS concepts, vs. phone-based, vs. special features
 * Apps, vs DEB packages (Apps just have an icon and descriptor file (otherwise they are deb packages))
 * Compatible standards, radio, power (device dependent)
@@ -28,8 +28,8 @@ Quick-start (in short, + links to reference section)
 How-to list (links to reference section)
 ----------------------------------------
 * Basic usage: calling, sending SMSes, internet surfing, IM, sharing files
-* How to modify frequently needed settings, and how to choose different options
-* How to customize the interface
+* How to modify frequently needed settings, and how to choose different options - :ref:`chapters/settings:Settings`
+* How to customize the interface - :ref:`chapters/ui:Customize the main screen`
 * What is expected to be similar to a GNU+Linux distribution (links to Devuan docs?)
 
 The authors and the license of this manual

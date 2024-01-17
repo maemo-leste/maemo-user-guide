@@ -190,6 +190,10 @@ You have the following options:
 #. :ref:`chapters/contacts:E-mail`
 #. :ref:`chapters/contacts:Send contact card`
 #. :ref:`chapters/contacts:Send contact detail`
+#. :ref:`chapters/contacts:Merge contact`
+#. :ref:`chapters/contacts:Delete contact`
+#. :ref:`chapters/contacts:Create shortcut`
+#. :ref:`chapters/contacts:Authorization request`
 
 Edit
 ----
@@ -198,6 +202,7 @@ Editing a contact has the same options as creating a :ref:`chapters/contacts:New
 
 Accounts
 --------
+
 
 E-mail
 ------
@@ -229,6 +234,18 @@ You are then asked about the way of sending the contact detail:
 And then you have the choice of also sending the avatar of the contact with the contact detail, or not:
 
      |contact-send-avatar|
+
+Merge contact
+-------------
+
+Delete contact
+--------------
+
+Create shortcut
+---------------
+
+Authorization request
+---------------------
 
 **Options in the in-app menu**
 
