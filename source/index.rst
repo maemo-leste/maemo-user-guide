@@ -13,6 +13,7 @@ Welcome to the Maemo Leste User Handbook!
    /chapters/ui
    /chapters/settings
    /chapters/contacts
+   /chapters/email
    /chapters/clock
    /chapters/devices
    /summary

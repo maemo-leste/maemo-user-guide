@@ -113,6 +113,11 @@
    :align: bottom
    :alt: Alt
 
+.. |contact-my-edit| image:: /screenshots/contacts/contact-my-edit.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
 .. |contact-card-send-via| image:: /screenshots/contacts/contact-card-send-via.png
    :scale: 60%
    :align: bottom
@@ -186,8 +191,6 @@ Tap on the :ref:`chapters/ui:In-app menu` of the contact, for more options.
 You have the following options:
 
 #. :ref:`chapters/contacts:Edit`
-#. :ref:`chapters/contacts:Accounts`
-#. :ref:`chapters/contacts:E-mail`
 #. :ref:`chapters/contacts:Send contact card`
 #. :ref:`chapters/contacts:Send contact detail`
 #. :ref:`chapters/contacts:Merge contact`
@@ -199,13 +202,6 @@ Edit
 ----
 
 Editing a contact has the same options as creating a :ref:`chapters/contacts:New contact`.
-
-Accounts
---------
-
-
-E-mail
-------
 
 Send contact card
 -----------------
@@ -431,9 +427,38 @@ Navigate through the :term:`filesystem` until you reach the desired folder.
 My information
 --------------
 
-     |contact-my-information|
+If you didn't already add information about yourself, you will be shown a form for you to complete this data.
 
      |contact-my-information-add|
+
+If you go back, pressing outside the menu, you will be shown the default information about yourself.
+
+Otherwise, if you already added information about yourself, you will be shown that data on the following page.
+
+     |contact-my-information|
+
+Afterwards you will be shown straight this page. To further edit your data, you will have to pick Edit from the :ref:`chapters/ui:In-app menu`.
+
+There, in the :ref:`chapters/ui:In-app menu` there are also other options.
+
+     |contact-my-edit|
+
+The options are the following:
+
+#. :ref:`chapters/contacts:Edit`
+#. :ref:`chapters/contacts:Accounts`
+#. :ref:`chapters/contacts:E-mail`
+#. :ref:`chapters/contacts:Send contact card`
+#. :ref:`chapters/contacts:Send contact detail`
+
+Accounts
+^^^^^^^^
+
+This takes you to the :ref:`chapters/settings:VoIP and IM accounts` menu in :ref:`chapters/settings:Settings`
+
+E-mail
+^^^^^^
+This takes you to the :ref:`chapters/email:E-mail` application.
 
 Settings
 --------
