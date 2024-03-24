@@ -1,3 +1,8 @@
+.. |contact| image:: /screenshots/contacts/contact.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
 .. |contacts-get| image:: /screenshots/contacts/contacts-get.png
    :scale: 60%
    :align: bottom
@@ -163,6 +168,21 @@
    :align: bottom
    :alt: Alt
 
+.. |contact-merge-conflict| image:: /screenshots/contacts/contact-merge-conflict.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |contact-merge-conflict-name| image:: /screenshots/contacts/contact-merge-conflict-name.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
+.. |contact-merged| image:: /screenshots/contacts/contact-merged.png
+   :scale: 60%
+   :align: bottom
+   :alt: Alt
+
 Contacts
 ========
 
@@ -178,9 +198,18 @@ If you don't have any contacts yet, you will be automatically shown the :ref:`ch
 
 .. note:: New addresses you receive instant messages (:term:`IM`) from will be automatically added as contacts. Only the IM address/ID will be filled-in, but you can add other information by editing the created contact.
 
-Tapping on a contact will show the details about that contact. From there you can also edit it, or share data about it.
+Tapping on a contact will show the details about that contact.
+
+     |contact|
+
+From there you can also edit it, or share data about it.
 
 Tap on the photo of the contact to quickly :ref:`chapters/contacts:Edit` it.
+
+Tapping on any contact data field will trigger a corresponding action, depending on the data type.
+Tapping on a phone number will open the :ref:`chapters/dialer:Dialer` application, tapping on an e-mail address will open the :ref:`chapters/email:E-mail` application.
+
+.. note:: :ref:`summary:Unexpected behavior`: Tapping on an Jabber/XMPP address will not open the :ref:`chapters/conversations:Conversations` app, but instead will just go back to the :ref:`chapters/contacts:Contacts` application main screen (contact list).
 
 **Options per-contact**
 
@@ -234,6 +263,20 @@ And then you have the choice of also sending the avatar of the contact with the 
 Merge contact
 -------------
 
+This allows you to merge more contacts into a single one.
+
+You will be asked to confirm the right data, which will be saved in the final merged contact file, in case of differences or conflicts between unique field types, such as name or surname. Here, in case of a last name conflict:
+
+     |contact-merge-conflict|
+
+Tap on the Last name field to select the correct version:
+
+     |contact-merge-conflict-name|
+
+Different IDs or phone numbers will simply be added as supplimentary contact data fields to the resulting merged contact file. In this case, a second phone number is added:
+
+     |contact-merged|
+
 Delete contact
 --------------
 
@@ -242,6 +285,9 @@ Create shortcut
 
 Authorization request
 ---------------------
+
+This will request from the contact the authorization to receive presence and status updates.
+The will have to be confirmed in the remote client application by the contact.
 
 **Options in the in-app menu**
 

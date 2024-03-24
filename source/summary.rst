@@ -190,6 +190,7 @@ Unexpected behavior
   - Some applications only work in landscape mode (e.g. email, calendar)
   - When changing :ref:`chapters/settings:Themes`, you have to still manually change the wallpaper by selecting the wallpaper corresponding to the theme from :ref:`chapters/ui:Change background` in the Desktop menu
   - Pressing on :ref:`chapters/settings:Pair new device` to pair a new external :term:`GPS` device seems to not do anything.
+  - tapping on an XMPP address of a contact in the :ref:`chapters/contacts:Contacts` application does nothing, instead going back to the main screen of the :ref:`chapters/contacts:Contacts` application.
 
 Leftovers
 ^^^^^^^^^
