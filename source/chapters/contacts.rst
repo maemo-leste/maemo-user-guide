@@ -193,11 +193,6 @@
    :align: bottom
    :alt: Contact merged
 
-.. |contact-delete| image:: /screenshots/contacts/contact-delete.png
-   :scale: 60%
-   :align: bottom
-   :alt: Contact delete
-
 .. |contact-main-screen-shortcut| image:: /screenshots/contacts/contact-main-screen-shortcut.png
    :scale: 60%
    :align: bottom
@@ -384,7 +379,7 @@ Delete contact
 
 This will delete the current contact, including the :term:`XMPP`/:term:`Jabber` IDs associated to it.
 
-     |contact-delete|
+     |contact-delete-confirm|
 
 Confirm deleting the contact by tapping on **Yes**.
 
