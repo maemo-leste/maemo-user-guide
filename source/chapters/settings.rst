@@ -488,6 +488,8 @@
    :align: bottom
    :alt: Profiles touch screen sounds
 
+.. index:: Settings
+
 Settings
 ========
 
@@ -541,6 +543,8 @@ You have a list of available themes that you can pick from, to have an uniform d
 
 .. note:: You can install more themes from the :ref:`summary:Application Manager`.
 
+.. index:: Language & region
+
 Language & region
 -----------------
 
@@ -591,6 +595,8 @@ Thousands separator (read-only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This shows which thousands separator is being used, based on the currently set :ref:`chapters/settings:date format`.
+
+.. index:: Notification light
 
 Notification light
 ------------------
@@ -650,6 +656,8 @@ Other notifications
 
 Notify all other events.
 
+.. index:: Sound profiles
+
 Profiles
 --------
 
@@ -679,7 +687,7 @@ The default profiles cannot be deleted, so the *Delete* button won't be present 
 Edit (profile)
 ^^^^^^^^^^^^^^
 
-Tap on *Edit* to modify the sselected profile.
+Tap on *Edit* to modify the selected profile.
 
 Editing profiles gives the same options as when creating a :ref:`chapters/settings:New (profile)`.
 
@@ -831,7 +839,7 @@ Set the the time after which the call is automatically answered.
 Disable proximity check
 """""""""""""""""""""""
 
-Check to disable proximity check when automaticaly answering calls.
+Check to disable proximity check when automatically answering calls.
 
 If this is checked, the call will be automatically answered even if the device is not held to the ear.
 
@@ -899,6 +907,8 @@ A menu will appear, from which you can select the current time.
 
 Then tap on *Done* when ready selecting.
 
+.. index:: Display
+
 Display
 -------
 
@@ -912,6 +922,8 @@ You have the following options:
 #. :ref:`chapters/settings:Backlight time-out`
 #. :ref:`chapters/settings:Lock screen automatically`
 #. :ref:`chapters/settings:Display stays lit when charging`
+
+.. index:: Brightness
 
 Brightness
 ^^^^^^^^^^
@@ -946,6 +958,9 @@ Display stays lit when charging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Check to always keep the display on when charging the device (when power is plugged in).
+
+.. index:: Text input
+.. index:: Keyboard settings
 
 Text input
 ----------
@@ -1040,6 +1055,8 @@ This option is active only if you have two languages set. Then, the :ref:`chapte
 
 Then, when this is enabled, words are being searched for in both languages, when using :ref:`chapters/settings:Word completion`.
 
+.. index:: Location settings
+
 Location
 --------
 
@@ -1055,6 +1072,8 @@ The options here are in two categories:
 
 #. :ref:`chapters/settings:GPS`
 #. :ref:`chapters/settings:Network positioning`
+
+.. index:: GPS settings
 
 GPS
 ^^^
@@ -1103,6 +1122,8 @@ Location server
 """""""""""""""
 
 Choose the server which is being used to provide network positioning.
+
+.. index:: Internet connections
 
 Internet connections
 --------------------
@@ -1353,6 +1374,9 @@ Save (Internet connections)
 
 Tap here when done configuring, to save the settings made, and exit the :ref:`chapters/settings:Internet connections` menu.
 
+.. index:: VoIP accounts
+.. index:: IM accounts
+
 VoIP and IM accounts
 --------------------
 
@@ -1374,6 +1398,8 @@ You have the following options (protocol, and in brackets, the connection manage
 #. :ref:`chapters/settings:Jabber (gabble)`
 #. :ref:`chapters/settings:SIMPLE (haze)`
 #. :ref:`chapters/settings:XMPP (haze)`
+
+.. index:: IRC accounts
 
 IRC (idle)
 ^^^^^^^^^^
@@ -1433,6 +1459,8 @@ Use SSL
 """""""
 
 Check to use an :term:`SSL` connection to the server.
+
+.. index:: Jabber accounts
 
 Jabber (gabble)
 ^^^^^^^^^^^^^^^
@@ -1499,6 +1527,8 @@ Then tap on **Register**.
 
 .. note:: If registering doesn't work, check if that particular server allows this.
 
+.. index:: SIP accounts
+
 SIMPLE (haze)
 ^^^^^^^^^^^^^
 
@@ -1553,6 +1583,8 @@ Available options:
 
 **Auto-detect STUN** - Check to enable automatic detection of the :term:`STUN` server.
 
+.. index:: XMPP accounts
+
 XMPP (haze)
 ^^^^^^^^^^^
 
@@ -1583,6 +1615,8 @@ New XMPP account (haze)
 """""""""""""""""""""""
 
 The procedure is the same as for a :ref:`chapters/settings:New Jabber account (gabble)`
+
+.. index:: Phone settings
 
 Phone
 -----
@@ -1653,6 +1687,8 @@ Select the network mode:
 
     |phone-network-mode|
 
+.. index:: Roaming for data
+
 Data roaming
 """"""""""""
 
@@ -1660,7 +1696,7 @@ Options about mobile data connection in :term:`Roaming`:
 
 **Always ask** - Always ask before enabling mobile data connection when in :term:`Roaming`.
 
-**Always alllow** - Always enable mobile data connection, even when in :term:`Roaming`.
+**Always allow** - Always enable mobile data connection, even when in :term:`Roaming`.
 
     |phone-data-roaming|
 
@@ -1692,6 +1728,8 @@ Here you can see the amount of mobile data used in :term:`Roaming` (other networ
 
 The settings are the same as for :ref:`chapters/settings:Home network data counter`.
 
+.. index:: SIM card settings
+
 SIM card
 ^^^^^^^^
 
@@ -1722,7 +1760,7 @@ You have the following options:
 Autolock
 ^^^^^^^^
 
-This option sets the automatical lock of the device after a certain amount of time, or disables this.
+This option sets the automatic lock of the device after a certain amount of time, or disables this.
 
     |device-lock-auto|
 
@@ -1747,6 +1785,8 @@ To change the code, you'll be asked to first enter the current code.
 
     |device-lock-enter-current|
 
+.. index:: Restore original settings
+
 Restore original settings
 -------------------------
 
@@ -1764,6 +1804,7 @@ Tap **No** to cancel.
 
 .. warning:: If you tap on **Yes**, all the modifications you did in settings will be lost, including internet connection settings and accounts.
 
+.. index:: Clear device
 
 Clear device
 ------------

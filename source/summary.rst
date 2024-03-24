@@ -190,13 +190,17 @@ Unexpected behavior
   - Some applications only work in landscape mode (e.g. email, calendar)
   - When changing :ref:`chapters/settings:Themes`, you have to still manually change the wallpaper by selecting the wallpaper corresponding to the theme from :ref:`chapters/ui:Change background` in the Desktop menu
   - Pressing on :ref:`chapters/settings:Pair new device` to pair a new external :term:`GPS` device seems to not do anything.
-  - tapping on an XMPP address of a contact in the :ref:`chapters/contacts:Contacts` application does nothing, instead going back to the main screen of the :ref:`chapters/contacts:Contacts` application.
+  - tapping on an XMPP address of a contact in the :ref:`chapters/contacts:Contacts` application doesn't do what's expected for it to do, namely to open the :ref:`chapters/conversations:Conversations` application. Instead, it goes back to the main screen of the :ref:`chapters/contacts:Contacts` application.
+  - :ref:`chapters/contacts:Send via Text message` option for sending a contact card or a contact detail via text message doesn't seem to work. It does nothing.
+  - :ref:`chapters/contacts:Send via Bluetooth` option for sending a contact card or a contact detail via BLuetooth doesn't seem to work. It gives an internal error.
+
 
 Leftovers
 ^^^^^^^^^
 
  - Nokia-branded (Nokia, Ovi) features in certain places
  - The :ref:`chapters/settings:Network positioning` service seems to not work. supl.nokia.com is given as default server, which seems to not be reachable anymore.
+ - The :ref:`chapters/contacts:Synchronize from other device` option doesn't seem to work.
 
 What do do in certain situations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

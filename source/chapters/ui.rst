@@ -76,7 +76,7 @@
 .. |status-wifi-connection| image:: /screenshots/status-area/general_wlan.png
    :width: 20px
    :align: bottom
-   :alt: Wifi connection
+   :alt: Wi-Fi connection
 
 .. |status-bluetooth-on| image:: /screenshots/status-area/statusarea_bluetooth_on.png
    :width: 20px
@@ -176,22 +176,22 @@
 .. |status-menu-wifi-connected| image:: /screenshots/status-area/connectivity_wlan_saved.png
    :width: 20px
    :align: bottom
-   :alt: Status menu Wifi connected
+   :alt: Status menu Wi-Fi connected
 
 .. |status-menu-wifi-wpa-secured| image:: /screenshots/status-area/connect_manager_wlan_securitylevel3.png
    :width: 20px
    :align: bottom
-   :alt: Status menu Wifi WPA secured
+   :alt: Status menu Wi-Fi WPA secured
 
 .. |status-menu-wifi-wep-secured| image:: /screenshots/status-area/general_locked.png
    :width: 20px
    :align: bottom
-   :alt: Status menu Wifi WEP secured
+   :alt: Status menu Wi-Fi WEP secured
 
 .. |status-menu-wifi-not-secured| image:: /screenshots/status-area/general_unlock.png
    :width: 20px
    :align: bottom
-   :alt: Status menu Wifi not secured
+   :alt: Status menu Wi-Fi not secured
 
 .. |volume-indicator| image:: /screenshots/ui-main/volume-indicator.png
    :scale: 60%
@@ -558,7 +558,8 @@ Clock & Alarms button
 
 Selecting this will open the :ref:`chapters/clock:Clock & Alarms` application, allowing you to set the date and hour, and manage alarms.
 
-.. index:: Connect to wifi
+.. index:: Connect to Wi-Fi
+.. index:: Connect to internet
 
 Internet connection menu
 """"""""""""""""""""""""
@@ -567,20 +568,20 @@ By tapping on the Internet connection button in the :ref:`chapters/ui:Status men
 
      |status-menu-connect|
 
-From here you can enable the currently available Wifi or mobile data connections, or disable the currently active one.
+From here you can enable the currently available Wi-Fi or mobile data connections, or disable the currently active one.
 
-.. tip:: This is different than the :ref:`chapters/settings:Internet connections` section in Settings. From here it's easier to connect to new Wifi networks.
+.. tip:: This is different than the :ref:`chapters/settings:Internet connections` section in Settings. From here it's easier to connect to new Wi-Fi networks.
 
-You connect to a Wifi or mobile data connection by tapping on it.
+You connect to a Wi-Fi or mobile data connection by tapping on it.
 
 The connection that has the "Disconnect" prefix, and has a green check button, is the currently active internet connection.
 
-Tap on it to dissconnect from it.
+Tap on it to disconnect from it.
 
-The symbols to the tright of each connection give information about the connection.
+The symbols to the right of each connection give information about the connection.
 
      |status-wifi-connection|
-     The connection type is Wifi
+     The connection type is Wi-Fi
 
      |status-mobile-data-connection|
      The connection type is mobile data
@@ -589,13 +590,13 @@ The symbols to the tright of each connection give information about the connecti
      The currently active connection
 
      |status-menu-wifi-wpa-secured|
-     The Wifi connection is secured (and password protected) using WPA.
+     The Wi-Fi connection is secured (and password protected) using WPA.
 
      |status-menu-wifi-wep-secured|
-     The Wifi connection is secured (and key protected) using WEP.
+     The Wi-Fi connection is secured (and key protected) using WEP.
 
      |status-menu-wifi-not-secured|
-     The Wifi connection is not secured (and not password protected).
+     The Wi-Fi connection is not secured (and not password protected).
 
 Volume slider
 """""""""""""
@@ -766,7 +767,7 @@ Tapping on the :ref:`chapters/ui:Desktop settings button` will allow you to cust
 
      |customize-main-screen|
 
-The screen backround will fade-out, and the shortcuts on the current desktop view will be shown. If there are none, an empty screen will be displayed.
+The screen background will fade-out, and the shortcuts on the current desktop view will be shown. If there are none, an empty screen will be displayed.
 
 Here you can change the positioning on the screen of the existing shortcuts. To add new shortcuts, access the :ref:`chapters/ui:In-app menu` and :ref:`chapters/ui:Add shortcut`,.
 
@@ -806,7 +807,7 @@ You can then add more, and move them to organize them.
 
 Tapping on the small X on the top right of each shortcut, deletes it.
 
-Moving a shortcut to the right or left edge of the screen, alllows you to move it to another screen.
+Moving a shortcut to the right or left edge of the screen, allows you to move it to another screen.
 
 .. index:: Manage screen views
 
@@ -821,7 +822,7 @@ You can enable or disable views. Check a view to enable it.
 
 The maximum number of views is four.
 
-.. warning:: :ref:`summary:Unexpected behavior`: Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view. One way to tell which screen is which, is by comparing walpapers of each view. Oterwise you will have to add them again, see :ref:`chapters/ui:Add shortcut`.
+.. warning:: :ref:`summary:Unexpected behavior`: Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view. One way to tell which screen is which, is by comparing wallpapers of each view. Otherwise you will have to add them again, see :ref:`chapters/ui:Add shortcut`.
 
 .. index:: Change desktop background
 
@@ -832,7 +833,7 @@ Tapping on Change background will allow you to change the desktop background.
 
      |choose-background-image|
 
-One way to change the desktop backround is to select one of the available :ref:`chapters/ui:Themes`.
+One way to change the desktop background is to select one of the available :ref:`chapters/ui:Themes`.
 
 .. note:: :ref:`summary:Leftovers`: Get more from Ovi Store option doesn't work, since this is part of the old Maemo system, and thus the Ovi Store is not available.
 

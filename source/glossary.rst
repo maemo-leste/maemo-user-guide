@@ -198,3 +198,9 @@ Glossary
 
     Call diversion
       Another name for :term:`Call forwarding`.
+
+    SMS
+      Short Message/Messaging Service, a text messaging service component of most telephone, Internet and mobile device systems. It uses standardized communication protocols that let mobile devices exchange short text messages.
+
+    Handset symbol
+      A handset is a component of a telephone that a user holds to the ear and mouth to receive audio through the receiver and speak to the remote party using the built-in transmitter. In the mobile phone technology, it is not present as a separate piece of equipment, being part of the phone itself, but it's still used as a graphic symbol, to indicate placing or ending a telephone call.

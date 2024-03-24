@@ -65,7 +65,7 @@ Droid 4 virtual keyboard
 
 The virtual keyboard appears automatically when you enter a text area while the keyboard is folded/closed.
 
-When the hardware keyboard is slided out/open, than this is used by default, so the virtual keyboard is disabled, but you can still manually call for the virtual keyboard, by pressing the search touch button. See :ref:`chapters/devices:Droid 4 virtual keyboard`.
+When the hardware keyboard is slid out/open, than this is used by default, so the virtual keyboard is disabled, but you can still manually call for the virtual keyboard, by pressing the search touch button. See :ref:`chapters/devices:Droid 4 virtual keyboard`.
 
 This can be useful when you want to use symbols not available in the layout used by the hardware keyboard.
 
@@ -78,4 +78,4 @@ Pinephone
 Hardware keyboard
 """""""""""""""""
 
-.. warning:: It has no hardwware keyboard, as some applications expect.
+.. warning:: It has no hardware keyboard, as some applications expect.

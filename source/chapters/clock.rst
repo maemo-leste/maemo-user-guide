@@ -1,3 +1,4 @@
+.. index:: Alarms
 .. index:: Clock
 .. index:: Time
 .. index:: Date
