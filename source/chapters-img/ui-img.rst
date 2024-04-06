@@ -308,7 +308,7 @@
    :align: bottom
    :alt: Task switcher
 
-.. |progress-indicator| image:: /screenshots/ui-buttons/wmProgressIndicator-animated.gif
+.. |progress-indicator| image:: /screenshots/ui-buttons/wmProgressIndicator-animated.*
    :width: 40px
    :align: bottom
    :alt: Progress indicator
