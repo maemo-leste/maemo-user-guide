@@ -412,7 +412,7 @@ Tapping on Manage views will show you the list of desktop views.
 
 You can enable or disable views. Check a view to enable it.
 
-The maximum number of views is four.
+The default number of views is four, and the maximum is nine views.
 
 .. warning:: :ref:`summary:Unexpected behavior`: Disabling a view will delete the shortcuts from that particular view, without warning. Make sure you move the shortcuts you want to keep to another view, before disabling the view. One way to tell which screen is which, is by comparing wallpapers of each view. Otherwise you will have to add them again, see :ref:`chapters/ui:Add shortcut`.
 
