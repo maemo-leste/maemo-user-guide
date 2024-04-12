@@ -178,8 +178,8 @@ The symbols to the right of each connection give information about the connectio
      |status-mobile-data-connection|
      The connection type is mobile data
 
-     |status-menu-wifi-connected|
-     The currently active connection
+     |status-menu-wifi-saved|
+     The connection is already saved on the device
 
      |status-menu-wifi-wpa-secured|
      The Wi-Fi connection is secured (and password protected) using WPA.

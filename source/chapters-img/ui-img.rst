@@ -173,7 +173,7 @@
    :align: bottom
    :alt: Status menu connect
 
-.. |status-menu-wifi-connected| image:: /screenshots/status-area/connectivity_wlan_saved.png
+.. |status-menu-wifi-saved| image:: /screenshots/status-area/connectivity_wlan_saved.png
    :width: 20px
    :align: bottom
    :alt: Status menu Wi-Fi connected
