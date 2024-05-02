@@ -204,3 +204,9 @@ Glossary
 
     Handset symbol
       A handset is a component of a telephone that a user holds to the ear and mouth to receive audio through the receiver and speak to the remote party using the built-in transmitter. In the mobile phone technology, it is not present as a separate piece of equipment, being part of the phone itself, but it's still used as a graphic symbol, to indicate placing or ending a telephone call.
+
+    Inbox
+      In the electronic mail (e-mail) communication system, the folder containing the received emails.
+
+    Outbox
+      In the electronic mail (e-mail) communication system, the folder containing emails to be sent.
