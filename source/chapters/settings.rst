@@ -440,7 +440,9 @@ You have the following options:
 Brightness
 ^^^^^^^^^^
 
-By dragging the slider to the left or right, you can decrease, or respectively increase the display brightness level.
+By dragging the slider to the left or right, you can decrease, or respectively increase the display brightness level, in five steps.
+
+.. note:: :ref:`summary:Unexpected behavior`: From the five steps available, the last two seems to correspond to the same brightness level (tested using :ref:`chapters/devices:Droid 4`), so this means that there are only four brightness levels.
 
 Backlight time-out
 ^^^^^^^^^^^^^^^^^^
@@ -451,15 +453,17 @@ Here you can set the backlight timeout (how much the screen will be still on aft
 
 You have the following options:
 
-**0 seconds**
+**0 seconds** - The display will never turn off automatically
 
-**10 seconds**
+**10 seconds** - The display will turn off after 10 seconds of user inactivity
 
-**30 seconds**
+**30 seconds** - - The display will turn off after 30 seconds of user inactivity
 
-**1 minute**
+**1 minute** - The display will turn off after 1 minute of user inactivity
 
-**2 minutes**
+**2 minutes** - The display will turn off after 2 minutes of user inactivity
+
+.. note:: You can temporarily set the backlight timeout to zero, thus disabling automatic turn-off, by using the **Brightness applet menu** from the #. :ref:`chapters/ui:Brightness slider`. This won't change the timeout settings above.
 
 Lock screen automatically
 ^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -137,6 +137,7 @@ You will have the following options (from top to down, and left to right):
 #. :ref:`chapters/ui:Volume slider`
 #. :ref:`chapters/ui:Profile selector` button
 #. :ref:`chapters/ui:Availability` button
+#. :ref:`chapters/ui:Brightness slider`
 
 Availability is present only when there are :ref:`chapters/settings:VoIP and IM accounts` already configured.
 
@@ -302,6 +303,28 @@ You have the following options:
 **Account Online/Offline** - Whether this status will trigger the account being *Online* or *Offline*.
 
 Tap **Save** when done configuring.
+
+Brightness slider
+"""""""""""""""""
+
+     |brightness-slider|
+
+The brightness level of the display can be adjusted by dragging this slider, in five steps, from minimum, to the left, to maximum, to the right.
+
+.. note:: :ref:`summary:Unexpected behavior`: From the five steps available, the last two seems to correspond to the same brightness level (tested using :ref:`chapters/devices:Droid 4`), so this means that there are only four brightness levels.
+
+.. note:: This function is not installed by default. You need to install it manually, using the :ref:`chapters/appmanager:Application Manager`.
+
+Tapping on the screen icon to the left of the slider, shows the following menu:
+
+|brightness-applet-menu|
+
+#. **Open Display Settings...** - This takes you to :ref:`chapters/settings:Display` settings.
+#. **Keep display on** - This will keep the display on, disabling screen turning off after a specific time of inactivity, equivalent of setting :ref:`chapters/settings:Backlight time-out` to zero seconds (and independently of the value of that setting, the screen will stay on).
+
+.. note:: When enabling **Keep display on**, the background of the icon left of the brightness slider will turn red:
+
+     |brightness-slider-keep-on|
 
 Power options menu
 ------------------

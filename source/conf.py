@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Maemo Leste User Handbook'
-copyright = '2023, Cornel-Florentin Dimitriu, licensed under GNU FDL 1.3'
+copyright = '2024, Cornel-Florentin Dimitriu, licensed under GNU FDL 1.3'
 author = 'Cornel-Florentin Dimitriu'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '0.2'
 
 
 # -- General configuration ---------------------------------------------------

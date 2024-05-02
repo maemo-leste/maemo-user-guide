@@ -163,7 +163,7 @@
    :align: bottom
    :alt: Desktop settings button
 
-.. |status-menu| image:: /screenshots/ui-main/status-menu.jpg
+.. |status-menu| image:: /screenshots/ui-main/status-menu.png
    :scale: 60%
    :align: bottom
    :alt: Status menu
@@ -407,3 +407,19 @@
    :scale: 60%
    :align: bottom
    :alt: Move text drag
+
+.. |brightness-slider|   image:: /screenshots/ui-main/brightness-slider.png
+   :scale: 60%
+   :align: bottom
+   :alt: Brightness slider
+
+
+.. |brightness-applet-menu|   image:: /screenshots/ui-main/brightness-applet-menu.png
+   :scale: 60%
+   :align: bottom
+   :alt: Brightness applet menu
+
+.. |brightness-slider-keep-on|   image:: /screenshots/ui-main/brightness-slider-keep-on.png
+   :scale: 60%
+   :align: bottom
+   :alt: Brightness slider keep on

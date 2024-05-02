@@ -193,6 +193,8 @@ Unexpected behavior
   - tapping on an XMPP address of a contact in the :ref:`chapters/contacts:Contacts` application doesn't do what's expected for it to do, namely to open the :ref:`chapters/conversations:Conversations` application. Instead, it goes back to the main screen of the :ref:`chapters/contacts:Contacts` application.
   - :ref:`chapters/contacts:Send via Text message` option for sending a contact card or a contact detail via text message doesn't seem to work. It does nothing.
   - :ref:`chapters/contacts:Send via Bluetooth` option for sending a contact card or a contact detail via BLuetooth doesn't seem to work. It gives an internal error.
+  - From the five steps of display :ref:`chapters/settings:Brightness` levels available, the last two seems to correspond to the same brightness level (tested using :ref:`chapters/devices:Droid 4`), so this means that there are five steps, but only four brightness levels.
+
 
 
 Leftovers

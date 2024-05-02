@@ -13,6 +13,7 @@ Welcome to the Maemo Leste User Handbook!
    /chapters/ui
    /chapters/settings
    /chapters/contacts
+   /chapters/appmanager
    /chapters/dialer
    /chapters/conversations
    /chapters/email
