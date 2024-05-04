@@ -205,8 +205,23 @@ Glossary
     Handset symbol
       A handset is a component of a telephone that a user holds to the ear and mouth to receive audio through the receiver and speak to the remote party using the built-in transmitter. In the mobile phone technology, it is not present as a separate piece of equipment, being part of the phone itself, but it's still used as a graphic symbol, to indicate placing or ending a telephone call.
 
+    Email
+      A message sent through the :term:`E-mail` communication system.
+
+    E-mail
+      Electronic mail, a method of transmitting and receiving messages using electronic devices.
+
     Inbox
-      In the electronic mail (e-mail) communication system, the folder containing the received emails.
+      In the electronic mail (:term:`E-mail`) communication system, the folder containing the received :term:`emails<email>`.
 
     Outbox
-      In the electronic mail (e-mail) communication system, the folder containing emails to be sent.
+      In the electronic mail (:term:`E-mail`) communication system, the folder containing :term:`emails<email>` s to be sent.
+
+    POP3
+      :term:`POP` version 3, a protocol for retrieving :term:`emails<email>`.
+
+    POP
+      Post Office Protocol, a protocol used by :term:`e-mail` clients to retrieve e-mail from a mail server. Today, POP version 3 (:term:`POP3`) is the most commonly used version. Together with :term:`IMAP`, it is one of the most common protocols for :term:`email` retrieval.
+
+    IMAP
+      Internet Message Access Protocol, a protocol used by :term:`e-mail` clients to retrieve e-mail from a mail server over a TCP/IP connection. Together with :term:`POP3`, it is one of the most common protocols for :term:`email` retrieval.

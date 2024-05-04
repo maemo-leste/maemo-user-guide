@@ -34,23 +34,81 @@ You will be carried through a multi-page configuration wizard.
 
 On each of the steps, after you finished configuring the options on that page, you go forward by pressing *Next*, or backwards, to the previous page, by pressing *Previous*.
 
+#. :ref:`chapters/email:Welcome`
+#. :ref:`chapters/email:Account details`
+#. :ref:`chapters/email:User details`
+#. :ref:`chapters/email:Incoming details`
+#. :ref:`chapters/email:Outgoing details`
+#. :ref:`chapters/email:Complete`
+
+Welcome
+"""""""
+
      |email-account-new-welcome|
 
+.. note:: :ref:`summary:Leftovers`: Here you are being told that some data is going to be sent to Nokia servers. This most likely is not true anymore.
+
 Tap *Next* to continue.
+
+Account details
+"""""""""""""""
+
+Here you have some preconfigured templates, based on certain e-mail service providers:
 
      |email-account-details|
 
-     |email-account-region|
+You have the following options:
 
+#. **Region** - The country or region of your e-mail provider:
+     |email-account-region|
+#. **Service provider** - Your e-mail provider and service, if available in the list
      |email-account-provider-1|
+
+     The list goes on...
 
      |email-account-provider-2|
 
-     |email-account-user|
+   Available e-mail providers and services (possibly not all up to date, and functional):
+
+   #. **AIM**
+   #. **AOL**
+   #. **GMail/IMAP**
+   #. **GMail/POP3**
+   #. **Lycos Mail**
+   #. **Yahoo Mail Plus**
+   #. **Other** - Pick this if your provider is not in the list
+
+#. **Account title** - This is the name of the account, as seen locally, for management purposes.
 
 Tap *Next* to continue.
 
+User details
+""""""""""""
+
+Here you give the login data for your e-mail account:
+
+     |email-account-user|
+
+   #. **Name** - Your name, as you want it to be shown as the sender
+   #. **User name**
+   #. **Password**
+   #. **E-mail address**
+
+Tap *Next* to continue.
+
+Incoming details
+""""""""""""""""
+
+Here you configure the incoming e-mail server, for sending emails:
+
+The default account type is :term:`IMAP`, but you can also select :term:`POP3`, from the following list, which appears when you tap on account type:
+
      |email-account-type|
+
+Select the account type:
+
+   #. **POP3** - :term:`POP3` incoming mail server
+   #. **IMAP** - :term:`IMAP` incoming mail server
 
      |email-account-imap-1|
 
@@ -68,6 +126,9 @@ Tap *Next* to continue.
 
 Tap *Next* to continue.
 
+Outgoing details
+""""""""""""""""
+
      |email-account-smtp|
 
      |email-account-smtp-secure-auth|
@@ -75,6 +136,9 @@ Tap *Next* to continue.
      |email-account-smtp-secure-conn|
 
 Tap *Next* to continue.
+
+Complete
+""""""""
 
      |email-account-new-complete|
 
@@ -86,6 +150,8 @@ This allows you to change per-account settings.
 First you need to pick the account you want to edit:
 
      |email-account-edit-selection|
+
+Then, you will be shown the :ref:`chapters/email:Edit account` menu for that account.
 
 Settings
 --------

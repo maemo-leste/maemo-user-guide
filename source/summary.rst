@@ -203,6 +203,7 @@ Leftovers
  - Nokia-branded (Nokia, Ovi) features in certain places
  - The :ref:`chapters/settings:Network positioning` service seems to not work. supl.nokia.com is given as default server, which seems to not be reachable anymore.
  - The :ref:`chapters/contacts:Synchronize from other device` option doesn't seem to work.
+ - When settin up a :ref:`chapters/email:New account` for e-mail, you are being told that some data is going to be sent to Nokia servers. This most likely is not true anymore.
 
 What do do in certain situations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
