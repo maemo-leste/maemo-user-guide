@@ -99,7 +99,7 @@ Tap *Next* to continue.
 Incoming details
 """"""""""""""""
 
-Here you configure the incoming e-mail server, for sending emails:
+Here you configure the incoming e-mail server, for receiving emails:
 
 The default account type is :term:`IMAP`, but you can also select :term:`POP3`, from the following list, which appears when you tap on account type:
 
@@ -108,39 +108,94 @@ The default account type is :term:`IMAP`, but you can also select :term:`POP3`, 
 Select the account type:
 
    #. **POP3** - :term:`POP3` incoming mail server
-   #. **IMAP** - :term:`IMAP` incoming mail server
-
-     |email-account-imap-1|
-
-     |email-account-imap-2|
-
-     |email-account-imap-secure-conn|
+   #. **IMAP4** - :term:`IMAP` version 4 incoming mail server
 
      |email-account-pop|
 
-     |email-account-pop-secure-auth|
+For :term:`POP3` you have the following options:
 
-     |email-account-pop-secure-auth-err|
+   #. **Incoming server* (POP3)** - The address of the :term:`POP3` mail server (The asterisk ***** shows that this is required data)
+   #. **Secure autentication** - The server will be enquired about secure ways of authentication
 
-     |email-account-pop-secure-conn|
+          |email-account-pop-secure-auth|
+
+          If the server doesn't provide any secure way of authentication, the following error will be displayed:
+
+          |email-account-pop-secure-auth-err|
+
+   #. **Secure connection** - Use an encrypted connection to the server
+
+          |email-account-pop-secure-conn|
+
+          Possible connection encryption types:
+
+          #. **Normal (TLS)** - :term:`TLS` encryption standard
+          #. **SSL (POP3S)** - :term:`SSL` encryption standard
+
+For :term:`IMAP` version 4 you have the following options:
+
+     |email-account-imap|
+
+   #. **Incoming server* (IMAP4)** - The address of the :term:`IMAP` version 4 mail server (The asterisk ***** shows that this is required data)
+   #. **Secure autentication** - Use a secure way of authentication
+
+          .. note:: :ref:`summary:Unexpected behavior`: This option doesn't seeem to do anything.
+
+   #. **Secure connection** - Use an encrypted connection to the server
+
+          |email-account-imap-secure-conn|
+
+          Possible connection encryption types:
+
+          #. **Normal (TLS)** - :term:`TLS` encryption standard
+          #. **SSL (IMAP4S)** - :term:`SSL` encryption standard
 
 Tap *Next* to continue.
 
 Outgoing details
 """"""""""""""""
 
+Here you configure the outgoing e-mail server, for sending emails.
+
      |email-account-smtp|
 
-     |email-account-smtp-secure-auth|
+You have the following options:
 
-     |email-account-smtp-secure-conn|
+   #. **Outgoing server* (SMTP)** - The address of the :term:`SMTP` mail server (The asterisk ***** shows that this is required data)
+   #. **Secure autentication** - Use a secure way of authentication
+
+          |email-account-smtp-secure-auth|
+
+          Possible secure connection types:
+
+          #. **None** - Don't use a secure way of authentication
+          #. **Login** - Plain text authentication (using a secure connection is recommended in this case)
+          #. **CRAM-MD5** - :term:`CRAM-MD5` authentication mechanism
+
+   #. **Secure connection** - Use an encrypted connection to the server
+
+          |email-account-smtp-secure-conn|
+
+          Possible connection encryption types:
+
+          #. **Normal (TLS)** - :term:`TLS` encryption standard
+          #. **SSL** - :term:`SSL` encryption standard
+
+   #. **Use connection specific SMTP servers** - Enable using different SMTP servers for each internet connection. When you check this, the following option becomes available.
+   #. **Edit SMTP servers** - Edit the list of SMTP servers, which takes you to the Connection specific :ref:`chapters/email:SMTP servers` menu.
 
 Tap *Next* to continue.
 
 Complete
 """"""""
 
+The account setup is now complete.
+
      |email-account-new-complete|
+
+You can check the **Advanced settings**, which will take you to the :ref:`chapters/email:Edit account` menu, as for an existing account.
+
+Then, you can tap on **Finish** to end the configuration wizard.
 
 Edit accounts
 -------------

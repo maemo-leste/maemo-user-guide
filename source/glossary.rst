@@ -221,7 +221,22 @@ Glossary
       :term:`POP` version 3, a protocol for retrieving :term:`emails<email>`.
 
     POP
-      Post Office Protocol, a protocol used by :term:`e-mail` clients to retrieve e-mail from a mail server. Today, POP version 3 (:term:`POP3`) is the most commonly used version. Together with :term:`IMAP`, it is one of the most common protocols for :term:`email` retrieval.
+      Post Office Protocol, a protocol used by :term:`e-mail` clients to retrieve e-mail from a mail server. Today, POP version 3 (:term:`POP3`) is the most commonly used version. Together with :term:`IMAP`, it is one of the most common protocols for :term:`email` retrieval.  For sending messages, a different protocol, :term:`SMTP`, is used.
 
     IMAP
-      Internet Message Access Protocol, a protocol used by :term:`e-mail` clients to retrieve e-mail from a mail server over a TCP/IP connection. Together with :term:`POP3`, it is one of the most common protocols for :term:`email` retrieval.
+      Internet Message Access Protocol, a protocol used by :term:`e-mail` clients to retrieve e-mail from a mail server over a TCP/IP connection. Together with :term:`POP3`, it is one of the most common protocols for :term:`email` retrieval. For sending messages, a different protocol, :term:`SMTP`, is used.
+
+    SMTP
+      (The) Simple Mail Transfer Protocol, an Internet standard communication protocol for electronic mail transmission. For retrieving messages, :term:`IMAP` or the older :term:`POP3` are used instead.
+
+    CRAM
+      In computer security, challenge-response authentication is a family of protocols in which one party presents a question ("challenge") and another party must provide a valid answer ("response") to be authenticated.
+
+    HMAC
+      Keyed-hash message authentication code or hash-based message authentication code, a specific type of message authentication code (MAC) involving a cryptographic hash function and a secret cryptographic key.
+
+    HMAC-MD5
+       A type of :term:`HMAC`, which is calculated udsing the MD5 cryptographic hash function.
+
+    CRAM-MD5
+      A challenge–response authentication mechanism (:term:`CRAM`) based on the :term:`HMAC-MD5` algorithm. It is often used in email software as part of SMTP Authentication and for the authentication of POP and IMAP users.

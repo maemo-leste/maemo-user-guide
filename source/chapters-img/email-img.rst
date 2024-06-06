@@ -33,20 +33,15 @@
    :align: bottom
    :alt: Email account user
 
-.. |email-account-imap-1| image:: /screenshots/email/email-account-imap-1.png
+.. |email-account-imap| image:: /screenshots/email/email-account-imap.png
    :scale: 60%
    :align: bottom
-   :alt: Email account IMAP 1
+   :alt: Email account IMAP
 
 .. |email-account-type| image:: /screenshots/email/email-account-type.png
    :scale: 60%
    :align: bottom
    :alt: Email account type
-
-.. |email-account-imap-2| image:: /screenshots/email/email-account-imap-2.png
-   :scale: 60%
-   :align: bottom
-   :alt: Email account IMAP 2
 
 .. |email-account-imap-secure-conn| image:: /screenshots/email/email-account-imap-secure-conn.png
    :scale: 60%
