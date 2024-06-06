@@ -32,3 +32,4 @@ Welcome to the Maemo Leste User Handbook!
    * :ref:`search`
 
 
+   Build date: |today|
