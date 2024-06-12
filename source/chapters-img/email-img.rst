@@ -157,3 +157,43 @@
    :scale: 60%
    :align: bottom
    :alt: Email account edit selection
+
+.. |email-settings-1| image:: /screenshots/email/email-settings-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email settings 1
+
+.. |email-settings-2| image:: /screenshots/email/email-settings-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email settings 2
+
+.. |email-settings-default-account| image:: /screenshots/email/email-settings-default-account.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email settings default account
+
+.. |email-settings-message-format| image:: /screenshots/email/email-settings-message-format.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email settings message format
+
+.. |email-settings-update-connection| image:: /screenshots/email/email-settings-update-connection.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email settings update connection
+
+.. |email-settings-update-interval-1| image:: /screenshots/email/email-settings-update-interval-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email settings update interval 1
+
+.. |email-settings-update-interval-2| image:: /screenshots/email/email-settings-update-interval-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email settings update interval 2
+
+.. |email-tree-view| image:: /screenshots/email/email-tree-view.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email tree view

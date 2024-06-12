@@ -90,9 +90,9 @@ Here you give the login data for your e-mail account:
      |email-account-user|
 
    #. **Name** - Your name, as you want it to be shown as the sender
-   #. **User name**
-   #. **Password**
-   #. **E-mail address**
+   #. **User name** - The user name of the e-mail account
+   #. **Password** - The password of the e-mail account
+   #. **E-mail address** - The address of the e-mail account
 
 Tap *Next* to continue.
 
@@ -211,14 +211,127 @@ Then, you will be shown the :ref:`chapters/email:Edit account` menu for that acc
 Settings
 --------
 
+Here are the global e-mail settings:
+
+     |email-settings-1|
+
+The settings go on two pages.
+
+     |email-settings-2|
+
+You have the following options:
+
+#. :ref:`chapters/email:Default account`
+#. :ref:`chapters/email:New message format`
+#. :ref:`chapters/email:Incoming notifications`
+#. :ref:`chapters/email:Automatically add to contacts`
+#. :ref:`chapters/email:Tree view mode`
+#. :ref:`chapters/email:Update automatically`
+#. :ref:`chapters/email:Update when connected via`
+#. :ref:`chapters/email:Update interval`
+
+Default account
+"""""""""""""""
+
+Pick the account which will be the default one, from the list of configured ones:
+
+     |email-settings-default-account|
+
+New message format
+""""""""""""""""""
+
+Which format should any new message created in:
+
+     |email-settings-message-format|
+
+   #. **Formatted text (HTML)** - The e-mail message will contain HTML code, and then the text can be formatted (can have custom appearance)
+   #. **Plain text** - No formatting, just plain text inside the e-mail message
+
+Incoming notifications
+""""""""""""""""""""""
+
+If this is checked, you will be notified when there will be incoming emails.
+
+Automatically add to contacts
+"""""""""""""""""""""""""""""
+
+Tree view mode
+""""""""""""""
+
+If this is checked, the list of e-mail acoounts and folders will be displayed as a tree:
+
+     |email-tree-view|
+
+.. note:: The *Drafts*, *Outbox* and *Sent* folders will be under the local folders (devuan-devicename).
+
+.. warning:: Enabling or disabling tree view mode will restart the e-mail application's interface.
+
+Update automatically
+""""""""""""""""""""
+
+Check this to enable automatically downloading (updating) e-mail messages. Otherwise, they will be updated only when you enter the *INBOX* folder, or when you tap on :ref:`chapters/email:Send & receive`.
+
+Update when connected via
+"""""""""""""""""""""""""
+
+Select when to update the e-mail messages automatically, depending on the internet connection.
+
+     |email-settings-update-connection|
+
+Available options:
+
+   #. **Wi-Fi** - Only when connected to Wi-Fi
+   #. **Any connection** - Regardless of the internet connection type
+
+Update interval
+"""""""""""""""
+
+Select at what interval to automatically update the e-mail messages:
+
+     |email-settings-update-interval-1|
+
+The options go on two pages:
+
+     |email-settings-update-interval-2|
+
+Available options:
+
+   #. **5 minutes**
+   #. **10 minutes**
+   #. **15 minutes**
+   #. **30 minutes**
+   #. **1 hour**
+   #. **2 hours**
+   #. **4 hours**
+   #. **8 hours**
+   #. **24 hours**
+
 SMTP servers
 ------------
 
+This allows you using different SMTP servers for each internet connection.
+
      |email-account-smtp-specific-1|
+
+The saved internet connections are being shown.
+
+If you tap on any of it, you can configure its specific SMTP server:
 
      |email-account-smtp-specific-2|
 
+The list of options continues:
+
      |email-account-smtp-specific-3|
+
+You have the following options, which are similar to the ones in the :ref:`chapters/email:Outgoing details` menu.
+
+   #. **Outgoing server (SMTP)** - see :ref:`chapters/email:Outgoing details`
+   #. **Secure authentication** - see :ref:`chapters/email:Outgoing details`
+   #. **User name** - The user name of the SMTP account
+   #. **Password** - The password of the SMTP account
+   #. **Secure connection** - see :ref:`chapters/email:Outgoing details`
+   #. **Port** - The port to connect to the SMTP server (default: 25)
+
 
 New message
 -----------

@@ -1,0 +1,7 @@
+     |email-settings-1|
+     |email-settings-default-account|
+     |email-settings-message-format|
+     |email-settings-update-connection|
+     |email-settings-update-interval-1|
+     |email-settings-update-interval-2|
+     |email-settings-2|

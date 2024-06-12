@@ -41,7 +41,7 @@ See more information on GNU.org: `GNU FDL 1.3 <https://www.gnu.org/licenses/fdl-
 
 The `Sphinx PD theme <https://github.com/iktakahiro/sphinx_theme_pd>`_, included in the source (in _themes dir), is made by Takahiro Ikeuchi and is licenced under the `MIT licence <https://spdx.org/licenses/MIT.html>`_.
 
-The text in glossary is copied and adapted from Wikipedia, the free encyclopedia, which is licensed under `CC-BY-SA 4.0 <https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License>`_.
+The definitions in the glossary contain excerpts copied and adapted from Wikipedia, the free encyclopedia, which is licensed under `CC-BY-SA 4.0 <https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License>`_.
 
 Tools for building the manual, and their licences
 -------------------------------------------------
