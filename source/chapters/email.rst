@@ -115,7 +115,7 @@ Select the account type:
 For :term:`POP3` you have the following options:
 
    #. **Incoming server* (POP3)** - The address of the :term:`POP3` mail server (The asterisk ***** shows that this is required data)
-   #. **Secure autentication** - The server will be enquired about secure ways of authentication
+   #. **Secure authentication** - The server will be enquired about secure ways of authentication
 
           |email-account-pop-secure-auth|
 
@@ -137,9 +137,9 @@ For :term:`IMAP` version 4 you have the following options:
      |email-account-imap|
 
    #. **Incoming server* (IMAP4)** - The address of the :term:`IMAP` version 4 mail server (The asterisk ***** shows that this is required data)
-   #. **Secure autentication** - Use a secure way of authentication
+   #. **Secure authentication** - Use a secure way of authentication
 
-          .. note:: :ref:`summary:Unexpected behavior`: This option doesn't seeem to do anything.
+          .. note:: :ref:`summary:Unexpected behavior`: This option doesn't seem to do anything.
 
    #. **Secure connection** - Use an encrypted connection to the server
 
@@ -162,7 +162,7 @@ Here you configure the outgoing e-mail server, for sending emails.
 You have the following options:
 
    #. **Outgoing server* (SMTP)** - The address of the :term:`SMTP` mail server (The asterisk ***** shows that this is required data)
-   #. **Secure autentication** - Use a secure way of authentication
+   #. **Secure authentication** - Use a secure way of authentication
 
           |email-account-smtp-secure-auth|
 
@@ -255,10 +255,12 @@ If this is checked, you will be notified when there will be incoming emails.
 Automatically add to contacts
 """""""""""""""""""""""""""""
 
+.. note:: :ref:`summary:Unexpected behavior`: It's not clear what this option does, or whether it works.
+
 Tree view mode
 """"""""""""""
 
-If this is checked, the list of e-mail acoounts and folders will be displayed as a tree:
+If this is checked, the list of e-mail accounts and folders will be displayed as a tree:
 
      |email-tree-view|
 
@@ -342,7 +344,7 @@ Here you can write a new message:
 
 When you write the subject, the title of the window changes from *New message*, to that title.
 
-The options for a new message are the same as for Editing message.
+The options for a new message are the same as for :ref:`editing messages <chapters/email:Edit message>`.
 
 E-mail account screen
 ---------------------
@@ -381,22 +383,223 @@ Tapping on a message allows you to read it (:ref:`chapters/email:Read message`) 
 
 You can delete a message, or mark it as read/unread, by long tapping on the message itself. This shows the :ref:`chapters/email:Contextual menu`
 
-You also have more options, in the :ref:`chapters/ui:In-app menu` - see :ref:`chapters/email:Options in the in-app menu`.
+You also have more options, in the :ref:`In-app menu <chapters/email:Options in the in-app menu>`.
 
 
 Read message
 """"""""""""
 
+Here you can read the received e-mail messages:
+
+     |email-message-read|
+
+The subject of the email is the title of the window.
+
+Under this, then there is the sender, and, to the right, the date and hour of the message.
+
+And below is the text of the message.
+
+On the bottom, there's a bar for navigation and quick actions:
+
+     #. **Reply** - |email-message-reply| - Reply (to the main sender)
+     #. **Reply all** - |email-message-reply-all| Reply to all participants
+     #. **Forward** - |email-message-forward| - Forward the message to another recipient
+     #. **Delete** - |email-delete| - Delete the message
+     #. **Download external images** - |email-download-external-images| - Download the images which are not included in the message, but are externally linked
+     #. **Back** - |email-back| - Navigate back in the list of messages
+     #. **Forward** - |email-forward| - Navigate forward in the list of messages
+
 When you read a message, you also have these options, in the :ref:`chapters/ui:In-app menu`:
 
      |email-message-read-menu|
 
+     #. **New message** - This takes you to the :ref:`chapters/email:New message` window.
+     #. **Move message** - Move the current message to another folder
+
+               You can move the message to an existing folder, by navigating to it.
+
+               |email-move-messages-folder-1|
+
+               Or you can create a new folder, by tapping on *New*.
+
+               This will take you to the :ref:`chapters/email:New folder` menu.
+
+               You can then move the message to the newly created folder.
+
+               |email-move-messages-folder-2|
+
+               Tap on the folder button to confirm moving the message there:
+
+               |email-move-messages-folder-3|
+
+     #. **Mark as unread** - Mark the current message as unread
+     #. **Add to contacts** - Add to contacts one of the e-mail addresses in the current message, either the one of the sender, or one of the recipients'.
+
+               The list of the addresses which can be added to the contacts will be shown:
+
+               |email-add-to-contacts-1|
+
+               Pick the one you want to add to contacts.
+
+               |email-add-to-contacts-2|
+
+               Then you have the following possibilities:
+
+                         #. **Merge with contact** - Add the e-mail address to an existing contact
+                         #. **New contact** - Create a new contact with this e-mail address
+
+                                   |email-add-to-contacts-3|
+
+                         .. note:: See the :ref:`chapters/contacts:Contacts` section for more information about creating, editing and merging contacts.
+
+     #. **Message details** - Details about the message are shown here:
+
+               |email-message-details|
+
+               #. **From** - The sender's address
+               #. **Subject** - The subject of the message
+               #. **Received** - Date and hour of reception
+               #. **Sent** - Date and hour of transmission
+               #. **To** - The recipient's address
+               #. **Size** - The storage space this message is taking up
+
+     #. **Find in message**
+
+               Type the term you are searching for in the text field which appears:
+
+               |email-find-in-message|
+
+               Then tap/press *Enter*. Press it multiple times to search for the next occurrences of the term.
+
+               Tap on the arrow to the right of the text field to browse the search history.
+
+               When done, tap on the *X* to the right, to close the search toolbar.
+
 Edit message
 """"""""""""
+
+Here you can edit a draft message.
+
+.. note:: When writing a :ref:`new message <chapters/email:New message>`, you have the same options.
+
+|email-message-edit|
+
+You have the following options:
+
+   #. **From** - The account/address you send the message from.
+
+          |email-from|
+
+   #. **Send button** |email-message-send| - Tapping here will send the message to the recipients.
+   #. **To** - The addresses you send the message to
+
+          You can select addresses from the contact list, by tapping on the *To* button:
+
+          |email-to-button|
+
+          Select one or more contacts to send the message to:
+
+          |email-contacts-select|
+
+          Then tap on *Done*.
+
+   #. **Subject** - The subject or topic of the message
+   #. **Message text field** - The text of the message
+
+             .. note:: You can format this text by using the toolbar, if the type of the message is set as *Formatted text* (HTML) in the *Message settings* (see below).
+
+Under the text field, you will find another *Send button* |email-message-send|, for convenience.
 
 When you edit a message, you also have these options, in the :ref:`chapters/ui:In-app menu`:
 
      |email-message-edit-menu|
+
+   #. **Show CC** - Show the CC address bar, where you can add or edit the CC addresses for this message
+   #. **Show BCC** - Show the BCC address bar, where you can add or edit the CC addresses for this message
+   #. **Show toolbar** - Show the toolbar for formatting text
+
+          |email-formatting-toolbar|
+
+          .. note:: To apply formatting to a certain word, the cursor should be inside that particular word. Then you press the desired text customization button from the toolbar.
+
+          The available options in the toolbar are:
+
+                    #. **Font face** - |email-formatting-font-face|
+
+                              Here you can change the font face of the current word.
+
+                              |email-select-font-face|
+
+                    #. **Font size** - |email-formatting-font-size|
+
+                              Here you can change the font size of the current word.
+
+                              |email-select-font-size|
+
+                    #. **Bold** - |email-general_bold| - Here you can make the current word thicker.
+                    #. **Italic** - |email-general-italic| - Here you can make the current word cursive.
+                    #. **Color** - |email-sketch-square|
+
+                              Here you can change the text color of the current word.
+
+                              |email-select-color|
+
+                              Tap on *Done* when ready.
+
+                    #. **Inline image** - |email-general-toolbar-image|
+
+                              Here you can insert an inline image. Pick it from the file system:
+
+                              |email-select-inline-image|
+
+   #. **Message settings** - Here you can configure some settings about the current message.
+
+          |email-message-settings|
+
+                    #. **Priority** - What will be the labeled priority of the current message, when sent.
+
+                              Options:
+
+                              #. **Low**
+                              #. **Normal**
+                              #. **High**
+
+                    #. **Text format** - What will be the text format of the current email
+
+                              #. **Formatted text** - Formatted text, using the options in toolbar - see above.
+                              #. **Plain text** - No formatting, just text
+
+          Tap on *Done* when ready.
+
+   #. **Check names** - If you just write a name instead of an address to send the message to, tapping here will check this name against the contacts list.
+
+          .. note:: You have to write either the first name, or the last name, not both.
+
+   #. **Insert image** - Insert an inline image
+
+          Here you can insert an inline image. Pick it from the file system:
+
+          |email-select-inline-image|
+
+   #. **Add attachment** - Attach a file to the message. Pick it from the file system:
+
+          |email-add-attachment|
+
+          It will look like this.
+
+          |email-attachment-file|
+
+   #. **Find in message** - Find text in the message body
+
+          Type the term you are searching for in the text field which appears:
+
+          |email-find-in-message|
+
+          Then tap/press *Enter*. Press it multiple times to search for the next occurrences of the term.
+
+          Tap on the arrow to the right of the text field to browse the search history.
+
+          When done, tap on the *X* to the right, to close the search toolbar.
 
 Contextual menu
 """""""""""""""
@@ -405,7 +608,7 @@ The following :term:`Contextual menu` appears:
 
      |email-contextual-menu|
 
-     Deleting a messsage requires confirmation:
+     Deleting a message requires confirmation:
 
          |email-delete-contextual-confirm|
 
@@ -422,7 +625,7 @@ When you tap on the title of the message, the following :ref:`chapters/ui:In-app
 
        |email-delete-messages|
 
-       Then tap on the Delete button.
+       Then tap on the *Delete* button.
 
        You will need to confirm deleting the messages:
 
@@ -432,6 +635,8 @@ When you tap on the title of the message, the following :ref:`chapters/ui:In-app
    #. **Move messages** - Select the messages you want to move.
 
        |email-move-messages|
+
+       Then tap on the *Move* button.
 
        You can move the messages to an existing folder, by navigating to it.
 
@@ -477,19 +682,47 @@ Edit account
 
 Here you can edit the e-mail account details and settings.
 
+     .. warning:: Editing an account while online will disconnect it, and cancel any current operations for that account. You will be asked to confirm this:
+
+     |email-edit-online-warning|
+
+     Tap on *Yes* to continue editing:
+
+     The account settings for an incoming *IMAP4* server, are the following:
+
      |email-account-settings-imap-1|
 
      |email-account-settings-imap-2|
+
+     See :ref:`chapters/email:Incoming details` to find out what each setting represents.
+
+     The account settings for an incoming *POP3* server, are the following:
 
      |email-account-settings-pop-1|
 
      |email-account-settings-pop-2|
 
+     See :ref:`chapters/email:Incoming details` to find out what each setting represents.
+
+     The account settings for the outgoing (*SMTP*) server, are the following:
+
      |email-account-settings-smtp-1|
 
      |email-account-settings-smtp-2|
 
+     See :ref:`chapters/email:Outgoing details` to find out what most settings represent.
+
+     The extra settings are:
+
+               #. **Enable offline IMAP support for this account**
+               #. **Automatically update all folders**
+
      |email-signature|
+
+     Here are the options about the automatic signature at the end of e-mail messages:
+
+               #. **Use signature** - If checked, then use an automatic signature
+               #. **Signature for account** *account-name* - The signature which will be automatically added to the end of all the new messages created using the current account is written in the text field below.
 
 Send & receive
 --------------

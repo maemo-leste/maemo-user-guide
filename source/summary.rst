@@ -197,8 +197,7 @@ Unexpected behavior
   - :ref:`chapters/contacts:Send via Bluetooth` option for sending a contact card or a contact detail via BLuetooth doesn't seem to work. It gives an internal error.
   - From the five steps of display :ref:`chapters/settings:Brightness` levels available, the last two seems to correspond to the same brightness level (tested using :ref:`chapters/devices:Droid 4`), so this means that there are five steps, but only four brightness levels.
   - Checking the Secure autentication option when setting up e-mail :ref:`chapters/email:Incoming details` doesn't seem to do anything.
-
-
+  - It's not obvious what the :ref:`chapters/email:Automatically add to contacts` option does, or whether it works.
 
 Leftovers
 ^^^^^^^^^

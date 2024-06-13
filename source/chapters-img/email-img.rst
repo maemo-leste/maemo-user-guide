@@ -278,3 +278,168 @@
    :align: bottom
    :alt: Email message edit menu
 
+.. |email-message-edit| image:: /screenshots/email/email-message-edit.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email message edit
+
+.. |email-to-button| image:: /screenshots/email/email-to-button.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email to button
+
+.. |email-contacts-select| image:: /screenshots/email/email-contacts-select.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email contacts select
+
+.. |email-from| image:: /screenshots/email/email-from.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email from
+
+.. |email-formatting-toolbar| image:: /screenshots/email/email-formatting-toolbar.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email formatting toolbar
+
+.. |email-select-font-face| image:: /screenshots/email/email-select-font-face.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email select font face
+
+.. |email-select-font-size| image:: /screenshots/email/email-select-font-size.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email select font size
+
+.. |email-select-color| image:: /screenshots/email/email-select-color.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email select color
+
+.. |email-message-settings| image:: /screenshots/email/email-message-settings.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email message settings
+
+.. |email-select-inline-image| image:: /screenshots/email/email-select-inline-image.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email select inline image
+
+.. |email-add-attachment| image:: /screenshots/email/email-add-attachment.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email add attachment
+
+.. |email-attachment-file| image:: /screenshots/email/email-attachment-file.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email attachment file
+
+.. |email-find-in-message| image:: /screenshots/email/email-find-in-message.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email find in message
+
+.. |email-edit-online-warning| image:: /screenshots/email/email-edit-online-warning.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email edit online warning
+
+.. |email-message-details| image:: /screenshots/email/email-message-details.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email message details
+
+.. |email-message-read| image:: /screenshots/email/email-message-read.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email message read
+
+.. |email-add-to-contacts-1| image:: /screenshots/email/email-add-to-contacts-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email add to contacts 1
+
+.. |email-add-to-contacts-2| image:: /screenshots/email/email-add-to-contacts-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email add to contacts 2
+
+.. |email-add-to-contacts-3| image:: /screenshots/email/email-add-to-contacts-3.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email add to contacts 3
+
+.. |email-formatting-font-face| image:: /screenshots/email/email-formatting-font-face.png
+   :scale: 40%
+   :align: bottom
+   :alt: Email formatting font face
+
+.. |email-formatting-font-size| image:: /screenshots/email/email-formatting-font-size.png
+   :scale: 40%
+   :align: bottom
+   :alt: Email formatting font size
+
+.. |email-message-send| image:: /screenshots/ui-email/email_message_send.png
+   :width: 20px
+   :align: bottom
+   :alt: Email message send
+
+.. |email-sketch-square| image:: /screenshots/ui-email/sketch_square.png
+   :width: 20px
+   :align: bottom
+   :alt: Email sketch square
+
+.. |email-general-toolbar-image| image:: /screenshots/ui-email/general_toolbar_image.png
+   :width: 20px
+   :align: bottom
+   :alt: Email general toolbar image
+
+.. |email-general-italic| image:: /screenshots/ui-email/general_italic.png
+   :width: 20px
+   :align: bottom
+   :alt: Email general italic
+
+.. |email-general_bold| image:: /screenshots/ui-email/general_bold.png
+   :width: 20px
+   :align: bottom
+   :alt: Email general bold
+
+.. |email-message-reply| image:: /screenshots/ui-email/email_message_reply.png
+   :width: 20px
+   :align: bottom
+   :alt: Email message reply
+
+.. |email-message-reply-all| image:: /screenshots/ui-email/email_message_reply_all.png
+   :width: 20px
+   :align: bottom
+   :alt: Email message reply all
+
+.. |email-message-forward| image:: /screenshots/ui-email/email_message_forward.png
+   :width: 20px
+   :align: bottom
+   :alt: Email message forward
+
+.. |email-delete| image:: /screenshots/ui-email/general_delete.png
+   :width: 20px
+   :align: bottom
+   :alt: Email message delete
+
+.. |email-download-external-images| image:: /screenshots/ui-email/email_download_external_images.png
+   :width: 20px
+   :align: bottom
+   :alt: Email message delete
+
+.. |email-back| image:: /screenshots/ui-email/qgn_back_fsm.png
+   :width: 20px
+   :align: bottom
+   :alt: Email back
+
+.. |email-forward| image:: /screenshots/ui-email/qgn_forward_fsm.png
+   :width: 20px
+   :align: bottom
+   :alt: Email forward
+
