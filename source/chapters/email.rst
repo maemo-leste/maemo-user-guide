@@ -336,10 +336,126 @@ You have the following options, which are similar to the ones in the :ref:`chapt
 New message
 -----------
 
+Here you can write a new message:
+
+     |email-message-new|
+
+When you write the subject, the title of the window changes from *New message*, to that title.
+
+The options for a new message are the same as for Editing message.
+
 E-mail account screen
 ---------------------
 
+Here you can do operations on one of the e-mail accounts you have set up.
+
+The name of the current account is written in the window title.
+
      |email-account-main|
+
+You have the following possibilities:
+
+You can write a :ref:`chapters/email:New message`, or enter one of the :ref:`chapters/email:E-mail folders`.
+
+E-mail folders
+""""""""""""""
+
+There are some default folders:
+
+#. **Inbox**
+#. **Drafts**
+#. **Outbox**
+#. **Sent**
+
+Other custom folders can also be created, by using the :ref:`chapters/email:New folder` option.
+
+Entering a folder, for example, the *Inbox* folder, looks like this:
+
+     |email-inbox|
+
+Unread emails are displayed in blue. Read emails are in white.
+
+The attachment paper clip symbol |email-attachment| in front of a message title means that it has files attached to it.
+
+Tapping on a message allows you to read it (:ref:`chapters/email:Read message`) or edit it (:ref:`chapters/email:Edit message`), depending on whether it is a received message, or a draft.
+
+You can delete a message, or mark it as read/unread, by long tapping on the message itself. This shows the :ref:`chapters/email:Contextual menu`
+
+You also have more options, in the :ref:`chapters/ui:In-app menu` - see :ref:`chapters/email:Options in the in-app menu`.
+
+
+Read message
+""""""""""""
+
+When you read a message, you also have these options, in the :ref:`chapters/ui:In-app menu`:
+
+     |email-message-read-menu|
+
+Edit message
+""""""""""""
+
+When you edit a message, you also have these options, in the :ref:`chapters/ui:In-app menu`:
+
+     |email-message-edit-menu|
+
+Contextual menu
+"""""""""""""""
+
+The following :term:`Contextual menu` appears:
+
+     |email-contextual-menu|
+
+     Deleting a messsage requires confirmation:
+
+         |email-delete-contextual-confirm|
+
+Options in the in-app menu
+""""""""""""""""""""""""""
+
+When you tap on the title of the message, the following :ref:`chapters/ui:In-app menu` appears:
+
+     |email-folder-menu|
+
+   #. **New message** - see :ref:`chapters/email:New message`
+   #. **Show more** - Tap to load more messages (the numbers shown are the already loaded messages, and the total number of messages, respectively)
+   #. **Delete messages** - Select the messages you want to delete.
+
+       |email-delete-messages|
+
+       Then tap on the Delete button.
+
+       You will need to confirm deleting the messages:
+
+       |email-delete-messages-confirm|
+
+   #. **Send and receive** - see :ref:`chapters/email:Send & receive`
+   #. **Move messages** - Select the messages you want to move.
+
+       |email-move-messages|
+
+       You can move the messages to an existing folder, by navigating to it.
+
+       |email-move-messages-folder-1|
+
+       Or you can create a new folder, by tapping on *New*.
+
+       This will take you to the :ref:`chapters/email:New folder` menu.
+
+       You can then move the messages to the newly created folder.
+
+       |email-move-messages-folder-2|
+
+       Tap on the folder button to confirm moving the messages there:
+
+       |email-move-messages-folder-3|
+
+   #. **Folder details** - It shows details about the current folder.
+
+       |email-folder-details|
+
+       #. **Folder name** - The name of the folder
+       #. **Number of messages** - The total number of messages in this folder on the server
+       #. **Size** - The storage space this folder is taking up
 
      |email-account-main-menu|
 
@@ -349,6 +465,12 @@ E-mail account screen
 
 New folder
 ----------
+
+This allows you to create a new folder, in addition to the default ones.
+
+     |email-new-folder|
+
+Navigate to the parent folder where you want the new folder to be created in, and then tap *Save*.
 
 Edit account
 ------------

@@ -197,3 +197,84 @@
    :scale: 60%
    :align: bottom
    :alt: Email tree view
+
+.. |email-inbox| image:: /screenshots/email/email-inbox.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email inbox
+
+.. |email-attachment| image:: /screenshots/ui-email/email_attachment.png
+   :width: 20px
+   :align: bottom
+   :alt: Email attachment
+
+.. |email-folder-menu| image:: /screenshots/email/email-folder-menu.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email folder menu
+
+.. |email-delete-messages| image:: /screenshots/email/email-delete-messages.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email delete messages
+
+.. |email-move-messages| image:: /screenshots/email/email-move-messages.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email move messages
+
+.. |email-move-messages-folder-1| image:: /screenshots/email/email-move-messages-folder-1.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email move messages folder 1
+
+.. |email-move-messages-folder-2| image:: /screenshots/email/email-move-messages-folder-2.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email move messages folder 2
+
+.. |email-move-messages-folder-3| image:: /screenshots/email/email-move-messages-folder-3.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email move messages folder 3
+
+.. |email-new-folder| image:: /screenshots/email/email-new-folder.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email new folder
+
+.. |email-folder-details| image:: /screenshots/email/email-folder-details.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email folder details
+
+.. |email-contextual-menu| image:: /screenshots/email/email-contextual-menu.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email contextual menu
+
+.. |email-delete-contextual-confirm| image:: /screenshots/email/email-delete-contextual-confirm.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email delete contextual confirm
+
+.. |email-delete-messages-confirm| image:: /screenshots/email/email-delete-messages-confirm.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email delete messages confirm
+
+.. |email-message-new| image:: /screenshots/email/email-message-new.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email message new
+
+.. |email-message-read-menu| image:: /screenshots/email/email-message-read-menu.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email message read menu
+
+.. |email-message-edit-menu| image:: /screenshots/email/email-message-edit-menu.png
+   :scale: 60%
+   :align: bottom
+   :alt: Email message edit menu
+

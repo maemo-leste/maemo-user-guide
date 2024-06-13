@@ -240,3 +240,6 @@ Glossary
 
     CRAM-MD5
       A challenge–response authentication mechanism (:term:`CRAM`) based on the :term:`HMAC-MD5` algorithm. It is often used in email software as part of SMTP Authentication and for the authentication of POP and IMAP users.
+
+    Contextual menu
+      Also called context menu, shortcut, and pop up or pop-up menu, is a menu in a graphical user interface (GUI) that appears upon user interaction, such as a right-click mouse operation. A context menu offers a limited set of choices that are available in the current state, or context, of the operating system or application to which the menu belongs.
