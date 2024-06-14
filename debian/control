@@ -1,0 +1,11 @@
+Source: maemo-user-guide
+Section: doc
+Priority: extra
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends: debhelper (>= 9), python3-sphinx
+XS-Python-Version: all
+Standards-Version: 4.3.0
+
+Package: maemo-user-guide
+Architecture: all
+Description: Maemo Leste User Guide (HTML version)
